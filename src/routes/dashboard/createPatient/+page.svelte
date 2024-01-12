@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
   import { Label, Input, Fileupload } from "flowbite-svelte";
   import { insertData } from "../../../stores/investigationsStore";
   import type { InvestigationsModel } from "../../../models/investigationsModel";
@@ -185,7 +185,7 @@
         </Label>
       </div>
 
-      <!-- upload images -->
+     
       <div class="col-span-2">
         <Label class="space-y-2 mb-2">
           <Label for="images" class="mb-2">هاوپێج کردنی وێنە</Label>
@@ -196,7 +196,7 @@
         </Label>
       </div>
 
-      <!-- submit Form -->
+     
       <div class="col-span-2">
         <div class="w-full flex justify-end pb-5">
           <button
@@ -216,4 +216,7 @@
   .error-message {
     color: red;
   }
-</style>
+</style> -->
+
+
+hi patient page

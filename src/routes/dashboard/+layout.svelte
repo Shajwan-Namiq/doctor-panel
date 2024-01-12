@@ -4,8 +4,11 @@
   export let data;
 </script>
 
-<Header {data} />
-<Sidebar />
+<div>
+
+  <Header {data} />
+  <Sidebar  {data}/>
+</div>
 
 <div class="pl-[256px] pt-10">  
   <slot />

@@ -1,33 +1,32 @@
-<script>
-  // Import any necessary Flowbite components or utilities
-  export let data;
+<script lang="ts">
+   import { Avatar, Dropdown, DropdownHeader, DropdownItem, DropdownDivider, Tooltip } from 'flowbite-svelte';
 </script>
 
-<nav class="bg-gray-800">
-  <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-    <div class="relative flex items-center justify-between h-16">
-      <!-- Mobile menu button-->
-      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-        <!-- Mobile menu button -->
-        <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-          <!-- Icon for menu button -->
-        </button>
-      </div>
-      <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-        <!-- Logo or Branding -->
-        <div class="flex-shrink-0 flex items-center">
-          <img class="block lg:hidden h-8 w-auto" src="/your-logo.png" alt="Your Logo">
-          <img class="hidden lg:block h-8 w-auto" src="/your-logo.png" alt="Your Logo">
-        </div>
-        <div class="hidden sm:block sm:ml-6">
-          <div class="flex space-x-4">
-            <!-- Navigation Links -->
-            <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-            <a href="/about" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
-            <!-- More navigation items -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ <nav class="bg-white border-b-2 px-4 py-2 flex items-center justify-between">
+    
+<div></div>
+
+<div class="flex justify-center items-center">
+  
+<form action="/?/signout" method="POST">
+      <button type="submit" class="flex items-center mr-4 hover:text-blue-100">
+        <span class="inline-flex items-center gap-2 text-gray-400">
+          Logout
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            ><path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+            /></svg
+          >
+        </span>
+      </button>
+    </form>
+</div>   
 </nav>

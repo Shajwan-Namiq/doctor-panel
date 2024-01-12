@@ -1,4 +1,9 @@
-<script lang="ts">
+<script>
+  import HomeCard from "$lib/components/HomeCard.svelte";
+  import Container from "../../lib/components/Container.svelte";
+
+</script>
+<!-- <script lang="ts">
   import { Label, Input, Fileupload, Textarea } from "flowbite-svelte";
   import { updateData } from "../../stores/homeStore";
   import type { HomeModel } from "../../models/homeModel";
@@ -324,13 +329,13 @@
             </Label>
           </div>
         </div>
-        <!-- submit Form -->
+        
         <div class="lg:col-span-2 mt-10" dir="ltr">
           <div class="w-full flex justify-end">
             <button
               on:click|preventDefault={formSubmit}
               type="submit"
-              class="bg-bg_color hover:bg-bg_color hover:opacity-95 hover:text-primary-dark text-white font-bold py-2 px-4 border border-primary-50 rounded-lg"
+              class="bg-bg_colsor hover:bg-bg_color hover:opacity-95 hover:text-primary-dark text-white font-bold py-2 px-4 border border-primary-50 rounded-lg"
             >
               گۆڕانکاری
             </button>
@@ -363,4 +368,10 @@
       transform: rotate(360deg);
     }
   }
-</style>
+</style> -->
+
+
+<div class="mx-4 ">
+  <HomeCard />
+  <Container />
+</div>
