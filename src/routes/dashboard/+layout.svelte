@@ -6,8 +6,8 @@
 
 <div>
 
-  <Header {data} />
-  <Sidebar  {data}/>
+  <Header   />
+  <Sidebar   />
 </div>
 
 <div class="pl-[256px] pt-10">  

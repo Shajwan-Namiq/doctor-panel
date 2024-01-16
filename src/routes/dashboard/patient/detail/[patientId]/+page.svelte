@@ -10,7 +10,7 @@
   import { isEmpty } from "validator";
 
   let isImageLoading = true;
-  export let data../../../magazine/detail/[magazineId]/$types.js;
+  export let data 
   let fileName: string;
   let fileName_pdf: string;
   let imageFile: File | undefined;
