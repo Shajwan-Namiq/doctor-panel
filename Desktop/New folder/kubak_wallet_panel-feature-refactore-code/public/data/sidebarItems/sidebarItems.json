@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "label": "Home",
+      "icon": "home",
+      "to": {
+        "name": "home"
+      },
+      "can": ["ReadUser"]
+    },
+    {
+      "label": "basicInformation",
+      "icon": "albums",
+      "can": ["ReadRole", "ReadBaseRole"],
+      "items": [
+        {
+          "to": {
+            "name": "roles"
+          },
+          "can": ["ReadRole"]
+        },
+        {
+          "to": {
+            "name": "baseRoles"
+          },
+          "can": ["ReadBaseRole"]
+        }
+      ]
+    },
+    {
+      "label": "wallet",
+      "icon": "wallet",
+      "can": ["ReadTransaction", "ReadWallet"],
+      "items": [
+        {
+          "to": {
+            "name": "transactionList"
+          },
+          "can": ["ReadTransaction"]
+        },
+        {
+          "to": {
+            "name": "walletList"
+          },
+          "can": ["ReadWallet"]
+        },
+        {
+          "to": {
+            "name": "adminTransactionList"
+          },
+          "can": ["ReadTransaction"]
+        }
+      ]
+    },
+    {
+      "label": "translation",
+      "icon": "language",
+      "items": [
+        {
+          "to": {
+            "name": "transportationTranslation"
+          },
+          "can": ["ReadTranslation"]
+        }
+      ]
+    }
+  ]
+}

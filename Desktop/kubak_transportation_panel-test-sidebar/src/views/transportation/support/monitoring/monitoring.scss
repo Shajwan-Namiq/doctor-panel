@@ -1,0 +1,171 @@
+.p-multiselect-items-wrapper {
+  max-height: 350px !important;
+}
+#monitoringMap {
+  height: 100%;
+  border-radius: 4px;
+  .requestListContainer {
+    position: absolute !important;
+    transition: height 0.5s;
+    overflow-y: hidden;
+    z-index: 1000;
+    bottom: 0;
+    width: 95%;
+    z-index: 1000;
+    border-radius: 4px;
+    .p-tabview .p-tabview-panels {
+      padding: 0 !important;
+    }
+    .closeRequestContainer {
+      height: 20px;
+      width: 20px;
+      background-color: red;
+      z-index: 1000;
+    }
+    .requestFilterContainer {
+      .requestFilterList {
+        height: 80px;
+        width: 85px;
+        margin: 0 10px;
+        border-radius: 4px;
+        .image {
+          background-color: var(--icon-background-color-kubak);
+          width: 35px;
+        }
+      }
+    }
+    .p-dropdown-items-wrapper {
+      min-height: 340px !important;
+    }
+  }
+  .taskDetailContainer {
+    position: absolute;
+    z-index: 500;
+    background-color: var(--tertiary-color);
+    bottom: 0;
+    border-radius: 4px;
+    .p-tabview-panels {
+      height: 100% !important;
+    }
+  }
+  .toggleDriverList {
+    background-color: var(--secondary-background-color-kubak);
+    width: 45px;
+    height: 45px;
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+}
+.mapOptions {
+  margin: 10px 30px;
+  top: 0;
+
+  z-index: 1000;
+}
+.driversContainer {
+  width: 312px;
+  padding: 6px 0;
+  z-index: 30000;
+  height: 100%;
+  .drivers {
+    height: 100%;
+    width: 300px;
+
+    background-color: var(--secondary-background-color-kubak);
+    overflow-y: auto;
+    border-radius: 4px;
+    padding: 10px;
+    .driver {
+      padding: 10px;
+      width: 100%;
+      border-radius: 4px;
+      background-color: var(--background-color-kubak);
+    }
+    .filterDrivers {
+      background-color: var(--background-color-kubak);
+
+      // height: 30px;
+      // width: 100%;
+    }
+  }
+}
+.p-rating .p-rating-icon {
+  margin: 0 1px !important;
+  font-size: 0.8rem !important;
+}
+.onlineDriver {
+  height: 30px;
+  width: 100%;
+}
+#mePin {
+  height: 40px;
+  width: 40px;
+
+  .ring_outer {
+    animation: opacityPulse 1s cubic-bezier(1, 0.14, 1, 1);
+    animation-iteration-count: infinite;
+    opacity: 0.5;
+  }
+}
+
+@keyframes opacityPulse {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes bounceInDown {
+  0% {
+    transform: translate3d(0, -30px, 0);
+  }
+  20% {
+    transform: translate3d(0, -20px, 0);
+  }
+  40% {
+    transform: translate3d(0, -10px, 0);
+  }
+  50% {
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  80% {
+    transform: translate3d(0, -20px, 0);
+  }
+  100% {
+    transform: translate3d(0, -30px, 0);
+  }
+}
+
+.bounceInDown {
+  animation-name: bounceInDown;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.toggleDriveListIcon {
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary-color-kubak);
+  position: absolute;
+  margin-top: 10px;
+  z-index: 3000;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#servantIcon {
+  transition: transform 2s ease-in-out;
+}

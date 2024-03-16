@@ -1,0 +1,1383 @@
+{
+  "error": {
+    "unKnown_error": "‌کێشەیەکی نەزانراو ڕویدا",
+    "title": "هەڵە",
+    "otp_incorrect": "ئەو کۆدەی داخڵت کردوە هەڵەیە",
+    "otp_expired": "ئەو کۆدە بەسەرچووە",
+    "too_many_requests": " زۆرتر لە چەند کۆدێکت داخڵت کردوە، تکایە دواتر هەوڵبدەرەوە",
+    "invalid_phoneNumber": "ژمارەی مۆبایل هەڵەیە"
+  },
+  "auth": {
+    "area": {
+      "code": "کۆد",
+      "countries": "وڵاتەکان",
+      "country": "وڵات",
+      "countryCode": "کۆدی وڵات",
+      "countryName": "ناو ",
+      "region": "شار",
+      "roles": "ڕۆڵەکان",
+      "regionInfo": {
+        "centerPointTitle": "ناوەندی شار دیاری بکە",
+        "location": "ناوەندی شار",
+        "name": "ناوی شهار",
+        "regionLanguages": "شار بە پێی زمانەکان"
+      },
+      "regions": "شارەکان",
+      "title": "ناونیشان",
+      "senderRegions": "شاری نێردەر",
+      "receiverRegions": "شاری وەرگر",
+      "topRegions": {
+        "slemani": "سلێمانی",
+        "erbil": "هەولێر",
+        "Slemani": "سلێمانی",
+        "Erbil": "هەولێر",
+        "Hawler": "هەولێر"
+      }
+    },
+    "language": {
+      "languageTitle": "زمان",
+      "languages": "زمانەکان",
+      "locale": "ناوچەیی",
+      "title": "ناونیشان",
+      "En": "ئینگلیزی",
+      "Ckb": "کوردی",
+      "Ar": "عەرەبی"
+    },
+    "otp": {
+      "codeExpirationTimeInMinutes": "کاتی بەسەرچوونی کۆد / خولەک",
+      "codeInvalidationTimeInMinutes": "کاتی ناچالاکی کۆد / خولەک",
+      "maxNumberOfAttempts": "زۆرترین ژمارەی هەوڵدان",
+      "maxNumberOfAttemptsDurationInMinutes": "زۆرترین ژمارەیی هەوڵدان / خولەک",
+      "codeMessage": {
+        "title": "وردەکاری نامەی کۆد داخڵ بکە بەپێی هەر زمانێک",
+        "placeholder": "وردەکاری داخڵ بکە بۆ {language} ، پێویستە {{0}} تیابێت"
+      },
+      "server": {
+        "provider": "پڕۆڤایدەر",
+        "isEnabled": {
+          "title": "دۆخی چالاکی",
+          "true": "چالاک",
+          "false": "ناچالاک"
+        },
+        "successMessagesCount": "کۆی گشتی نامە سەرکەوتووەکان",
+        "failedMessagesCount": "کۆی گشتی نامە هەڵوەشێنراوەکان"
+      },
+      "requests": {
+        "code": "کۆی",
+        "codeMessage": "نامەی کۆد",
+        "status": "دۆخ",
+        "validUntil": "بەردەستە تا",
+        "discountCode": "بەرواری بەسەرچون",
+        "isSuccessful": {
+          "title": "دۆخی بەکار‌هێنان",
+          "true": "بەکارهاتووە",
+          "false": "بەکارنەهاتووە"
+        }
+      }
+    },
+  "user": {
+  "userDetail": "زانیاری بەکارهێنەر",
+  "userTask": "کاری بەکارهێنەر",
+  "requestListUser": "داواکردنی لیستی بەکارهێنەران",
+  "userDevices": "ئامێرەکانی بەکارهێنەر",
+  "userBlockList": "لیستی بلۆککردنی بەکارهێنەران",
+  "rawPrice": "نرخ",
+  "userPrice": "نرخ - بەکارهێنەر",
+  "sourceLocationName": "ناوی شوێنی دەستپێک",
+  "type": "جۆر",
+  "statusEnum": "بارودۆخ",
+  "createdAt": "دروستکراوە لە",
+  "requestsListUser": "داواکردنی لیستی بەکارهێنەران",
+  "blockUser": "بلۆککردنی بەکارهێنەری "
+    }
+   
+  },
+  "authPage": {
+    "login": {
+      "email": "ناونیشانی ئەلیکترۆنی",
+      "emailInputPlaceholder": "ناونیشانی ئەلیکترۆنی",
+      "forgotPassword": "وشەی تێپەرت بیرچۆتەوە؟",
+      "forgotPasswordHeader": "ناونیشانی ئەلکترۆنی داخڵ بکە   ",
+      "loginBy": "چونەژوورەوە بەپێی {field}",
+      "pageTitle": "چونەژوورەوە",
+      "passwordInputPlaceholder": "وشەی نهێنی",
+      "phone": "ژمارەی مۆبایل",
+      "submitButton": "پاراستن"
+    }
+  },
+  "buttons":{
+  "add": "زیادکردن",
+  "cancel": "هەڵوەشاندنەوە",
+  "edit": "دەستکاریکردن",
+  "filter": "فلتەر",
+  "search": "گەڕان",
+  "submit": "ناردن",
+  "add_field": "زیادکردنی {field}",
+  "end_task": "کۆتاییهێنان بە کار",
+  "block": "بلۆککردنی {field}",
+  "unblock": "لابردنی بلۆک",
+  "send_request": "ناردنی داواکاری",
+  "clear": "پاککردنەوە",
+  "send_balance": "ناردنی باڵانس",
+  "addNewLanguage": "زیادکردنی زمانێکی نوێ",
+  "export": "هەناردن",
+  "print": "چاپکردن",
+  "resend": "دووبارە ناردن",
+  "update": "نوێکردنەوە",
+  "update_balance": "نوێکردنەوەی باڵانس",
+  "send": "ناردن",
+  "enable": "چالاککردن"
+},
+  "city": {
+    "card": "کارت",
+    "cardData": {
+      "URL": "بەستەر",
+      "expireAt": "بەرواری بەسەرچون",
+      "preview": "پێشبینین",
+      "public": {
+        "false": "تایبەت",
+        "placeholder": "دۆخی کارت",
+        "true": "گشتی"
+      },
+      "receivers": {
+        "false": "هەموو بەکارهێنانەکان",
+        "placeholder": "وەرگر",
+        "true": "تەنیا شۆفێرەکان"
+      },
+      "title": "ناونیشانی کارت",
+      "type": {
+        "Banner": "بانەر",
+        "Discount": "داشکاندن",
+        "Modules": "مۆدیول",
+        "SwipeAble": "سواپکردن",
+        "placeholder": "جۆری کارت"
+      },
+      "uiVersion": "وەشان",
+      "url": "بەستەر"
+    },
+    "cards": "کارەتەکان",
+    "image": "وێنە",
+    "name": "ناو",
+    "setting": {
+      "storeLink": "لینکی ستۆر",
+      "currentAppVersion": "وەشانی ئێستا",
+      "minimumVersion": "کەمترین وەشانی نوێکردنەوە ",
+      "platform": " پلاتفۆڕم ",
+      "translationVersion": "وەشانی وەرگێڕان"
+    },
+    "status": "بارودۆخ",
+    "type": "جۆر",
+    "lesson": {
+      "name": "فێرکاری",
+      "title": "ناونیشانی فێرکاری",
+      "description": "وردەکاری فێرکاری",
+      "video_url": " بەستەری ڤیدیۆ"
+    },
+    "app_routes": {
+      "title": "ڕاوتی بەرنامە",
+      "name": "ناو",
+      "path": "بەستەر",
+      "parameters": "پارامیتەرەکان",
+      "parameter_name": " ناو",
+      "parameter_value": "باها",
+      "parameter": "پارامیتەر",
+      "add_new_parameter": "زیادکردنی پارامیتەر"
+    },
+    "customMessage": {
+      "title": "ئاگادارنامە",
+      "isEnabled": {
+        "title": "دۆخی چالاکی",
+        "true": "چالاک",
+        "false": "ناچالاک"
+      },
+      "isBlocker": {
+        "title": "جۆری ئاگادارنامە",
+        "true": "بەربەست",
+        "false": "ئاسسایی"
+      },
+      "disabled": {
+        "title": "بەکارهێنەرەکان",
+        "true": " تەنیا بەکارهێنەرە ناچالاکەکان",
+        "false": " تەنیا بەکارهێنەرە چالاکەکان"
+      },
+      "showType": "جۆتی پیشاندان",
+      "spot": "لینکی دانانی ئاگادارنامە",
+      "buttons": {
+        "title": "دوگمەکان",
+        "type": "جۆر",
+        "url": "لینک",
+        "translations": "ناونیشان",
+        "add": "زیادکردنی دوگمە",
+        "color": "ڕەنگ"
+      }
+    }
+  },
+  "dropdowns": {
+    "discountCode": {
+      "isActive": {
+        "false": "هەمو کۆدەکان",
+        "placeholder": "بارودۆخی چالاکی",
+        "true": "تەنیا کۆدەچالاکەکان"
+      }
+    },
+    "gender": {
+      "Female": "مێ",
+      "Male": "نێر",
+      "placeholder": "ڕەگەز"
+    },
+    "userType": {
+      "placeholder": "جۆری بەکارهێنەر",
+      "App": "ئاپ",
+      "Panel": "پانێڵ"
+    },
+    "languages": {
+      "2": "کوردی",
+      "3": "عەرەبی",
+      "4": "ئینگلیزی",
+      "placeholder": "زمان"
+    },
+    "requestStatuses": {
+      "Accepted": "وەرگرتن",
+      "Cancel": "هەڵوەشاوە",
+      "CanceledAtWaiting": "هەڵوەشاوە دوایی چاوەڕوانی",
+      "Completed": "سەرکەوتوو",
+      "Placeholder": "دۆخی داواکاری",
+      "Timeout": "تەواوبونی کات",
+      "Waiting": "چاوەڕوانی",
+      "RequestCanceled": "داواکاری هەڵوەشاوە",
+      "CanceledAfterStart": "داواکاری هەڵوەشاوە دوای دەستپێکردن",
+      "CanceledAfterArrive": "دااواکاری هەڵوەشاوە دوای گەیشتن",
+      "CanceledAfterReserve": "داواکاری هەڵوەشاوە دوای وەرگرتن"
+    },
+    "searchField": {
+      "Id": "کۆد",
+      "PlateNumber": "ژمارەی تابلۆ",
+      "Title": "ناو",
+      "Vin": "ژمارەی ساڵانە",
+      "code": "کۆد",
+      "codeTitle": "ناوی کۆد",
+      "id": "کۆد",
+      "name": "ناو",
+      "nationalId": "ناسنامای نەتەوەیی",
+      "placeholder": "گەڕان بەپێی",
+      "NationalId": "ناسنامەی نەتەوەیی",
+      "PhoneNumber": "ژمارەی مۆبایل",
+      "NameField": "ناو",
+      "ServantName": "ناوی شۆفێر",
+      "ServantPhoneNumber": "ژمارەی مۆبایلی شۆفێر",
+      "ServantId": "کۆدی شۆفێر",
+      "Email": "ناونیشانی ئەلیکترۆنی"
+    },
+    "servantStatuses": {
+      "Block": "بلۆک",
+      "DisconnectInTrip": "ئۆفلاینبون لە گەشتدا",
+      "InRide": "لە گەشتایە",
+      "InTrip": "لە گەشتایە",
+      "Offline": "ناچالاک",
+      "Online": "چالاک",
+      "Passive": "پاسیڤ",
+      "placeholder": "دۆخی شۆفێر"
+    },
+    "tasks": {
+      "taskStatus": {
+        "Accept": "وەرگرتن",
+        "Arrive": "گەشتن",
+        "CanceledAfterArrive": "هەڵوەشاوە دوایی گەیشتن ",
+        "CanceledAfterReserve": "هەڵوەشاوە دوایی حجزکردن",
+        "CanceledAfterStart": "هەڵوەشاوە دوایی دەستپێکردن",
+        "Continue": "بەردەوامبون",
+        "End": "کۆتایی ",
+        "EndDestination": "کۆتایی شوێنی مەبەست",
+        "Negatives": "هەڵوەشاوە",
+        "Reserve": "وەرگیراو",
+        "Start": "دەستپێکردن",
+        "Stop": "وەستان",
+        "negatives": "هەڵوەشاوە",
+        "placeholder": "دۆخی گەشت",
+        "MinTask": "کەمترین ئەرک",
+        "MaxTask": "زۆرترین ئەرک"
+      }
+    },
+    "selected_field": "{field} هەڵنەبژێردراوە"
+  },
+  "fields": {
+    "translation": "وەرگێڕان",
+    "Vin": "ژمارەی ساڵانە",
+    "email": "ناونیشانی ئەلیکترۆنی",
+    "expireAt": "بەرواری بەسەرچون",
+    "gender": "رەگەزەکان",
+    "groups": "گروپەکان",
+    "group": "گروپ",
+    "languages": "زمانەکان",
+    "language": "زمان",
+    "password": "وشەی نهێنی",
+    "phoneNumber": "ژمارەی مۆبایل",
+    "plateNumber": "ژمارەی تابلۆ",
+    "regions": "مەوداکان",
+    "search": "گەڕان",
+    "startAt": " بەرواری دەستپێکردن",
+    "supportNumber": "ژمارەی پشتیوانی",
+    "title": "ناو",
+    "vin": "شاسی",
+    "vehicle": "ئۆتۆمبێل",
+    "service_type": "جۆری خزمەتگوزاری",
+    "image": "وێنە",
+    "service": "خزمەتگوزاری",
+    "night_period": "خشتەی کاتی شەو",
+    "isActive": {
+      "false": "چالاک",
+      "true": "ناچالاک"
+    },
+    "discount": "داشکاندن",
+    "commission": "کۆمیسیۆن",
+    "setting": "ڕێکخستن",
+    "active": {
+      "false": "ناچالاک",
+      "isActive": "بارودۆخی چالاکی ",
+      "true": "چالاک"
+    },
+    "card": "کارت",
+    "servant": "شۆفێر",
+    "profile": "پرۆفایل",
+    "notification": "ئاگادارکردنەوە",
+    "user": "بەکارهێنەر",
+    "region": "شار",
+    "role": "ڕۆڵ",
+    "discountCode": "کۆدی داشکاندن",
+    "origin": "شوێنی دەستپێک",
+    "createdAt": "بەرواری دروستبون",
+    "searchFields": {
+      "NameField": "ناو",
+      "PhoneNumber": "ژمارەی مۆبایل",
+      "Email": "ناونیشانی ئەلیکترۆنی",
+      "Id": " کۆد",
+      "NationalId": " ناسنامەی نەتەوەیی",
+      "IdField": "کۆد"
+    },
+    "block": "بلۆککردن"
+  },
+  "gender": {
+    "1": "نێر",
+    "2": "مێ",
+    "female": "مێ",
+    "male": "نێر"
+  },
+  "notification": {
+    "createAt": "بەروار",
+    "description": "دەقی ئاگادارکردنەوە",
+    "expirationDate": "بەرواری بەسەرچون",
+    "link": "بەستەر",
+    "title": "ناونیشان",
+    "types": "جۆر ئاگادارکردنەوە",
+    "subTitle": "ناونیشانی لاوەکی",
+    "buttonTitle": "ناونیشانی دوگمەی ئاگادارکردنەوە",
+    "addMessage": "زیادکردنی پەیام",
+    "dialogTitle": "هاوپێج کردنی وێنە"
+  },
+  "reusables": {
+    "searchBy": "گەڕان بەپێی {field}",
+    "searchForUser": "گەڕان بۆ بەکارهێنەر",
+    "confirmation": {
+      "header": "دڵنیابونەوە",
+      "no": "نەخێر",
+      "yes": "بەڵێ"
+    },
+    "createPageDesc": "لەم پەیجەدا دەتوانی   {page} دروست بکەیت",
+    "createPageHeader": "دروستکردنی {page}",
+    "databasePageDesc": "لەم بەشەدا دەتوانی زانیاریت دەستبکەوێت لەسەر بەشە سەرەکییەکان و زیادیان بکەیت",
+    "databasePageHeader": "وردەکاری بەشە سەرەکییەکان",
+    "detailPageDesc": "لەم بەشەردا دەتوانی زانیاریت لەسەر {page} دەستبکەوێت و پاکنووسیان بکەیت",
+    "detailPageHeader": " وردەکاری {page}",
+    "dialog": {
+      "add": "زیادکردنی  {field}",
+      "addInputs": {
+        "storeLink": "لینکی ستۆر",
+        "city": "شار",
+        "code": "کۆد",
+        "country": "وڵات",
+        "currency": "دراو",
+        "currentVersion": "وەشانی ئێستا",
+        "languageId": "زمان",
+        "locale": "ناوچەیی",
+        "minimumVersionToSoftUpdate": "کەمترین وەشانی نوێکردنەوە ",
+        "name": "ناو",
+        "number": "ژمارەی تەلەفۆن",
+        "platform": "بەپێی پلاتفۆڕم ",
+        "regionId": "مەودا",
+        "title": "ناونیشان",
+        "translationVersion": "وەشانی وەرگێڕان"
+      },
+      "edit": "گۆڕینی {field}",
+      "fields": {
+        "gender": "ڕەگەز",
+        "language": "زمان",
+        "policy": "مۆڵەت",
+        "region": "مەودا",
+        "role": "ڕۆڵ",
+        "supportNumber": "ژمارەی پشتیوانی",
+        "user": "بەکارهێنەر",
+        "vehicle": "ئۆتۆمبێل"
+      }
+    },
+    "emptyRecordDesc": "ئەتوانیت فلتەر بگۆڕیت بۆ بەدەستهێنانی داتا یاخود داتای نوێ داخل بکەیت",
+    "emptyRecordHeader": "هیچ داتایەک نەدۆزرایەوە",
+    "listPageDesc": "لەم بەشەدا لیستی {page} پیشان دەدرێت بە فلتەرە جیاوازەکانەوە",
+    "listPageHeader": "لیستی {page}"
+  },
+  "roles": {
+    "raterRole": "ڕۆڵی نرخدان",
+    "ratedRole": "ڕۆڵی نرخدراو",
+    "addPolicyHeader": "مۆڵەت زیادبکە بۆ ڕۆڵەکە",
+    "addRoleHeader": "ڕۆلی تازە زیادبکە",
+    "confirmDeleteRole": "دڵنیای لە سڕینەوەی ئەم ڕۆڵە؟",
+    "name": "ناوی ڕۆل",
+    "policyName": "ناوی مۆڵەت",
+    "policyPlaceHolder": "مۆڵەت",
+    "role": "ڕۆڵ",
+    "roleHeader": "لیستی ڕۆڵەکان",
+    "subTableHeader": "لیستی مۆڵەتەکانی {role}",
+    "tableFooter": "ئەنجامی کۆتایی  {total} ڕۆڵ",
+    "tooltips": {
+      "addPolicy": "زیادکردنی مۆڵەت",
+      "addRole": "زیادکردنی ڕۆڵ",
+      "cancel": "هەڵوەشاندنەوە",
+      "deletePolicy": "سڕینەوەی مۆڵەت",
+      "deleteRole": "سڕینەوەی ڕۆڵ ",
+      "editRole": "گۆڕینی ڕۆڵ"
+    }
+  },
+  "routes": {
+    "CityCardDetail": "وردەکاری کارت",
+    "CityCards": "کارتەکان",
+    "CityCreateCard": "دروستکردنی کارت",
+    "CityCustomMessages": "پەیامەکان",
+    "CityListCards": "لیستی کارتەکان",
+    "User": "بەکارهێنەر",
+    "accounts": "هەژمارەکان",
+    "adminTransactionList": "ئاڵوگۆڕەکانی ئەدمین",
+    "balanceCardList": "کارتەکانی بالانس",
+    "basicInformation": "بنکەی زانیاری",
+    "cancelReason": "هۆکاری هەڵوەشانەوە",
+    "canceledTasks": "گەشتە هەڵوەشێنراوەکان",
+    "cardTypeList": "جۆرەکانی کارت",
+    "cards": "کارەتەکان",
+    "cityListNotification": "  لیستی ئاگادارکردنەوەکان",
+    "cityListSetting": "لیستی ڕیکخستنەکان",
+    "cityNotification": "ئاگادارکردنەوە",
+    "citySendNotification": "ناردنی ئاگادارنامە",
+    "country": "وڵات",
+    "createActiveService": "دروستکردنی خزمەتگوزاری ",
+    "createServant": "دروستکردنی شۆفێر",
+    "createVehicle": "دروستکردنی ئۆتۆمبێل",
+    "createVehicleServant": "دروستکردنی ئۆتۆمبێل",
+    "detailServant": "وردەکاری شۆفێر",
+    "detailService": "وردەکاری خزمەتگوزاری",
+    "detailTask": "وردەکاری گەشت",
+    "group": "گروپ",
+    "home": "سەرەکی",
+    "hourlyReport": "ڕاپۆرتی ڕۆژانە",
+    "listServant": "لیستی شۆفێرەکان",
+    "listService": "لیستی خزمەتگوزارییەکان",
+    "listServiceBaseType": "جۆری خزمەتگوزاری",
+    "listTasks": "لیستی گەشتەکان",
+    "listVehicle": "لیستی ئۆتۆمبێلەکان",
+    "notFound": "نەدۆزرایەوە",
+    "onlineCards": "کارتە ئۆنلاینەکان",
+    "passenger": "سەرنشین",
+    "passengerDetail": "وردەکاری سەرنشین",
+    "passengerProfile": "پڕۆفایلی سەرنشین",
+    "passengerTasks": "گەشتەکانی سەرنشین",
+    "providerList": "خزمەتگوزاریەکان",
+    "regions": "مەوداکان",
+    "report": "ڕاپۆرتەکان",
+    "requestsDetail": "وردەکاری داواکاری",
+    "requestsList": "لیستی داواکارییەکان",
+    "roles": "ڕۆڵەکان",
+    "servant": "شۆفێر",
+    "servantHourlyReport": "ڕاپۆرتی کاتژمێری شۆفێر",
+    "servantOnlineHistory": "ڕاپۆرتی ئۆنلاینبونی شۆفێر",
+    "servantReport": "ڕاپۆرتی شۆفێر",
+    "servantRanking": "ڕیزبەندی شۆفێر",
+    "services": "خزمەتگوزاری",
+    "support": "پشتیوانی",
+    "supportList": "جزدانی پشتیوانی",
+    "supportNumber": "ژمارەی پشتیوانی",
+    "task": "گەشت",
+    "transactionList": "ئاڵوگۆڕەکان",
+    "transportation": "هاتوچۆ",
+    "transportationCreateDiscountCode": "دروستکردنی کۆدی داشکاندن",
+    "transportationDetailDiscountCode": "وردەکاری کۆدی داشکاندن",
+    "transportationUsageDiscountCode": "لیستی بەکارهێنان ",
+    "transportationHome": "سەرەکی",
+    "transportationListDiscountCode": "لیستی کۆدی داشکاندن",
+    "transportationMonitoring": "چاودێری",
+    "transportationRequestList": "لیستی داواکارییەکان",
+    "user": "بەکارهێنەر",
+    "userDetail": "وردەکاری بەکارهێنەر",
+    "userExist": "بەکارهێنەر",
+    "userList": "لیستی بەکەرهێنەرەکان",
+    "userProfile": "پرۆفایل",
+    "vehicle": "ئۆتۆمبێل",
+    "vehicleDetail": "وردەکای ئۆتۆمبێل",
+    "wallet": "جزدان",
+    "walletList": "جزدانەکان",
+    "translation": "وەرگێڕان",
+    "transportationTranslation": "گواستنەوە",
+    "walletTranslation": "جزدان",
+    "blockList": "لیستی بلۆکەکان",
+    "block": "بلۆک",
+    "transportationMapMatching": "رێکخستنی نەخشە",
+    "transportationCreateRequest": "دروستکردنی داواکاری",
+    "lesson": "فێرکاری",
+    "taskRatingAspect": "هەڵسەنگاندنی ئەرکەکان",
+    "userCreate": "دروستکردنی بەکارهێنەر",
+    "reportProblemsList": " جۆری سکاڵاکان",
+    "reportActionList": "جۆری کردارەکان",
+    "taskReportList": "لیستی سکاڵاکان",
+    "taskCancelationPenalize": "سزای هەڵوەشاندنەوە",
+    "taskCancelationPolicy": "یاسای هەڵوەشانەوە",
+    "chartDailyReports": "ڕاپۆرتی ڕۆژانە",
+    "appRoutesList": "ڕاوتی بەرنامە",
+    "setting": "ڕێکخستنەکان",
+    "cityListOtpConfiguration": "لیستی ڕێکخستنەکانی ئۆتیپی",
+    "CityCreateCustomMessages": "دروستکردنی ئاگادارنامە",
+    "heatMap": "ڕیکخستنی نەخشە",
+    "requestReport": "  ڕاپۆرتی داواکاری",
+    "serviceAppConfiguration": "ڕێکخستنەکانی بەرنامەکە",
+    "PassengerTasksReport": "ڕاپۆرتی گەشتی سەرنشین",
+    "OtpRequests": "داواکارییەکانی ئۆتیپی",
+    "deviceList" : "لیستی ئامێرەکان"
+  },
+  "languages": {
+    "Ar": "عەرەبی",
+    "En": "ئینگلیزی",
+    "Ckb": "کوردی",
+    "placeholder": "وەرگێڕان بۆ زمانی {language} زیادبکە"
+  },
+  "sidebarFooter": {
+    "actions": {
+      "logout": "چونەدەرەوە",
+      "profile": "پڕۆفایل ",
+      "setting": "ڕێکخستنەکان",
+      "resetPassword": "وشەی تێپەڕ"
+    },
+    "changePassword": {
+      "title": "گۆڕینی وشەی تێپەڕ",
+      "oldPassword": "وشەی تێپەڕی کۆن ",
+      "newPassword": "وشەی تێپەڕی نوێ",
+      "successMessage": "وشەی تێپەڕ بەسەرکەوتووی گۆڕدرا"
+    },
+    "emptyName": "ناوی بەکارهێنەر",
+    "emptyRole": "ڕۆڵی بەکار‌ێنەر"
+  },
+  "statuses": {
+    "requestStatuses": {
+      "Accepted": "وەرگرتن",
+      "Completed": "سەرکەوتوو",
+      "RequestCanceled": "هەڵوەشاوە",
+      "Timeout": "تەواوبونی کات",
+      "Waiting": "چاوەڕوانی",
+      "Accept": "وەرگرتن",
+      "Arrive": "گەشتن",
+      "CanceledAfterArrive": "هەڵوەشاوە دوایی گەیشتن ",
+      "CanceledAfterReserve": "هەڵوەشاوە دوایی حجزکردن",
+      "CanceledAfterStart": "هەڵوەشاوە دوایی دەستپێکردن",
+      "Continue": "بەردەوامبون",
+      "End": "کۆتایی ",
+      "EndDestination": "کۆتایی شوێنی مەبەست",
+      "Negatives": "هەڵوەشاوە",
+      "Reserve": "وەرگیراو",
+      "Start": "دەستپێکردن",
+      "Stop": "وەستان",
+      "negatives": "هەڵوەشاوە",
+      "placeholder": "دۆخی گەشت"
+    },
+    "taskStatus": {
+      "Accepted": "وەرگرتن",
+      "Completed": "سەرکەوتوو",
+      "RequestCanceled": "هەڵوەشاوە",
+      "Timeout": "تەواوبونی کات",
+      "Waiting": "چاوەڕوانی",
+      "Accept": "وەرگرتن",
+      "Arrive": "گەشتن",
+      "CanceledAfterArrive": "هەڵوەشاوە دوایی گەیشتن ",
+      "CanceledAfterReserve": "هەڵوەشاوە دوایی حجزکردن",
+      "CanceledAfterStart": "هەڵوەشاوە دوایی دەستپێکردن",
+      "Continue": "بەردەوامبون",
+      "End": "کۆتایی ",
+      "EndDestination": "کۆتایی شوێنی مەبەست",
+      "Negatives": "هەڵوەشاوە",
+      "Reserve": "وەرگیراو",
+      "Start": "دەستپێکردن",
+      "Stop": "وەستان",
+      "negatives": "هەڵوەشاوە",
+      "placeholder": "دۆخی گەشت"
+    },
+    "servant": {
+      "Block": "بلۆک",
+      "InTrip": "لە گەشتایە",
+      "Offline": "ناچالاک",
+      "Online": "چالاک",
+      "Passive": "پاسیڤ",
+      "Placeholder": "دۆخی شۆفێر",
+      "DisconnectInTrip": "پچڕان"
+    }
+  },
+  "table": {
+    "deleteConfirmationMessage": "دڵنیایت لە سڕینەوەی {field} ؟",
+    "header": "لیستی {field}",
+    "paginator": "پیشاندانی {first} بۆ {last} لە کۆی {totalRecords} ڕیکۆرد",
+    "tableFooter": "ئەنجامی کۆتایی  {total} {field}"
+  },
+  "tooltips": {
+    "add": "زیادکرنی {field}",
+    "cancel": "هەڵوەشاندنەوە",
+    "delete": "سڕینەوەی {field}",
+    "edit": "گۆڕینی {field}",
+    "block": "بلۆککردنی {field}",
+    "fields": {
+      "gender": "ڕەگەز",
+      "languages": "زمان",
+      "regions": "ناوچەکان",
+      "supportnumber": "ژمارەی پشتیوانی",
+      "user": "بەکارهێنەر",
+      "vehicle": "ئۆتۆمبێل"
+    },
+    "info": "زانیاری {field}"
+  },
+  "toasts": {
+    "added_success_header": "بە سەرکەوتویی زیادکرا",
+    "updated_success_header": "بە سەرکەوتویی گۆڕدرا",
+    "added_success_desc": "بە سەرکەوتویی زیادکرا{field}",
+    "updated_success_desc": "بە سەرکەوتویی گۆڕدرا{field}",
+    "task_update_success": "گەشتەکە بە سەرکەوتویی گۆڕدرا",
+    "delete_success_header": "بە سەرکەوتویی سرایەوە",
+    "delete_success_desc": "{field} بە سەرکەوتویی سەڕایەوە",
+    "request_create_header": "داواکاریەکە بە سەرکەوتویی دروستکرا",
+    "request_create_desc": "داواکاریەکە بە سەرکەوتویی دروستکرا ، چاوەڕێی شۆفێربکە بۆ وەرگرتن",
+    "block_header": "بە سەرکەوتوویی بلۆک کرا",
+    "block_desc": "{field} بە سەرکەوتوویی بلۆک کرا",
+    "delete_success_message": "وێنە"
+
+  },
+  "transportation": {
+  "list": {
+  "ableToReviewTaskDurationInDays": "بەرزکردنەوەی ماوەی ئەرک بە ڕۆژ",
+  "dynamicInTaskServantRouteUpdateRetrievalInSecond": "نوێکردنەوەی دینامیک لە ڕێڕەوی شۆفێر لە ئەرکدا بە چرکە",
+  "liveTaskStateUpdateRetrievalInSecond": "نوێکردنەوەی دۆخی ئەرکی ڕاستەوخۆ بە چرکە",
+  "servantGettingCloseToClientNotifyRangeInMeter": "ئاگادارکردنەوەی نزیکبوونی شۆفێر بەرامبەر بە کڕیار بە مەتر",
+  "userRequestLimit": "سنووری داواکاریی بەکارهێنەر",
+  "userRequestLimitTimeToLiveInSecond": "ماوەی  سنووری داواکاریی بەکارهێنەر بە چرکە",
+  "maxDistanceToArrive": "زۆرترین دووری بۆ گەیشتن",
+  "distanceToUpdateServantDynamicRouteInMeter": "دووری بۆ نوێکردنەوەی ڕێڕەوی دینامیکی شۆفێر بە مەتر",
+  "removeCanceledTaskAndRequestDelayInMinute": "دواخستنی لابردنی ئەرک و داواکاریی هەڵوەشێندراو بە خولەک",
+  "removeCompletedTaskAndRequestDelayInMinute": "دواخستنی لابردنی ئەرک و داواکاریی تەواوبوو بە خولەک"
+    }, 
+    "heatMap": {
+      "title": "ڕێکخستنی نەخشە",
+      "fromValue": "دەسپێک لە / کاتژمێر",
+      "lengthInHour": "مەودا / کاتژمێر",
+      "type": "جۆری نەخشە"
+    },
+    "serviceAppConfiguration": {
+      "title": "ڕیکخستنەکانی بەرنامە",
+      "servantLocationUpdateInterval": "کاتی نوێکردنەوەی شوێنی شۆفێر"
+    },
+    "common": {
+      "date": "بەروار",
+      "endAt": "بەرواری کۆتایی",
+      "endDate": "بەرواری کۆتایی",
+      "endTime": "کاتی کۆتایی",
+      "excludeEndHour": "لابردنی کاتژمێری کۆتا",
+      "excludeStartHour": "لابردنی کاتژمێری سەرەتا",
+      "includeStartHour": "زیادکردنی کاتژمێری سەرەتا",
+      "includeEndHour": "زیادکردنی کاتژمێری کۆتا",
+      "minHour": "کەمترین کات",
+      "startAt": "بەرواری دەسپێک",
+      "startDate": "بەرواری دەسپێک",
+      "startTime": "کاتی دەستپێک",
+      "total": "کۆی گشتی",
+      "title": "ناونیشان",
+      "iqd": "د.ع",
+      "description": "وردەکاری",
+      "name": "ناو",
+      "createServant": "بەرواری دروستکردنی شۆفێر",
+      "workdayEndsServant": "کۆتا ڕۆژی کارکردنی شۆفێر",
+     "appVersionFrom": "وەشان لە",
+     "appVersionTo": "وەشان بۆ",
+     "deviceName": "ناوی ئامێر",
+     "platform": "پلاتفۆرم",
+    "displayName": "ناوی پیشاندان",
+    "phoneNumber": "ژمارەی مۆبایل", 
+     "blockedFromDate": "دەستپێكی بلۆككردن",
+  "blockedToDate": "كۆتایی بلۆككردن",
+  "unblockedAtFromDate": "دەستپێكی لابردنی بلۆك",
+  "unblockedAtToDate": "كۆتایی لابردنی بلۆك",
+  "blockedBy": "بلۆككراوە لەلایەن",
+  "listOfBlockUsers": "لیستی بەكارهێنەرانی بلۆككراو",
+  "activeBlocks": "هەڵبژاردنەكانی بلۆك",
+  "blockedUsers": "بەكارهێنەرانی بلۆككراو",
+  "blockedByUser": "بلۆككراوە لەلایەن بەكارهێنەر",
+  "blockedAt": "كاتی بلۆككردن",
+  "unblockedAt": "كاتی لابردنی بلۆك",
+   "sendDate": "بەرواری ناردن",
+  "expirationDate": "بەرواری بەسەرچوون"
+
+    },
+    "taskCancellationPenalize": {
+      "penalizeType": "جۆری سزا",
+      "penalizeName": "ناوی سزا",
+      "value": "نرخی سزا",
+      "policy": "یاسای هەڵوەشاندنەوە",
+      "cancellerRole": " ڕۆڵ",
+      "measurementType": "جۆری پێوانەیی",
+      "measurementValue": "  نرخی پێوانەیی",
+      "penaltyType": {
+        "lowPenalty": "سزایی سەرەتایی",
+        "highPenalty": "سزای کۆتایی"
+      },
+      "measurementButtons": {
+        "addNew": "پێوانەییەکی نوێ زیادبکە",
+        "addOne": "تەنیا یەکەم پێوانەیی زیادبکە"
+      }
+    },  
+     "cancelReason": {
+      "title": "هۆکاری هەڵوەشاندنەوە"
+    },
+   "dashboard": {
+      "cards": {
+        "lastMonth": "مانگی ڕابردوو",
+        "title": {
+          "requests": "کۆی گشتی داواکاری",
+          "requestStates": "کۆی گشتی داواکاری",
+          "servants": "کۆی گشتی شۆفێرەکان",
+          "successTasks": "کۆی گشتی گەشتی سەرکەوتوو",
+          "completedTaskStates": "کۆی گشتی گەشتی سەرکەوتوو",
+          "users": "کۆی گشتی بەکارهێنەرەکان",
+          "canceledTasks": "گەشتە هەڵوەشێنراوەکان",
+          "canceledTaskStates": "گەشتە هەڵوەشێنراوەکان"
+        }
+      },
+      "chart": {
+        "city": "بەپێی شار",
+        "country": "بەپێی وڵات",
+        "Daily": "ڕۆژانە",
+        "Monthly": "مانگانە",
+        "pieChartDesc": "زانیاری بەکارهێنەری چالاک لە مانگی ڕابردوودا",
+        "platform": "بەپێی پلاتفۆڕم ",
+        "topPassengersTasks": "چالاکترین سەرنشینەکان بەپێی ژمارەی گەشت"
+      },
+      "table": {
+        "header": "لیستی {field}",
+        "lastServants": "شۆفێرەکانی کۆتا",
+        "lastServantsDesc": "لەم لیستە کۆتا شۆفێرەکان دەبینی، بۆ بینینی هەموو شۆفێرەکان کلیک لێرە بکە",
+        "lastservants": "کۆتا شۆفێرەکان",
+        "lastservantsDesc": "لەم خشتەیەدا دەتوانی کۆتا شۆفێرەکان بەدەستبهێنی بۆ بەدەستهێنانی هەموو شۆفێرەکان بینینی زیاتر بکە",
+        "seeMore": "بینینی زیاتر"
+      }
+    }, 
+     "reports": {
+      "reportProblemsTitle": "جۆری سکاڵا",
+      "reportActionTitle": "Task report action",
+      "reportAction": {
+        "panelUserName": "ناوی بەکار‌ێنەری پانێڵ",
+        "panelUserPhoneNumber": "ژمارەی مۆبایلی بەکارهێنەری پانێڵ",
+        "title": "جۆری کردار",
+        "list": "لیستی کردارەکان"
+      },
+      "taskReport": {
+        "title": "سکاڵای گەشتەکان",
+        "reporterName": "ناوی سکاڵاکەر",
+        "problem": "جۆری کێشە",
+        "comment": "بۆچوون",
+        "taskId": "کۆد",
+        "taskRandomId": "کۆدی گەشت",
+        "clientName": "ناوی سەرنشین",
+        "clientPhoneNumber": "ژمارەی مۆبایلی سەرنشین",
+        "servantId": "کۆدی شۆفێر",
+        "servantName": "ناوی شۆفێر",
+        "servantNumber": "  ژمارەی مۆبایلی شۆفێر",
+        "role": "ڕۆڵ",
+        "addAction": "کردارێک زیادبکە",
+        "reportClosed": "ئەم سکاڵایە داخراوە"
+      },
+      "isClosed": {
+        "true": "کۆتاییهاتوو",
+        "false": "بەردەوام"
+      },
+      "isCloser": {
+        "title": "جۆری کردار",
+        "true": "کۆتاییپێهاتن",
+        "false": "بەردەوامی"
+      }
+    }, 
+    "discountCode": {
+      "active": "چالاک بکە ",
+      "addStepsTitle": "هەنگاوەکان",
+      "detail": {
+        "tabHeader": {
+          "detail": "وردەکاری کۆدی داشکاندن",
+          "users": "بەکارهێنەرەکان"
+        }
+      },
+      "usage": {
+        "userName": "ناوی بەکارهێنەر",
+        "userPhoneNumber": "ژمارەی تەلەفۆنی بەکارهێنەر",
+        "usedCount": "کۆی گشتی بەکارهێنان",
+        "totalAmount": "کۆی گشتی نرخی بەکارهێنان",
+        "discountName": " کۆدی داشکاندن",
+        "type": "جۆر",
+        "amount": "نرخی داشکاندن",
+        "searchBy": {
+          "Id": "ئایدی داشکاندن",
+          "Code": "کۆدی داشکاندن"
+        },
+        "discountType": "جۆری داشکاندن",
+        "activeOnly": {
+          "placeholder": "دۆخی داشکاندن",
+          "true": "تەنیا کۆدەچالاکەکان",
+          "false": " هەموو کۆدەکان "
+        },
+        "discountAmountLessThan": "کەمترین نرخی داشکاندن",
+        "discountAmountGreaterThan": "زۆرترین نرخی داشکاندن",
+        "totalDiscountAmount": "کۆی گشتی نرخی داشکاندن"
+      },
+      "fields": {
+        "active": {
+          "false": "ناچالاک",
+          "isActive": "بارودۆخی چالاک ",
+          "true": "چالاک"
+        },
+        "code": "کۆد",
+        "hidden": "گشتی",
+        "isHidden": {
+          "false": "گشتی",
+          "isHidden": "جۆری داشکاندن",
+          "true": "تایبەت"
+        },
+        "disabled": {
+          "false": "چالاک",
+          "disabled": "بارودۆخی کۆدی داشکاندن",
+          "true": "ناچالاک"
+        },
+        "status": "بارودۆخ",
+        "steps": {
+          "max": "بەرزترین",
+          "repeat": "دوبارەبونەوە",
+          "step": "هەنگاو",
+          "value": "بڕ"
+        },
+        "type": {
+          "Percent": "ڕێژەیی",
+          "Value": "ژمارەیی",
+          "placeHolder": "جۆری کۆد هەڵبژێرە",
+          "placeholder": "جۆری کۆد",
+          "type": "جۆری کۆد"
+        },
+        "usageLimit": "سنوری بەکارهێنان",
+        "value": "بڕ"
+      },
+      "inActive": "ناچالاک بکە",
+      "statusConfirmationMessage": "دڵنیایت لە گۆڕینی دۆخی کۆدی داشکاندن؟",
+      "title": "کۆدی داشکاندن",
+      "users": {
+        "amount": "بڕی بەکارهێنان ",
+        "count": "ژمارەی بەکارهێنانەکان",
+        "mobile": "ژمارەی تەلەفۆن",
+        "name": "ناو"
+      }
+    },
+    "hourlyReport": {
+      "fields": {
+        "taskRatingAspectTitle": "Task Rating Aspect",
+        "taskRatingAspectName": "ناو",
+        "taskRatingAspectDescription": "وردەکاری",
+        "taskRatingAspectWeight": "Weight",
+        "canceledTasks": "گەشتە هەڵوەشێنراوەکان",
+        "hour": "کاتژمێر",
+        "noAcceptRequests": "داواکاری وەرنەگیراو",
+        "noServantRequests": "داواکاری بێشۆفێر",
+        "onlineServants": "شۆفێرە چالاکەکان",
+        "requests": "داواکارییەکان",
+        "successTasks": "گەشتی سەرکەوتوو",
+        "onlineHours": "کاتژمێری ئۆنلاینبون",
+        "totalRequesters": "کۆی گشتی بەکارهێنەرەکان",
+        "canceledRequests": "کۆی گشتی داواکاریە هەڵوەشێنراوەکان",
+        "totalRequests": "کۆی گشتی داواکارییەکان",
+        "timedOutRequests": "داواکارییە وەرنەگیراوەکان",
+        "singleDestinationRequests": "داواکاری گەشتی یەک مەبەست",
+        "multiDestinationRequests": "داواکاری گەشتی فرە مەبەست",
+        "withDestinationRequests": "داواکاری گەشتی بە مەبەست",
+        "withoutDestinationRequests": "داواکاری گەشتی بێ مەبەست",
+        "numberOfPassengers": "ژمارەی سەرنشینەکان",
+        "numberOfRequesters": "ژمارەی بەکارهێنەرەکان"
+      },
+      "servantTitle": "ڕاپۆڕتی کاتژمێری شۆفێر",
+      "title": "ڕاپۆڕتی کاتژمێری گەشت"
+    },
+    "monitoring": {
+      "removeAskForHelp": "هاوکاری سەرنشین کرا  ",
+      "destinationLocationName": "شوینی مەبەست",
+      "discountName": "ناوی داشکاندن",
+      "discountedPrice": "نرخی داشکاندن",
+      "paymentType": "جۆری پارە",
+      "rawPrice": "نرخی بنەرەتی",
+      "sourceLocationName": "شوینی سەرەتایی",
+      "taskType": "جۆری گەشت",
+      "tripStatus": "بارودۆخی گەشت",
+      "taskDetail": {
+        "driver": "شۆفێر",
+        "task": "گەشت",
+        "passenger": "سەرنشین",
+        "manageTask": "بەڕێوبردنی گەشت"
+      }
+    },
+    "onlineHistory": {
+      "fields": {
+        "firstName": "ناوی سەرەتا",
+        "lastName": "ناوی کۆتا",
+        "onlineHours": "کاتژمێری ئۆنلاینبون",
+        "servantId": "کۆدی شۆفێر",
+        "totalTimeSec": "کۆی کات بە چرکە",
+        "calculateInTaskDuration": {
+          "placeholder": "حسابکردنی کاتی گەشت",
+          "true": "بە کاتەکانی گەشت",
+          "false": "بێ کاتەکانی گەشت"
+        },
+        "inTaskDurationInHours": "کاتژمێری گەشت",
+        "totalDurationInHours": "کۆی گشتی کاتژمێر"
+      },
+      "title": "وردەکاری چالاکبونی شۆفێر"
+    },
+    "servantReport": {
+      "fields": {
+        "servantName": "ڕاپۆرتی چالاکی شۆفێر",
+        "numberOfTasks": "ژمارەیی ئەرکەکان",
+        "totalRawPriceOfTasks": "کۆی گشتی ئەرکەکان",
+        "totalCommissionOfTasks": "کۆی گشتی کۆمیسیۆنی ئەرکەکان",
+        "servantRating": "هەڵسەنگاندی چالاکی شۆفێر"
+      },
+      "title": "Servant report"
+    },
+    "passenger": {
+      "displayName": "ناوی سەرنشین",
+      "email": "ناونیشانی ئەلکترۆنی",
+      "gender": "ڕەگەز",
+      "id": "کۆدی سەرنشین",
+      "language": "زمان",
+      "name": "شار",
+      "passengerAddress": "ناونیشانی سەرنشین",
+      "passengerId": "کۆدی سەرنشین",
+      "passengerMobile": "ژمارەی مۆبایلی سەرنشین",
+      "passengerName": "ناوی سەرنشین",
+      "phoneNumber": "ژمارەی مۆبایل ",
+      "mobile": "ژمارەی تەلەفۆن",
+      "profile": "پڕۆفایل "
+    },
+    "ranking": {
+      "rating": "هەڵسەنگاندن",
+      "successTasks": "گەشتی سەرکەوتوو",
+      "title": "هەڵسەنگاندی شۆفێرەکان "
+    },
+    "requests": {
+      "discount": "داشکاندن",
+      "discountCode": "کۆدی داشکاندن",
+      "kubakPrice": "نرخی کوباک",
+      "onlineServants": "شۆفێرە چالاکەکان",
+      "passiveServants": "شۆفێرە پاسیڤەکان",
+      "rawPrice": "نرخی بنەڕەتی ",
+      "requestsDetail": "وردەکاری داواکاری",
+      "reserveDate": "بەرواری دەستپێک",
+      "reserveTime": "کاتی دەستپێک",
+      "status": "بارودۆخ",
+      "type": "جۆری گەشت",
+      "userPrice": "نرخی بەکارهێنەر",
+      "name": "ناوی بەکارهێنەر",
+      "displayName": "ناوی بەکارهێنەر",
+      "paymentType": "جۆری پارە",
+      "gotoDetailPage": "  بڕۆ بۆ پەڕەی وردەکاری سەرنشین",
+      "phoneNumber": "ژمارەی مۆبایل ",
+      "lastRequestAt": "کاتی کۆتا داواکاری",
+      "acceptedRequestsCount": "سەرجەمی داواکارییە وەرگیراوەکان",
+      "cancelledRequestsCount": "سەرجەمی داواکارییە هەڵوەشێنراوەکان",
+      "timedOutRequestsCount": "سەرجەمی داواکارییە تەواوبووەکان",
+      "allRequestsCount": "سەرجەمی هەموو داواکارییەکان",
+      "statusEnum": "بارودۆخ",
+      "sourceLocationName": "ناوی شوێنی سەرەتایی",
+      "createdAt": "بەروار",
+      "withDestination": "بە دیاریکردنی شوێنی مەبەست",
+      "withoutDestination": "بێ دیاریکردنی شوێنی مەبەست",
+      "withOutDestination": "بێ دیاریکردنی شوێنی مەبەست",
+      "SingleDestination": "تاک شوێنی مەبەست",
+      "destinationTypeTitle": "جۆری شوێنی مەبەست",
+      "MultiDestination": "فرە شوێنی مەبەست",
+      "totalRequests": "کۆی گشتی داواکارییەکان",
+      "totalUsers": "کۆی گشتی بەکارهێنەرەکان",
+      "createRequest": {
+        "estimatedPrice": "نرخی بنەڕەتی",
+        "discountedPrice": "نرخی داشکاندن",
+        "discountedValue": "بڕی داشکاندن",
+        "loan": "قەرز",
+        "errorEstimateCreation": "پێویستە بەکارهێنەر و خزمەتگوزاری دیاریبکەیت بۆ دەستنیشانکردی شوێنی ناردنی داواکاری"
+      }
+    },
+    "servant": {
+      "blocked": {
+        "title": "بلۆک",
+        "true": "بلۆکبووە",
+        "false": "چالاکە"
+      },
+      "avatar": "وێنە",
+      "createServant": {
+        "steps": {
+          "checkUser": {
+            "desc": "پشکنینی هەبوونی بەکارهێنەر",
+            "title": "پشکنینی بەکارهێنەر"
+          },
+          "createServant": {
+            "certificates": "مۆڵەتی شۆفێری",
+            "documents": "دۆکومێنتە کەسییەکان",
+            "title": "دورستکردنی شۆفێر"
+          },
+          "createVehicle": {
+            "title": "دروستکردنی ئۆتۆمبێل"
+          }
+        }
+      },
+      "detail": {
+        "address": "ناونیشان",
+        "bankId": "ژمارەی بانک",
+        "certificateId": "مۆڵەتی شۆفێری",
+        "firstName": "ناوی سەرەتا",
+        "lastName": "ناوی کۆتا",
+        "mobile": "ژمارەی مۆبایل ",
+        "nationalId": "ناسنامای نەتەوەیی",
+        "servantCardDetail": {
+          "certificate": "مۆڵەتی شۆفیری",
+          "certificateBack": "پشتی مۆڵەتی شۆفێری",
+          "nationalCard": "ناسنامەی نەتەوەیی",
+          "nationalCardBack": "پشتی ناسنامەی نەتەوەیی",
+          "title": "وردەکاری کارتی شۆفێر"
+        },
+        "servantDetail": "وردەکاری شۆفێر",
+        "servantOnlinePeriod": "وردەکاری ئۆنلاینبون",
+        "servantPerformance": "ڕاپۆرتی کارکردن",
+        "status": "بارودۆخ",
+        "tasks": "گەشتەکان"
+      },
+      "distance": "دووری",
+      "firstName": "ناوی سەرەتای شۆفێر",
+      "fullName": "ناو شۆفێر",
+      "id": "کۆدی شۆفێر",
+      "lastName": "ناوی کۆتایی شۆفێر",
+      "mobile": "ژمارەی مۆبایل شۆفێر",
+      "onlinePeriod": {
+        "onlineTime": "کۆی کاتی ئۆنلاینبوون",
+        "total": "کۆی گشتی",
+        "totalTimeSec": "کۆی کاتی ئۆنلانبوون بە چرکە"
+      },
+      "performance": {
+        "acceptedRequests": "داواکارییە وەرگیراوەکان",
+        "deliveredRequests": "گەشتنی داواکارییەکان",
+        "distanceOnTasks": "کۆی دووری لەگەشتبوون",
+        "durationOnTasks": "کۆی کاتی لەگەشتبوون",
+        "onlineDurations": "کۆی کاتی ئۆنلاینبون",
+        "rejectedRequests": "داواکارییە هەڵوەشاوەکان",
+        "rejectedTasks": "گەشتە هەڵوەشێنراوەکان",
+        "successTasks": "گەشتی سەرکەوتوو"
+      },
+      "title": "شۆفێر",
+      "devices": {
+        "title": "ئامێرەکانی شۆفێر",
+        "deviceName": "ناوی ئامێر",
+        "type": "جۆر",
+        "primary": "سەرەکی",
+        "makePrimary": "بیکە بە سەرەکی"
+      }
+    },
+    "serviceType": {
+      "description": "وردەکاری جۆری خزمەتگوزاری",
+      "icon": "ئایکۆن",
+      "name": "جۆری خزمەتگوزاری",
+      "title": "ناونیشان"
+    },
+    "services": {
+    "city": "شار",
+    "icon": "ئایکۆن",
+    "name": "ناو",
+    "detail":  "زانیاری زیاتر",
+    "commission": {
+      "defaultValue": "نرخی بنەرەتی",
+      "dayOfWeeks": "ڕۆژی هەفتە",
+      "value": "نرخی کۆمیشن",
+      "commissionPeriod": "ماوەی کۆمیشن",
+      "title": "کۆمیشن"
+    },
+    "nightParameters": {
+      "periodEnd": "Base night end",
+      "periodStart": "Base night start"
+    },
+    "priceParameter": {
+      "baseDistance": "دووری ",
+      "baseNight": "Base night",
+      "basePrice": "نرخی بنەڕەت",
+      "baseStop": "وەستانی بنەڕەت",
+      "baseStopTime": " کاتی وەستانی بنەڕەت",
+      "baseTime": "کاتی پایەندی",
+      "maxTip": "بەرزترین تپ",
+      "minPrice": "کەمترین نرخ",
+      "minTip": "کەمترین تپ",
+      "tip": "تپ",
+      "title": "پارەی نرخ",
+      "tipPrice": "نرخی تپ",
+      "perMeter": "بە مەتری",
+      "perSecond": "بە چرکەی",
+      "withDestination": "دیاریکردنی مەودا",
+      "withoutDestination": "بە بێ دیاریکردنی مەودا",
+      "pricePerEachStop": "نرخ بۆ هەر وەستانێک",
+      "priceRateDuringStopTime": "نرخی کاتی وەستان",
+      "NotifyServant": {
+        "title": "پەیامی ئاگاداری بۆ شۆێر",
+        "firstDuration": "کاتی یەکەم",
+        "gapDuration": " Gap Duration",
+        "gapDistance": "Gap Distance",
+        "maxDistance": "زۆرتیرن دووری",
+        "requestTtl": "واتای پەسخوازی",
+          "maxNewRequestAlertAllowedDistance": "Max New Request Alert Distance",
+          "minNewRequestAlertAllowedDistance": " Min New Request Alert Distance",
+          "defaultNewRequestAlertDistance": "  Default New Request Alert Distance"
+      }
+    },
+    "discount": {
+      "value": "قیمەت",
+      "title": "ئۆفەری داشکاندن",
+      "validUntil": "بەردەستە تا",
+      "startFrom": "دەستپێکی",
+      "usageLimit": "سنورداری بەکارهێنان",
+      "maxDiscountAmount": "زۆرترین داشکاندن",
+      "timePeriod": {
+        "title": "ماوەی کات",
+        "startTime": "دەستپێکی کات",
+        "endTime": "کۆتایی کات"
+      }
+    },
+    "setting": {
+      "title": "ڕێکخستنەکان",
+       "ableToReviewTaskDurationInDays": "Review tasks /in days",
+        "dynamicInTaskServantRouteUpdateRetrievalInSecond": "Dynamic route update /second",
+        "liveTaskStateUpdateRetrievalInSecond": "Task status update /second",
+        "servantGettingCloseToClientNotifyRangeInMeter": "Servant near client /meter",
+        "userRequestLimit": "Request limit",
+        "userRequestLimitTimeToLiveInSecond": "Request limit /second",
+        "maxDistanceToArrive": "Max Distance To Arrive",
+        "getNearbyServantRange": "Get servants/range",
+        "removeCompletedTaskAndRequestDelayInMinute": "Remove complete Task on map /minute",
+        "removeCanceledTaskAndRequestDelayInMinute": " Remove cancel Task on map /minute",
+        "distanceToUpdateServantDynamicRouteInMeter": "update servant route / meter",
+         "appVersion": "وەشانی ئەپ",
+      "deviceName": "ناوی ئامێرەکان",
+      "platform": "پلاتفۆرم",
+      "createdAt": "دروستکراوە له‌",
+      "listOfDevices": "لیستی ئامێرەکان"
+    },
+    "area": {
+      "title": "نرخی ناوچەی خزمەتگوزاری",
+      "areaListHeader": "لیستی ناوچەی خزمەتگوزاری",
+      "withDestinationPrice": "نرخ لە گەڵ دیاریکردنی دووری  ",
+      "withoutDestinationPrice": "نرخ بە بێ دیاریکردنی دووری",
+      "priceError": "پێویستە بە لایەنی کەمەوە نرخێک بوونی هەبێت"
+    },
+    "serviceType": "جۆری خزمەتگوزاری",
+    "title": "خزمەتگوزاری",
+    "type": "جۆر",
+    "discount_type": {
+      "placeholder": "جۆری داشکاندن",
+      "VALUE": "قیمەت",
+      "LIMITATION": "سنورداری",
+      "Value": "قیمەت",
+      "Limitation": "سنورداری",
+      "Percent": "ڕێژە"
+    }
+    },
+    "tasks": {
+      "totalRawPrice": "کۆی گشتی نرخی گەشتەکان",
+      "fields": {
+        "randomId": "کۆدی گەشت",
+        "address": "ناونیشان",
+        "cancelReason": "هۆکاری هەڵوەشاوە",
+        "canceledBy": "هەڵوەشاوە لەلایەن",
+        "distance": "دووریی",
+        "duration": "کات",
+        "id": "کۆد",
+        "paymentType": "جۆری پارەدان",
+        "price": "نرخ",
+        "requestId": "کۆدی گەشت",
+        "status": "بارودۆخ",
+        "tip": "بەخشیش",
+        "userPrice": "نرخی بەکارهێنەر",
+        "rawPrice": "نرخی گەشت",
+        "discountAmount": "بڕی داشکاندن",
+        "originName": "شوێنی بنەڕەت",
+        "destinationName": "شوێنی مەبەست",
+        "requestType": "جۆری داواکاری",
+        "member": {
+          "address": "ناونیشانی بەکار‌ێنەر"
+        },
+        "startDate": "بەرواری دەسپێک",
+        "endDate": "بەرواری کۆتا",
+        "servantId": "کۆدی شۆفێر",
+        "clientUserId": "کۆدی سەرنشین",
+        "numberOfTask": "ژمارەیی گەشتەکان",
+        "totalTaskRawPrice": "کۆی گشتی نرخی گشتەکان"
+      },
+      "manageTask": {
+        "drawRoute": "ئەگەر گەشتەکە بچڕاوە ، ڕاوتەکە بکێشە"
+      },
+      "destinationRoute": {
+        "log": {
+          "title": "ڕاپۆڕتی ڕاوتەکان"
+        }
+      },
+      "stopLog": {
+        "title": "ڕاپۆرتی وەستان",
+        "numberOfSTops": "ژمارەیی وەستانەکان",
+        "totalTime": "کۆی گشتی کاتی وەستان"
+      },
+      "routeDetail": {
+        "taskRouteType": {
+          "PanelProvidedRoute": "ڕاوتی پانێل",
+          "EstimatedRoute": "ڕاوتی پێشنیارکراو",
+          "ServantTrackedRoute": "ڕاوتی شۆفێر",
+          "ServantLocalStoredRoute": "ڕاوتی ناوخۆیی شۆفێر",
+          "RouteToClient": "ڕاوتی بۆ سەرنشین"
+        },
+        "routeType": {
+          "optimizedRoute": "ڕاوتی ڕێکخراو",
+          "rawRoute": "ڕاوتی بنەرەتی",
+          "optimizedPoint": "پۆینتی ڕێکخراو",
+          "rawPoint": "پۆینتی بنەرەتی"
+        },
+        "acceptedRoute": "ڕاوتی وەرگیراو",
+        "title": "وردەکاری ڕاوتی"
+      },
+      "invoice": {
+        "title": "پسوڵای گەشت",
+        "paidWithBalance": "پارەدان بە باڵانس",
+        "paidWithCash": "پارەدان بە کاش",
+        "commission": "کۆمسیۆن",
+        "stopCompensation": "نرخی وەستان",
+        "loan": "قەرز",
+        "rawTaskPrice": "نرخی بنەڕەتی",
+        "tip": "بەخشیش",
+        "total": "کۆی گشتی",
+        "final": "کۆتا نرخ",
+        "discountAmount": "بڕی داشکاندن"
+      },
+      "statuses": {
+        "Accept": "وەرگرتن",
+        "Arrive": "گەیشتن",
+        "CanceledAfterArrive": "هەڵوەشاوە ",
+        "CanceledAfterReserve": "هەڵوەشاوە ",
+        "RequestCanceled": "داواکاری هەڵوەشاوە",
+        "Continue": "بەردەوامبون",
+        "End": "کۆتایی",
+        "EndDestination": "کۆتایی شوێنی مەبەست",
+        "Negatives": "هەڵوەشاوە",
+        "Reserve": "وەرگیراو",
+        "Start": "دەسپێک",
+        "Stop": "وەستان",
+        "Waiting": "چاوەڕوانی",
+        "Timeout": "بەسەرچوو",
+        "CanceledAfterStart": "هەڵوەشاوە دوایی دەستپێکردن"
+      },
+      "taskDetail": "وردەکاری گەشت",
+      "title": "گەشت",
+      "manage_task": "بەڕێوبردی گەشت"
+    },
+    "users": {
+      "block": "بلۆککردن",
+      "unBlockAt": "لابردنی بلۆک لە بەرواری",
+      "block_list_message": "ئەم بەکارهێنەرە بلۆککراوە لەسەر ئەم خزمەتگوزاریانە",
+      "blockList": "وردەکاری لیستی بلۆکەکان",
+      "addRole": "گۆڕینی لیستی ڕۆڵ",
+      "changeUserStatus": {
+        "disable": " ناچالاکبکە",
+        "disableTooltip": "بەکارهێنەر ناچالاکبکە",
+        "enable": " چالاکبکە",
+        "enableTooltip": "باکارهێنەر چالاکبکە"
+      },
+      "logout": "دەرچون",
+      "chooseRole": "هەڵبژاردنی ڕۆڵ",
+      "confirmation": {
+        "disable": "دڵنایی لە ناچالاککردنی بەکەرهێنەر؟",
+        "enable": "دڵنایی لە چالاککردنی بەکەرهێنەر؟"
+      },
+      "email": "ناونیشانی ئەلکترۆنی",
+      "mobile": "ژمارەی تەلەفۆن",
+      "name": "ناو"
+    },
+    "vehicle": {
+      "carCard": "کارتی ئۆتۆمبێل",
+      "carCardBack": "پشتی کارتی ئۆتۆمبێل",
+      "cardDetail": "کارتەکانی ئۆتۆمبێل",
+      "code": "کۆد",
+      "color": "ڕەنگی ئۆتۆمبێل",
+      "insurance": "متمانە",
+      "insuranceExpire": "بەرواری بەسەرچونی دڵنیایی",
+      "insuranceNo": "ژمارەی دڵنیایی",
+      "model": "مۆدێل",
+      "plaqueDetail": {
+        "city": "شار",
+        "code": "ژمارەی ئۆتۆمبێل",
+        "color": "ڕەنگ",
+        "country": "وڵات",
+        "title": "وردەکاری تابلۆی ئۆتۆمبێل"
+      },
+      "techDiagnosis": "تاقیکردنەوەی تەکنیکی",
+      "tip": "جۆر",
+      "title": "ناو",
+      "vehicle": "ئۆتۆمبێل",
+      "vehicleDetail": "وردەکاری شۆفێر",
+      "vin": "ژمارەی ساڵانە"
+    }
+  },
+  "validationMessages": {
+    "startDateMoreThanNow": "کاتی سەرەتا ئەبێت ئێستا یاخود لە ئێستا زیاتربێت",
+    "required": "{field} پرکردنەوەی پێویستە",
+    "language": "مەرجە زمانی ئینگلیزیت دیاریکردبێت",
+    "language_description": "وردەکاری پێویستە لە سێ پیت زیاتربێت",
+    "draw_error": "پێویستە کۆتایی بە دروستکرن بهێنیت یاخود هەڵوەشانەوە بکەیت",
+    "image_language_required": "وێنە بۆ زمانی {language} هەڵنەبژێردراوە ، وێنەیەک هەڵبژێرە",
+    "location": "ناوەندی شار پێویستە دیاریبکرێت",
+    "edit_draw_error": "پێویستە کۆتایی بە گۆڕانکاری بهێنیت یاخود هەڵوەشانەوە بکەیت",
+    "one_shape_allow": "تەنیا دەتوانی یەک شێوە بکێشیت",
+    "discount_steps_required": "هەنگاوەکانی کۆدی داشکاندن پێویستە دیاریبکرێت",
+    "empty_policy": "لیستی مۆڵەتەکانت بەتاڵە ، پێویستە بەلایەنی کەمەوە دانەیەک هەڵبژێریت",
+    "end_date_must_greater_than_start_date": "بەرواری کۆتایی پێویستە لە بەرواری دەستپێک زیاتربێت",
+    "title_is_required": "ناونیشان بۆ زمانی {language} پێویستە دیاریبکرێت",
+    "valid_email": "ئیمەیڵ پێویستە بە شێوەیەکی دروست بێت",
+    "password_length": "وشەی نهێنی پێویستە بەلایەنی کەمەوە 6 پیت بێت",
+    "one_minute_allow": "پێویستە لەنێوان ١ - ٦٠ چرکە بێت"
+  },
+  "wallet": {
+    "amount": "بڕ",
+    "transactions": "ئاڵوگۆڕەکان",
+    "wallet": "جزدان",
+    "maxTransaction": "زۆرترین ئاڵوگۆڕ",
+    "minTransaction": "کەمترین ئاڵوگۆڕ",
+    "transactionDate": "بەرواری ئاڵوگۆڕ",
+    "sourceUser": "نێردەر",
+    "destinationUser": "وەرگر",
+    "balance": "بالانس",
+    "tooltip": "بینێرە بۆ {userName}",
+    "tooltipUpdate": "بالانسی  {userName} بگۆڕە",
+    "walletType": "جۆری جزدان",
+    "minBalance": "کەمترین باڵانس",
+    "maxBalance": "زۆرترین باڵانس",
+    "updateWallet": "گۆڕین",
+    "sendToAdmin": "ناردنی باڵانس بۆ ئەدمین",
+    "transactionContainsUserId": "ئاڵوگۆڕەکانی بەکارهێنەرێک",
+    "walletTransactionType": "جۆری ئاڵوگۆڕ",
+    "currency": "دراو"
+  }
+}

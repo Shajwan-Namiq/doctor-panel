@@ -1,0 +1,19 @@
+.userProfile {
+  min-height: 100vh;
+}
+.userProfileInfo {
+  height: 500px;
+  width: 80%;
+  border-radius: 20px;
+  padding: 50px;
+}
+.userProfileDetail {
+  margin-bottom: 50px;
+  width: 30%;
+  display: flex;
+  .title {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

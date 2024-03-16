@@ -1,0 +1,37 @@
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+
+export enum PolicyType {
+    WRITE_CARD = 'WriteCard',
+    READ_CARD = 'ReadCard',
+    DELETE_CARD = 'DeleteCard',
+    WRITE_PUBLIC_CARD = 'WritePublicCard',
+    WRITE_CUSTOM_MESSAGE = 'WriteCustomMessage',
+    READ_CUSTOM_MESSAGE = 'ReadCustomMessage',
+    DELETE_CUSTOM_MESSAGE = 'DeleteCustomMessage',
+    READ_GROUP = 'ReadGroup',
+    WRITE_GROUP = 'WriteGroup',
+    DELETE_GROUP = 'DeleteGroup',
+    READ_LESSON = 'ReadLesson',
+    WRITE_LESSON = 'WriteLesson',
+    DELETE_LESSON = 'DeleteLesson',
+    READ_PUSH_NOTIFICATION = 'ReadPushNotification',
+    WRITE_PUSH_NOTIFICATION = 'WritePushNotification',
+    DELETE_PUSH_NOTIFICATION = 'DeletePushNotification',
+    READ_APP_ROUTE = 'ReadAppRoute',
+    WRITE_APP_ROUTE = 'WriteAppRoute',
+    DELETE_APP_ROUTE = 'DeleteAppRoute',
+    READ_APP_SETTING = 'ReadAppSetting',
+    WRITE_APP_SETTING = 'WriteAppSetting',
+    DELETE_APP_SETTING = 'DeleteAppSetting',
+    READ_SUPPORT_NUMBER = 'ReadSupportNumber',
+    WRITE_SUPPORT_NUMBER = 'WriteSupportNumber',
+    DELETE_SUPPORT_NUMBER = 'DeleteSupportNumber',
+    READ_USER_DEVICE = 'ReadUserDevice',
+    WRITE_USER_DEVICE = 'WriteUserDevice',
+    DELETE_USER_DEVICE = 'DeleteUserDevice',
+    WRITE_BASE_ROLE = 'WriteBaseRole',
+    READ_BASE_ROLE = 'ReadBaseRole',
+    READ_POLICIES = 'ReadPolicies',
+}

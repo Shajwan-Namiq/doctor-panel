@@ -1,0 +1,61 @@
+.sidebarFooterContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userContainer {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-around;
+  cursor: pointer;
+  i {
+    margin: 0 10px;
+  }
+}
+.p-avatar {
+  // height: 50px !important;
+  // width: 50px !important;
+}
+.userInfo {
+  display: flex;
+  align-items: inherit;
+}
+.userDetail {
+  // margin-left: 10px;
+  .userName {
+    font-size: 16px;
+  }
+  .userRole {
+    text-align: center;
+    font-size: 10px;
+    // color: var(--text-color-kubak);
+  }
+}
+.userActions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding: 0 10px;
+  .userActionItem {
+    display: flex;
+    width: 90%;
+    height: 35px;
+    align-items: center;
+    p {
+      font-size: 16px;
+    }
+    .itemIcon {
+      font-size: 14px;
+    }
+  }
+}
+.userActionItem:hover {
+  background-color: var(--default-color-hover-kubak);
+  border-radius: 4px;
+  cursor: pointer;
+}

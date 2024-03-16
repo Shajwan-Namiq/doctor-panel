@@ -1,0 +1,1389 @@
+openapi: 3.0.1
+info:
+  title: KubakWallet
+  version: '1.0'
+paths:
+  /admin/api/v1/AdminTransaction:
+    get:
+      tags:
+        - AdminTransaction
+      operationId: GetAdminTransactions
+      parameters:
+        - name: page
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: limit
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: sortField
+          in: query
+          style: form
+          schema:
+            type: string
+        - name: sortDescending
+          in: query
+          style: form
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AdminWalletTransactionDtoPaginatedResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+    post:
+      tags:
+        - AdminTransaction
+      operationId: UpdateAdminBalance
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AdminBalanceRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+  /admin/api/v1/BalanceCard:
+    get:
+      tags:
+        - BalanceCard
+      operationId: GetAllCard
+      parameters:
+        - name: page
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: limit
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: sortField
+          in: query
+          style: form
+          schema:
+            type: string
+        - name: sortDescending
+          in: query
+          style: form
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BalanceCardDtoPaginatedResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+    post:
+      tags:
+        - BalanceCard
+      operationId: PostCards
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                cardTypeId:
+                  type: integer
+                  format: int32
+                file:
+                  type: string
+                  format: binary
+            encoding:
+              cardTypeId:
+                style: form
+              file:
+                style: form
+          application/json:
+            schema:
+              type: object
+              properties:
+                cardTypeId:
+                  type: integer
+                  format: int32
+                file:
+                  type: string
+                  format: binary
+            encoding:
+              cardTypeId:
+                style: form
+              file:
+                style: form
+      responses:
+        '201':
+          description: Created
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+  /admin/api/v1/BalanceCard/{id}:
+    get:
+      tags:
+        - BalanceCard
+      operationId: GetPlayStationCard
+      parameters:
+        - name: id
+          in: path
+          required: true
+          style: simple
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BalanceCardDto'
+    delete:
+      tags:
+        - BalanceCard
+      operationId: DeleteCard
+      parameters:
+        - name: id
+          in: path
+          required: true
+          style: simple
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '204':
+          description: No Content
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+      security:
+        - Authorization: []
+  /admin/api/v1/CardProvider:
+    get:
+      tags:
+        - CardProvider
+      operationId: GetCardProviders
+      parameters:
+        - name: page
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: limit
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: sortField
+          in: query
+          style: form
+          schema:
+            type: string
+        - name: sortDescending
+          in: query
+          style: form
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CardProviderDtoPaginatedResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+    post:
+      tags:
+        - CardProvider
+      operationId: PostCardProvider
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                file:
+                  type: string
+                  format: binary
+            encoding:
+              name:
+                style: form
+              file:
+                style: form
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                file:
+                  type: string
+                  format: binary
+            encoding:
+              name:
+                style: form
+              file:
+                style: form
+      responses:
+        '201':
+          description: Created
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+  /admin/api/v1/CardProvider/{id}:
+    get:
+      tags:
+        - CardProvider
+      operationId: GetCardProvider
+      parameters:
+        - name: id
+          in: path
+          required: true
+          style: simple
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CardProviderDto'
+    delete:
+      tags:
+        - CardProvider
+      operationId: DeleteCard
+      parameters:
+        - name: id
+          in: path
+          required: true
+          style: simple
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '204':
+          description: No Content
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+      security:
+        - Authorization: []
+  /admin/api/v1/CardType:
+    get:
+      tags:
+        - CardType
+      operationId: GetCardTypes
+      parameters:
+        - name: page
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: limit
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: sortField
+          in: query
+          style: form
+          schema:
+            type: string
+        - name: sortDescending
+          in: query
+          style: form
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CardTypeDtoPaginatedResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+    post:
+      tags:
+        - CardType
+      operationId: PostCardType
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                price:
+                  type: number
+                  format: double
+                name:
+                  type: string
+                file:
+                  type: string
+                  format: binary
+                cardProviderId:
+                  type: integer
+                  format: int32
+            encoding:
+              price:
+                style: form
+              name:
+                style: form
+              file:
+                style: form
+              cardProviderId:
+                style: form
+          application/json:
+            schema:
+              type: object
+              properties:
+                price:
+                  type: number
+                  format: double
+                name:
+                  type: string
+                file:
+                  type: string
+                  format: binary
+                cardProviderId:
+                  type: integer
+                  format: int32
+            encoding:
+              price:
+                style: form
+              name:
+                style: form
+              file:
+                style: form
+              cardProviderId:
+                style: form
+      responses:
+        '201':
+          description: Created
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+  /admin/api/v1/CardType/{id}:
+    get:
+      tags:
+        - CardType
+      operationId: GetCardType
+      parameters:
+        - name: id
+          in: path
+          required: true
+          style: simple
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CardTypeDto'
+    delete:
+      tags:
+        - CardType
+      operationId: DeleteCard
+      parameters:
+        - name: id
+          in: path
+          required: true
+          style: simple
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '204':
+          description: No Content
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+      security:
+        - Authorization: []
+  /admin/api/v1/Transaction:
+    get:
+      tags:
+        - Transaction
+      operationId: GetTransactionsAdmin
+      parameters:
+        - name: page
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: limit
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: sortField
+          in: query
+          style: form
+          schema:
+            type: string
+        - name: sortDescending
+          in: query
+          style: form
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WalletTransactionDtoPaginatedResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+  /admin/api/v1/Transaction/{id}:
+    get:
+      tags:
+        - Transaction
+      operationId: GetAdminTransaction
+      parameters:
+        - name: id
+          in: path
+          required: true
+          style: simple
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WalletTransactionDto'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+      security:
+        - Authorization: []
+  /admin/api/v1/Transaction/Deposit:
+    post:
+      tags:
+        - Transaction
+      operationId: DepositWallet
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendBalanceRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+  /api/v1/Transaction:
+    get:
+      tags:
+        - Transaction
+      operationId: GetClientTransactions
+      parameters:
+        - name: page
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: limit
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: sortField
+          in: query
+          style: form
+          schema:
+            type: string
+        - name: sortDescending
+          in: query
+          style: form
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/WalletTransactionDto'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+    post:
+      tags:
+        - Transaction
+      operationId: PostToWallet
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendBalanceRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/WalletTransactionDto'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+  /api/v1/Transaction/{id}:
+    get:
+      tags:
+        - Transaction
+      operationId: GetClientTransaction
+      parameters:
+        - name: id
+          in: path
+          required: true
+          style: simple
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WalletTransactionDto'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+      security:
+        - Authorization: []
+  /api/v1/Transaction/withdraw:
+    post:
+      tags:
+        - Transaction
+      operationId: WithdrawWallet
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendBalanceRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/WalletTransactionDto'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+  /admin/api/v1/TransactionHistory:
+    get:
+      tags:
+        - TransactionHistory
+      operationId: GetAdminTransactionHistories
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/WalletTransactionHistoryDto'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+  /admin/api/v1/TransactionHistory/{id}:
+    get:
+      tags:
+        - TransactionHistory
+      operationId: GetAdminTransactionHistory
+      parameters:
+        - name: id
+          in: path
+          required: true
+          style: simple
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WalletTransactionHistoryDto'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+      security:
+        - Authorization: []
+  /admin/api/v1/Wallet:
+    get:
+      tags:
+        - Wallet
+      operationId: GetAdminWallets
+      parameters:
+        - name: phoneNumber
+          in: query
+          style: form
+          schema:
+            type: string
+        - name: roleId
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: page
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: limit
+          in: query
+          style: form
+          schema:
+            type: integer
+            format: int32
+        - name: sortField
+          in: query
+          style: form
+          schema:
+            type: string
+        - name: sortDescending
+          in: query
+          style: form
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WalletDtoPaginatedResponse'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+      security:
+        - Authorization: []
+  /admin/api/v1/Wallet/{id}:
+    get:
+      tags:
+        - Wallet
+      operationId: GetAdminWallet
+      parameters:
+        - name: id
+          in: path
+          required: true
+          style: simple
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WalletDto'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+      security:
+        - Authorization: []
+  /api/v1/Wallet:
+    get:
+      tags:
+        - Wallet
+      operationId: GetClientWallet
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WalletDto'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BasicResponse'
+      security:
+        - Authorization: []
+components:
+  schemas:
+    AdminBalanceRequest:
+      type: object
+      properties:
+        amount:
+          minimum: 0.01
+          type: number
+          format: double
+      additionalProperties: false
+    AdminWalletTransactionDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        amount:
+          type: number
+          format: double
+        date:
+          type: string
+          format: date-time
+        description:
+          type: string
+          nullable: true
+        adminWallet:
+          $ref: '#/components/schemas/WalletDto'
+        transactionType:
+          $ref: '#/components/schemas/TransactionTypeEnum'
+      additionalProperties: false
+    AdminWalletTransactionDtoPaginatedResponse:
+      type: object
+      properties:
+        remainingItems:
+          type: integer
+          format: int64
+          readOnly: true
+        count:
+          type: integer
+          format: int64
+        page:
+          type: integer
+          format: int32
+          readOnly: true
+        limit:
+          type: integer
+          format: int32
+          readOnly: true
+        metadata:
+          nullable: true
+          readOnly: true
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/AdminWalletTransactionDto'
+          nullable: true
+      additionalProperties: false
+    BalanceCardDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        price:
+          type: number
+          format: double
+        serialNumber:
+          type: string
+          nullable: true
+        pin:
+          type: string
+          nullable: true
+        currency:
+          $ref: '#/components/schemas/Currency'
+        cardType:
+          $ref: '#/components/schemas/CardType'
+      additionalProperties: false
+    BalanceCardDtoPaginatedResponse:
+      type: object
+      properties:
+        remainingItems:
+          type: integer
+          format: int64
+          readOnly: true
+        count:
+          type: integer
+          format: int64
+        page:
+          type: integer
+          format: int32
+          readOnly: true
+        limit:
+          type: integer
+          format: int32
+          readOnly: true
+        metadata:
+          nullable: true
+          readOnly: true
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/BalanceCardDto'
+          nullable: true
+      additionalProperties: false
+    BasicResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          nullable: true
+        statusCode:
+          type: integer
+          format: int32
+      additionalProperties: false
+    CardProvider:
+      type: object
+      properties:
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+        deletedAt:
+          type: string
+          format: date-time
+          nullable: true
+        id:
+          type: integer
+          format: int32
+        logoUrl:
+          type: string
+          nullable: true
+        name:
+          type: string
+          nullable: true
+      additionalProperties: false
+    CardProviderDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        logoUrl:
+          type: string
+          nullable: true
+        name:
+          type: string
+          nullable: true
+      additionalProperties: false
+    CardProviderDtoPaginatedResponse:
+      type: object
+      properties:
+        remainingItems:
+          type: integer
+          format: int64
+          readOnly: true
+        count:
+          type: integer
+          format: int64
+        page:
+          type: integer
+          format: int32
+          readOnly: true
+        limit:
+          type: integer
+          format: int32
+          readOnly: true
+        metadata:
+          nullable: true
+          readOnly: true
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/CardProviderDto'
+          nullable: true
+      additionalProperties: false
+    CardType:
+      type: object
+      properties:
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+        deletedAt:
+          type: string
+          format: date-time
+          nullable: true
+        id:
+          type: integer
+          format: int32
+        price:
+          type: number
+          format: double
+        name:
+          type: string
+          nullable: true
+        imageUrl:
+          type: string
+          nullable: true
+        cardProvider:
+          $ref: '#/components/schemas/CardProvider'
+      additionalProperties: false
+    CardTypeDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        price:
+          type: number
+          format: double
+        name:
+          type: string
+          nullable: true
+        cardProvider:
+          $ref: '#/components/schemas/CardProviderDto'
+      additionalProperties: false
+    CardTypeDtoPaginatedResponse:
+      type: object
+      properties:
+        remainingItems:
+          type: integer
+          format: int64
+          readOnly: true
+        count:
+          type: integer
+          format: int64
+        page:
+          type: integer
+          format: int32
+          readOnly: true
+        limit:
+          type: integer
+          format: int32
+          readOnly: true
+        metadata:
+          nullable: true
+          readOnly: true
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/CardTypeDto'
+          nullable: true
+      additionalProperties: false
+    Currency:
+      enum:
+        - IQD
+        - USD
+      type: string
+    Gender:
+      enum:
+        - Male
+        - Female
+      type: string
+    Language:
+      enum:
+        - Ckb
+        - En
+        - Ar
+      type: string
+    LocationPoint:
+      type: object
+      properties:
+        longitude:
+          type: number
+          format: double
+        latitude:
+          type: number
+          format: double
+      additionalProperties: false
+    PolicyDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+          nullable: true
+        name:
+          type: string
+          nullable: true
+      additionalProperties: false
+    RegionDto:
+      type: object
+      properties:
+        name:
+          type: string
+          nullable: true
+        location:
+          $ref: '#/components/schemas/LocationPoint'
+        boundary:
+          type: array
+          items:
+            $ref: '#/components/schemas/LocationPoint'
+          nullable: true
+        regionLanguages:
+          type: array
+          items:
+            $ref: '#/components/schemas/RegionLanguageDto'
+          nullable: true
+        id:
+          type: integer
+          format: int32
+          nullable: true
+      additionalProperties: false
+    RegionLanguageDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+          nullable: true
+        name:
+          type: string
+          nullable: true
+        languageId:
+          type: integer
+          format: int32
+          nullable: true
+      additionalProperties: false
+    RoleDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+          nullable: true
+        name:
+          type: string
+          nullable: true
+        policies:
+          type: array
+          items:
+            $ref: '#/components/schemas/PolicyDto'
+          nullable: true
+      additionalProperties: false
+    SendBalanceRequest:
+      type: object
+      properties:
+        destinationUserPhoneNumber:
+          type: string
+          nullable: true
+        amount:
+          minimum: 0.01
+          type: number
+          format: double
+      additionalProperties: false
+    TransactionTypeEnum:
+      enum:
+        - Withdrawal
+        - Deposit
+        - WalletToWallet
+      type: string
+    UserDto:
+      type: object
+      properties:
+        uid:
+          type: string
+          nullable: true
+        displayName:
+          type: string
+          nullable: true
+        phoneNumber:
+          type: string
+          nullable: true
+        email:
+          type: string
+          nullable: true
+        photoUrl:
+          type: string
+          nullable: true
+        roles:
+          type: array
+          items:
+            $ref: '#/components/schemas/RoleDto'
+          nullable: true
+        region:
+          $ref: '#/components/schemas/RegionDto'
+        language:
+          $ref: '#/components/schemas/Language'
+        gender:
+          $ref: '#/components/schemas/Gender'
+        emailVerified:
+          type: boolean
+        disabled:
+          type: boolean
+      additionalProperties: false
+    WalletDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        balance:
+          type: number
+          format: double
+        currency:
+          $ref: '#/components/schemas/Currency'
+        user:
+          $ref: '#/components/schemas/UserDto'
+      additionalProperties: false
+    WalletDtoPaginatedResponse:
+      type: object
+      properties:
+        remainingItems:
+          type: integer
+          format: int64
+          readOnly: true
+        count:
+          type: integer
+          format: int64
+        page:
+          type: integer
+          format: int32
+          readOnly: true
+        limit:
+          type: integer
+          format: int32
+          readOnly: true
+        metadata:
+          nullable: true
+          readOnly: true
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/WalletDto'
+          nullable: true
+      additionalProperties: false
+    WalletTransactionDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        amount:
+          type: number
+          format: double
+        date:
+          type: string
+          format: date-time
+        description:
+          type: string
+          nullable: true
+        sourceWallet:
+          $ref: '#/components/schemas/WalletDto'
+        destinationWallet:
+          $ref: '#/components/schemas/WalletDto'
+      additionalProperties: false
+    WalletTransactionDtoPaginatedResponse:
+      type: object
+      properties:
+        remainingItems:
+          type: integer
+          format: int64
+          readOnly: true
+        count:
+          type: integer
+          format: int64
+        page:
+          type: integer
+          format: int32
+          readOnly: true
+        limit:
+          type: integer
+          format: int32
+          readOnly: true
+        metadata:
+          nullable: true
+          readOnly: true
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/WalletTransactionDto'
+          nullable: true
+      additionalProperties: false
+    WalletTransactionHistoryDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        amount:
+          type: number
+          format: double
+        date:
+          type: string
+          format: date-time
+        wallet:
+          $ref: '#/components/schemas/WalletDto'
+        walletTransaction:
+          $ref: '#/components/schemas/WalletTransactionDto'
+        transactionType:
+          $ref: '#/components/schemas/TransactionTypeEnum'
+      additionalProperties: false
+  securitySchemes:
+    Authorization:
+      type: apiKey
+      description: Access Token
+      name: Authorization
+      in: header

@@ -1,0 +1,81 @@
+// @import "./directions/ltr.scss";
+// @import "./directions/rtl.scss";
+
+.p-filled {
+  background-color: #402d2d;
+}
+.loginPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  height: 500px;
+  width: 100%;
+  .p-dropdown {
+    background-color: transparent !important;
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.loginCard {
+  height: 300px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  .loginHeading {
+    color: #56bdff;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+}
+.formControl {
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: baseline;
+}
+.p-inputtext {
+  height: 50px;
+}
+.submitButton {
+  display: flex;
+
+  align-items: center;
+  Button {
+    width: 100%;
+  }
+  p {
+    font-size: 16px;
+    color: var(--text-color-kubak);
+    display: flex;
+    flex-direction: row;
+  }
+}
+.loginBy {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    color: var(--text-color-kubak);
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .formControl {
+    width: 400px;
+  }
+  .loginCard {
+    .loginHeading {
+      font-size: 30px;
+    }
+  }
+}

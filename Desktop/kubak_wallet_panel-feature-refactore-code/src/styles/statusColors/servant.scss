@@ -1,0 +1,39 @@
+:root {
+  --online-servant: #1cbfad;
+  --offline-servant: #353535;
+  --block-servant: #ff645d;
+  --inRide-servant: rgb(172, 16, 199);
+  --passive-servant: #9e9e9e;
+}
+.servant {
+  height: 34px;
+  width: 115px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &.Online {
+    background-color: var(--online-servant);
+    color: white;
+  }
+  &.Active {
+    background-color: var(--online-servant);
+    color: white;
+  }
+  &.Block {
+    background-color: var(--block-servant);
+    color: white;
+  }
+  &.Offline {
+    background-color: var(--offline-servant);
+    color: white;
+  }
+  &.InTrip {
+    background-color: var(--inRide-servant);
+    color: white;
+  }
+  &.Passive {
+    background-color: var(--passive-servant-servant);
+    color: white;
+  }
+}

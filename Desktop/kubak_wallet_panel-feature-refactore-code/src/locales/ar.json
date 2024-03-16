@@ -1,0 +1,1362 @@
+{
+  "error": {
+    "unKnown_error": "‌کێشەیەکی نەزانراو ڕویدا",
+    "title": "هەڵە",
+    "otp_incorrect": "ئەو کۆدەی داخڵت کردوە هەڵەیە",
+    "otp_expired": "ئەو کۆدە بەسەرچووە",
+    "too_many_requests": " زۆرتر لە چەند کۆدێکت داخڵت کردوە، تکایە دواتر هەوڵبدەرەوە",
+    "invalid_phoneNumber": "ژمارەی مۆبایل هەڵەیە"
+  },
+  "auth": {
+    "area": {
+      "code": "كود",
+      "countries": "الدول",
+      "country": "البلد",
+      "countryCode": "كود البلد",
+      "countryName": "اسم البلد",
+      "region": "المنطقة",
+      "roles": "الأدوار",
+      "regionInfo": {
+        "centerPointTitle": "إضافة نقطة المركز",
+        "location": "المركز",
+        "name": "اسم المنطقة",
+        "regionLanguages": "أسماء المناطق تعتمد على اللغات"
+      },
+      "regions": "المناطق",
+      "senderRegions": "مناطق المرسل",
+      "receiverRegions": "مناطق المستقبل",
+      "title": "العنوان"
+    },
+    "language": {
+      "languageTitle": "اللغة",
+      "languages": "اللغات",
+      "locale": "الموقع",
+      "title": "العنوان",
+      "En": "الإنجليزية",
+      "Ckb": "الكردية",
+      "Ar": "العربية"
+    },
+    "otp": {
+      "codeExpirationTimeInMinutes": "وقت انتهاء الكود / دقيقة",
+      "codeInvalidationTimeInMinutes": "وقت بطلان الكود / دقيقة",
+      "maxNumberOfAttempts": "الحد الأقصى لعدد المحاولات",
+      "maxNumberOfAttemptsDurationInMinutes": "الحد الأقصى لعدد المحاولات / دقيقة",
+      "codeMessage": {
+        "title": "أضف رسالة كود لكل لغة",
+        "placeholder": "أضف رسالة لـ{language}، يجب أن تحتوي الرسالة على {0}"
+      },
+      "server": {
+        "provider": "مزود",
+        "isEnabled": {
+          "true": "تفعيل",
+          "false": "تعطيل",
+          "title": "الحالة النشطة"
+        },
+        "successMessagesCount": "إجمالي الرسائل الناجحة",
+        "failedMessagesCount": "إجمالي الرسائل الفاشلة"
+      },
+      "requests": {
+        "code": "كود",
+        "codeMessage": "رسالة الكود",
+        "status": "الحالة",
+        "validUntil": "صالح حتى",
+        "invalidUntil": "غير صالح حتى",
+        "isSuccessful": {
+          "title": "Is SuccessFull",
+          "true": "ناجح",
+          "false": "غير ناجح"
+        }
+      }
+    },
+    "user": {
+      "userDetail": "تفاصيل المستخدم",
+      "userTask": "مهمة المستخدم",
+      "requestListUser": "قائمة طلبات المستخدمين",
+      "userDevices": "أجهزة المستخدم",
+      "userBlockList": "قائمة حظر المستخدم",
+      "rawPrice": "السعر الأساسي",
+      "userPrice": "سعر المستخدم",
+      "sourceLocationName": "اسم موقع المصدر",
+      "type": "النوع",
+      "statusEnum": "الحالة",
+      "createdAt": "تم الإنشاء في",
+      "requestsListUser": "قائمة طلبات المستخدمين",
+       "blockUser" : "مستخدم محضور"
+    }
+  },
+  "authPage": {
+    "login": {
+      "email": "عنوان البريد الإلكتروني",
+      "emailInputPlaceholder": "البريد الإلكتروني",
+      "forgotPassword": "هل نسيت كلمة المرور؟",
+      "forgotPasswordHeader": "أدخل عنوان بريدك الإلكتروني",
+      "loginBy": "تسجيل الدخول باستخدام {field}",
+      "pageTitle": "تسجيل الدخول",
+      "passwordInputPlaceholder": "كلمة المرور",
+      "phone": "رقم الهاتف",
+      "submitButton": "إرسال"
+    }
+  },
+  "buttons": {
+  "add": "إضافة",
+  "cancel": "إلغاء",
+  "edit": "تعديل",
+  "filter": "تصفية",
+  "search": "بحث",
+  "submit": "تقديم",
+  "add_field": "إضافة {field}",
+  "end_task": "إنهاء المهمة",
+  "block": "حظر {field}",
+  "unblock": "رفع الحظر",
+  "send_request": "إرسال طلب",
+  "clear": "مسح",
+  "send_balance": "إرسال الرصيد",
+  "addNewLanguage": "إضافة لغة جديدة",
+  "export": "تصدير",
+  "print": "طباعة",
+  "resend": "إعادة الإرسال",
+  "update": "تحديث",
+  "update_balance": "تحديث الرصيد",
+  "send": "إرسال",
+  "enable": "تمكين"
+  },
+  "city": {
+    "card": "بطاقة",
+    "cardData": {
+        "expireAt": "تاريخ الانتهاء",
+        "preview": "معاينة",
+        "public": {
+            "false": "خاص",
+            "placeholder": "حالة البطاقة",
+            "true": "عام"
+        },
+        "receivers": {
+            "false": "لجميع المستخدمين",
+            "placeholder": "المستقبل",
+            "true": "للخدم فقط"
+        },
+        "title": "عنوان البطاقة",
+        "type": {
+            "Banner": "بانر",
+            "Discount": "خصم",
+            "Modules": "وحدات",
+            "SwipeAble": "قابل للسحب",
+            "placeholder": "نوع الرابط"
+        },
+        "uiVersion": "الإصدار",
+        "url": "رابط"
+    },
+    "cards": "بطاقات",
+    "image": "صورة",
+    "name": "الاسم",
+    "setting": {
+        "storeLink": "رابط المتجر",
+        "currentAppVersion": "الإصدار الحالي",
+        "minimumVersion": "الإصدار الأدنى",
+        "platform": "منصة",
+        "translationVersion": "إصدار الترجمة"
+    },
+    "status": "الحالة",
+    "type": "النوع",
+    "lesson": {
+        "name": "درس",
+        "title": "عنوان الدرس",
+        "description": "وصف الدرس",
+        "video_url": "رابط الفيديو"
+    },
+    "app_routes": {
+        "title": "مسار التطبيق",
+        "name": "الاسم",
+        "path": "المسار",
+        "parameters": "المعاملات",
+        "parameter_name": "اسم المعامل",
+        "parameter_value": "قيمة المعامل",
+        "parameter": "معامل",
+        "add_new_parameter": "إضافة معامل جديد"
+    },
+    "customMessage": {
+        "title": "رسالة مخصصة",
+        "isEnabled": {
+            "title": "حالة التفعيل",
+            "true": "مفعل",
+            "false": "غير مفعل"
+        },
+        "isBlocker": {
+            "title": "نوع الرسالة",
+            "true": "حاجز",
+            "false": "غير حاجز"
+        },
+        "disabled": {
+            "title": "المستخدمون المعطلون",
+            "true": "للمستخدمين المعطلين فقط",
+            "false": "للمستخدمين المفعلين فقط"
+        },
+        "showType": "نوع العرض",
+        "spot": "بقعة",
+        "buttons": {
+            "title": "أزرار",
+            "type": "نوع الزر",
+            "url": "رابط",
+            "translations": "نص الزر",
+            "add": "إضافة المزيد من الأزرار",
+            "color": "لون الزر"
+        }
+    }}, 
+  "dropdowns": {
+    "discountCode": {
+      "isActive": {
+        "false": "جميع الأكواد",
+        "placeholder": "حالة النشاط",
+        "true": "الأكواد النشطة فقط"
+      }
+    },
+    "gender": {
+      "Female": "أنثى",
+      "Male": "ذكر",
+      "placeholder": "الجنس"
+    },
+    "userType": {
+      "placeholder": "نوع المستخدم",
+      "App": "تطبيق",
+      "Panel": "لوحة التحكم"
+    },
+    "languages": {
+      "2": "كردي",
+      "3": "عربي",
+      "4": "إنجليزي",
+      "placeholder": "اللغة"
+    },
+    "requestStatuses": {
+      "Accepted": "مقبول",
+      "Cancel": "إلغاء",
+      "CanceledAtWaiting": "أُلغي بعد الانتظار",
+      "Completed": "مكتمل",
+      "Placeholder": "حالات الطلب",
+      "Timeout": "انتهاء الوقت",
+      "Waiting": "في انتظار",
+      "RequestCanceled": "تم إلغاء الطلب",
+      "CanceledAfterStart": "أُلغي بعد البدء",
+      "CanceledAfterArrive": "أُلغي بعد الوصول",
+      "CanceledAfterReserve": "أُلغي بعد الحجز"
+    },
+    "searchField": {
+      "Id": "الهوية",
+      "PlateNumber": "رقم اللوحة",
+      "Title": "العنوان",
+      "Vin": "الرقم التسلسلي للمركبة",
+      "code": "الرمز",
+      "codeTitle": "عنوان الرمز",
+      "id": "الهوية",
+      "name": "الاسم",
+      "NationalId": "الرقم الوطني",
+      "PhoneNumber": "رقم الهاتف",
+      "NameField": "الاسم",
+      "placeholder": "البحث بواسطة ",
+      "ServantName": "اسم الخادم",
+      "ServantPhoneNumbers": "رقم هاتف الخادم",
+      "ServantId": "هوية الخادم"
+    },
+    "servantStatuses": {
+      "Block": "حظر",
+      "DisconnectInTrip": "انقطاع الاتصال أثناء الرحلة",
+      "InRide": "أثناء الرحلة",
+      "InTrip": "في رحلة",
+      "Offline": "غير متصل",
+      "Online": "متصل",
+      "Passive": "سلبي",
+      "placeholder": "حالة الخادم"
+    },
+    "tasks": {
+      "taskStatus": {
+        "Accept": "قبول",
+        "Arrive": "وصول",
+        "CanceledAfterArrive": "أُلغي بعد الوصول",
+        "CanceledAfterReserve": "أُلغي بعد الحجز",
+        "CanceledAfterStart": "أُلغي بعد البدء",
+        "Continue": "متابعة",
+        "End": "نهاية",
+        "EndDestination": "نهاية الوجهة",
+        "Reserve": "حجز",
+        "Start": "بدء",
+        "Stop": "توقف",
+        "negatives": "مُلغى",
+        "placeholder": "حالة المهمة",
+        "MinTask": "الحد الأدنى للمهمة",
+        "MaxTask": "الحد الأقصى للمهمة"
+      }
+    },
+    "selected_field": "{field} مختار"
+  },
+  "fields": {
+  "translation": "ترجمة",
+  "email": "بريد إلكتروني",
+  "expireAt": "تاريخ الانتهاء",
+  "gender": "الجنسين",
+  "groups": "المجموعات",
+  "group": "مجموعة",
+  "languages": "اللغات",
+  "language": "لغة",
+  "password": "كلمة المرور",
+  "phoneNumber": "رقم الهاتف",
+  "plateNumber": "رقم اللوحة",
+  "regions": "المنطقة",
+  "search": "بحث",
+  "startAt": "تاريخ البدء",
+  "supportNumber": "رقم الدعم",
+  "title": "العنوان",
+  "vin": "الرقم التسلسلي للمركبة",
+  "vehicle": "مركبة",
+  "service_type": "نوع الخدمة",
+  "image": "صورة",
+  "service": "خدمة",
+  "night_period": "فترة الليل",
+  "active": {
+    "false": "غير نشط",
+    "isActive": "حالة النشاط",
+    "true": "نشط"
+  },
+  "discount": "خصم",
+  "commission": "عمولة",
+  "setting": "إعداد",
+  "card": "بطاقة",
+  "servant": "خادم",
+  "profile": "الملف الشخصي",
+  "notification": "إشعار",
+  "user": "مستخدم",
+  "block": "حظر",
+  "searchFields": {
+    "NameField": "الاسم",
+    "PhoneNumber": "رقم الهاتف",
+    "Email": "البريد الإلكتروني",
+    "Id": "الهوية",
+    "NationalId": "الهوية الوطنية",
+    "IdField": "حقل الهوية"
+  },
+  "region": "المنطقة",
+  "role": "الدور",
+  "discountCode": "رمز الخصم",
+  "origin": "الأصل",
+  "createdAt": "تاريخ الإنشاء"
+   },
+  "gender": {
+    "1": "نێر",
+    "2": "مێ",
+    "female": "أنثى",
+    "male": "ذكر"
+  },
+  "notification": {
+  "createAt": "تاريخ الإنشاء",
+  "description": "الوصف",
+  "expirationDate": "تاريخ الانتهاء",
+  "link": "الرابط",
+  "title": "العنوان",
+  "types": "أنواع الإشعارات",
+  "subTitle": "العنوان الفرعي",
+  "buttonTitle": "عنوان الزر",
+  "addMessage": "إضافة رسالة",
+  "dialogTitle": "تحميل صورة"
+   },
+   "reusables": {
+  "searchBy": "البحث عن طريق {field}",
+  "searchForUser": "ابحث عن مستخدم",
+  "confirmation": {
+    "header": "تأكيد",
+    "no": "لا",
+    "yes": "نعم"
+  },
+  "createPageDesc": "في هذه الصفحة يمكنك إنشاء {page}",
+  "createPageHeader": "إنشاء {page}",
+  "detailPageDesc": "في هذه الصفحة يمكنك الحصول على تفاصيل {page} وتعديله",
+  "detailPageHeader": "تفاصيل {page}",
+  "dialog": {
+    "add": "إضافة {field} جديد",
+    "addInputs": {
+      "storeLink": "رابط المتجر",
+      "city": "مدينة",
+      "code": "كود",
+      "country": "بلد",
+      "currency": "عملة",
+      "currentVersion": "النسخة الحالية",
+      "languageId": "اللغة",
+      "locale": "موقع",
+      "minimumVersionToSoftUpdate": "الحد الأدنى للنسخة للتحديث",
+      "name": "اسم",
+      "number": "رقم الهاتف",
+      "platform": "منصة",
+      "regionId": "المنطقة",
+      "title": "عنوان",
+      "translationVersion": "نسخة الترجمة"
+    },
+    "edit": "تعديل {field}",
+    "fields": {
+      "gender": "جنس",
+      "language": "لغة",
+      "policy": "سياسة",
+      "region": "منطقة",
+      "role": "دور",
+      "supportNumber": "رقم الدعم",
+      "user": "مستخدم",
+      "vehicle": "مركبة",
+      "image": "صورة"
+    }
+  },
+  "emptyRecordDesc": "يمكنك تغيير الفلتر الخاص بك للحصول على مزيد من البيانات أو إضافة بيانات للحقول",
+  "emptyRecordHeader": "لم يتم العثور على سجلات",
+  "listPageDesc": "تظهر هذه الصفحة قائمة {page} مع فلاتر مختلفة",
+  "listPageHeader": "قائمة {page}"
+  },
+  "roles": {
+    "raterRole": "دور المقيّم",
+    "ratedRole": "الدور المقيّم",
+    "addPolicyHeader": "إضافة سياسة إلى الدور",
+    "addRoleHeader": "إضافة دور جديد",
+    "confirmDeleteRole": "هل أنت متأكد أنك تريد حذف هذا الدور؟",
+    "name": "اسم الدور",
+    "policyName": "اسم السياسة",
+    "policyPlaceHolder": "السياسة",
+    "role": "الدور",
+    "roleHeader": "قائمة الأدوار",
+    "subTableHeader": "قائمة سياسات {role}",
+    "tableFooter": "في المجموع هناك {total} دور",
+    "tooltips": {
+      "addPolicy": "إضافة سياسة",
+      "addRole": "إضافة دور",
+      "cancel": "إلغاء",
+      "deletePolicy": "حذف السياسة",
+      "deleteRole": "حذف الدور",
+      "editRole": "تعديل الدور"
+    }
+  },
+  "routes": {
+    "CityCardDetail": "تفاصيل البطاقة",
+    "CityCards": "البطاقات",
+    "CityCreateCard": "إنشاء بطاقة",
+    "CityCustomMessages": "الرسائل",
+    "CityListCards": "قائمة البطاقات",
+    "User": "المستخدم",
+    "accounts": "الحسابات",
+    "adminTransactionList": "المعاملات الإدارية",
+    "balanceCardList": "قائمة بطاقات الرصيد",
+    "basicInformation": "قاعدة البيانات",
+    "cancelReason": "سبب الإلغاء",
+    "canceledTasks": "المهام الملغاة",
+    "cardTypeList": "أنواع البطاقات",
+    "cards": "البطاقات",
+    "cityListNotification": "قائمة الإشعارات",
+    "cityListSetting": "قائمة الإعدادات",
+    "cityNotification": "الإشعارات",
+    "citySendNotification": "إرسال إشعار",
+    "country": "الدولة",
+    "createActiveService": "إنشاء خدمة نشطة",
+    "createServant": "إنشاء خادم",
+    "createVehicle": "إنشاء مركبة",
+    "createVehicleServant": "إنشاء مركبة",
+    "detailServant": "تفاصيل الخادم",
+    "detailService": "تفاصيل الخدمة",
+    "detailTask": "تفاصيل المهمة",
+    "group": "المجموعة",
+    "home": "الرئيسية",
+    "hourlyReport": "تقرير ساعي",
+    "listServant": "قائمة الخدم",
+    "listService": "قائمة الخدمات",
+    "listServiceBaseType": "نوع الخدمة",
+    "listTasks": "قائمة المهام",
+    "listVehicle": "قائمة المركبات",
+    "notFound": "غير موجود",
+    "onlineCards": "البطاقات الإلكترونية",
+    "passenger": "الراكب",
+    "passengerDetail": "تفاصيل الراكب",
+    "passengerProfile": "ملف الراكب",
+    "passengerTasks": "مهام الراكب",
+    "providerList": "قائمة المزودين",
+    "regions": "المناطق",
+    "report": "التقارير",
+    "requestsDetail": "تفاصيل الطلبات",
+    "requestsList": "قائمة الطلبات",
+    "roles": "الأدوار",
+    "servant": "الخادم",
+    "servantHourlyReport": "تقرير ساعي الخادم",
+    "servantOnlineHistory": "سجل الخادم الإلكتروني",
+    "servantReport": "تقرير الخادم",
+    "servantRanking": "تصنيف الخدم",
+    "services": "الخدمات",
+    "support": "الدعم",
+    "supportList": "قائمة المحفظة الداعمة",
+    "supportNumber": "رقم الدعم",
+    "task": "المهمة",
+    "transactionList": "قائمة المعاملات",
+    "transportation": "النقل",
+    "transportationCreateDiscountCode": "إنشاء رمز خصم",
+    "transportationDetailDiscountCode": "تفاصيل رمز الخصم",
+    "transportationUsageDiscountCode": "استخدامات رمز",
+     "transportationMonitoring": "الرصد المروري",
+    "transportationRequestList": "قائمة طلبات النقل",
+    "user": "المستخدم",
+    "userDetail": "تفاصيل المستخدم",
+    "userExist": "المستخدم موجود",
+    "userList": "قائمة المستخدمين",
+    "userProfile": "الملف الشخصي للمستخدم",
+    "vehicle": "المركبة",
+    "vehicleDetail": "تفاصيل المركبة",
+    "wallet": "المحفظة",
+    "walletList": "قائمة المحافظ",
+    "translation": "الترجمة",
+    "transportationTranslation": "ترجمة النقل",
+    "walletTranslation": "ترجمة المحفظة",
+    "blockList": "قائمة الحظر",
+    "block": "حظر",
+    "transportationMapMatching": "مطابقة خريطة النقل",
+    "transportationCreateRequest": "إنشاء طلب نقل",
+    "lesson": "الدرس",
+    "taskRatingAspect": "جانب تقييم المهمة",
+    "userCreate": "إنشاء مستخدم",
+    "reportProblemsList": "قائمة الإبلاغ عن المشاكل",
+    "reportActionList": "قائمة الإجراءات التقريرية",
+    "taskReportList": "قائمة تقارير المهمة",
+    "taskCancelationPenalize": "عقوبة إلغاء المهمة",
+    "taskCancelationPolicy": "سياسة إلغاء المهمة",
+    "chartDailyReports": "تقارير يومية",
+    "appRoutesList": "قائمة مسارات التطبيق",
+    "settings": "الإعدادات",
+    "cityListOtpConfiguration": "تهيئة OTP لقائمة المدن",
+    "CityCreateCustomMessages": "إنشاء رسائل مخصصة للمدينة",
+    "heatMap": "خريطة الحرارة",
+    "requestReport": "تقرير الطلب",
+    "serviceAppConfiguration": "تهيئة تطبيق الخدمة",
+    "PassengerTasksReport": "تقرير مهام الركاب",
+    "OtpRequests": "طلبات OTP",
+    "deviceList": "قائمة الأجهزة"
+  },
+  "languages": {
+  "Ar": "العربية",
+  "En": "الإنجليزية",
+  "Ckb": "الكردية",
+  "placeholder": "أضف ترجمة للغة {language}"
+  },
+  "sidebarFooter": {
+    "actions": {
+      "logout": "تسجيل الخروج",
+      "profile": "الملف الشخصي",
+      "setting": "الإعدادات",
+      "resetPassword": "إعادة تعيين كلمة المرور"
+    },
+    "changePassword": {
+      "title": "تغيير كلمة المرور",
+      "oldPassword": "كلمة المرور القديمة",
+      "newPassword": "كلمة المرور الجديدة",
+      "successMessage": "تم تغيير كلمة المرور بنجاح"
+    },
+    "emptyName": "اسم المستخدم",
+    "emptyRole": "دور المستخدم" 
+  },
+  "statuses": {
+    "requestStatuses": {
+      "Accepted": "مقبولة",
+      "Completed": "مكتملة",
+      "RequestCanceled": "ملغية",
+      "Timeout": "انتهاء الوقت",
+      "Waiting": "في انتظار",
+      "Accept": "قبول",
+      "Arrive": "وصول",
+      "CanceledAfterArrive": "ملغية بعد الوصول",
+      "CanceledAfterReserve": "ملغية بعد الحجز",
+      "CanceledAfterStart": "ملغية بعد البدء",
+      "Continue": "استمرار",
+      "End": "نهاية",
+      "EndDestination": "نهاية الوجهة",
+      "Reserve": "حجز",
+      "Start": "بداية",
+      "Stop": "توقف",
+      "negatives": "ملغية",
+      "placeholder": "حالة المهمة"
+    },
+    "taskStatus": {
+      "Accepted": "مقبولة",
+      "Completed": "مكتملة",
+      "RequestCanceled": "ملغية",
+      "Timeout": "انتهاء الوقت",
+      "Waiting": "في انتظار",
+      "Accept": "قبول",
+      "Arrive": "وصول",
+      "CanceledAfterArrive": "ملغية بعد الوصول",
+      "CanceledAfterReserve": "ملغية بعد الحجز",
+      "CanceledAfterStart": "ملغية بعد البدء",
+      "Continue": "استمرار",
+      "End": "نهاية",
+      "EndDestination": "نهاية الوجهة",
+      "Reserve": "حجز",
+      "Start": "بداية",
+      "Stop": "توقف",
+      "negatives": "ملغية",
+      "placeholder": "حالة المهمة"
+    },
+    "servant": {
+      "Block": "حظر",
+      "InTrip": "في الرحلة",
+      "Offline": "غير متصل",
+      "Online": "متصل",
+      "Passive": "سلبي",
+      "DisconnectInTrip": "انقطاع التواصل",
+      "Placeholder": "حالة الخادم"
+    },
+    "canceledTaskStatus": {
+      "CanceledAfterReserve": "ملغية بعد الحجز"
+    }
+  },
+  "table": {
+  "deleteConfirmationMessage": "هل أنت متأكد من حذف {field}؟",
+  "header": "قائمة {field}",
+  "paginator": "عرض {first} إلى {last} من إجمالي {totalRecords} مُدخل",
+  "tableFooter": "في المجموع هناك {total} {field}"
+ },
+ "tooltips": {
+  "add": "أضف {field}",
+  "cancel": "إلغاء",
+  "delete": "احذف {field}",
+  "edit": "تحرير {field}",
+  "block": "حظر {field}",
+  "fields": {
+    "gender": "الجنس",
+    "languages": "اللغة",
+    "regions": "المناطق",
+    "supportnumber": "رقم الدعم",
+    "user": "المستخدم",
+    "vehicle": "المركبة"
+  },
+  "info": "معلومات {field}"
+},
+ "toasts": {
+    "added_success_header": "تمت الإضافة بنجاح",
+    "updated_success_header": "تم التحديث بنجاح",
+    "added_success_desc": "{field} تمت إضافته بنجاح",
+    "updated_success_desc": "{field} تم تحديثه بنجاح",
+    "block_header": "تم الحظر بنجاح",
+    "block_desc": "{field} تم حظره بنجاح",
+    "task_update_success": "تم تحديث المهمة بنجاح",
+    "delete_success_header": "تم الحذف بنجاح",
+    "delete_success_message": "صورة",
+    "delete_success_desc": "{field} تم حذفه بنجاح",
+    "request_create_header": "تم إنشاء الطلب بنجاح",
+    "request_create_desc": "تم إنشاء الطلب بنجاح ، في انتظار قبول السائق للطلب"
+  },
+  "transportation": {
+    "list": {
+     "ableToReviewTaskDurationInDays": "مراجعة مدة المهمة بالأيام",
+  "dynamicInTaskServantRouteUpdateRetrievalInSecond": "تحديث الديناميكي في مسار الخادم أثناء المهمة بالثواني",
+  "liveTaskStateUpdateRetrievalInSecond": "تحديث حالة المهمة المباشرة بالثواني",
+  "servantGettingCloseToClientNotifyRangeInMeter": "إشعار بقرب الخادم من العميل بالمتر",
+  "userRequestLimit": "حد الطلبات للمستخدم",
+  "userRequestLimitTimeToLiveInSecond": "مدة بقاء حد الطلب للمستخدم بالثواني",
+  "maxDistanceToArrive": "المسافة القصوى للوصول",
+  "distanceToUpdateServantDynamicRouteInMeter": "المسافة لتحديث المسار الديناميكي للخادم بالمتر",
+  "removeCanceledTaskAndRequestDelayInMinute": "تأخير إزالة المهمة والطلب الملغى بالدقائق",
+  "removeCompletedTaskAndRequestDelayInMinute": "تأخير إزالة المهمة والطلب المكتمل بالدقائق"
+    },
+     "heatMap": {
+    "title": "تكوين خريطة الحرارة",
+    "fromValue": "من القيمة / س",
+    "lengthInHour": "طول الساعة / س",
+    "type": "نوع خريطة الحرارة"
+    },
+     "serviceAppConfiguration": {
+     "title": "إعدادات تطبيق الخدمة",
+     "servantLocationUpdateInterval": "فاصل تحديث موقع السائق"
+    },
+    "common": {
+    "date": "التاريخ",
+    "endAt": "ينتهي في",
+    "endDate": "تاريخ الانتهاء",
+    "endTime": "وقت الانتهاء",
+    "excludeEndHour": "استثناء ساعة الانتهاء",
+    "excludeStartHour": "استثناء ساعة البدء",
+    "includeStartHour": "تضمين ساعة البدء",
+    "includeEndHour": "تضمين ساعة الانتهاء",
+    "minHour": "الحد الأدنى للساعة",
+    "startAt": "يبدأ في",
+    "startDate": "تاريخ البداية",
+    "startTime": "وقت البدء",
+    "total": "المجموع",
+    "iqd": "دينار عراقي",
+    "description": "الوصف",
+    "title": "العنوان",
+    "name": "الاسم",
+    "createServant": "تاريخ إنشاء الخادم",
+    "workdayEndsServant": "نهاية يوم عمل الخادم",
+    "appVersionFrom": "الإصدار من",
+    "appVersionTo": "الإصدار إلى",
+    "deviceName": "اسم الجهاز",
+    "platform": "المنصة",
+    "displayName": "اسم العرض",
+    "phoneNumber": "رقم الهاتف",
+    "blockedFromDate": "تاريخ الحظر من",
+  "blockedToDate": "تاريخ الحظر إلى",
+  "unblockedAtFromDate": "تاريخ رفع الحظر من",
+  "unblockedAtToDate": "تاريخ رفع الحظر إلى",
+  "blockedBy": "محظور بواسطة",
+  "listOfBlockUsers": "قائمة المستخدمين المحظورين",
+  "activeBlocks": "خيارات الحظر",
+  "blockedUsers": "المستخدمون المحظورون",
+  "blockedByUser": "محظور بواسطة المستخدم",
+  "blockedAt": "تاريخ الحظر",
+  "unblockedAt": "تاريخ رفع الحظر",
+  "sendDate": "تاريخ الإرسال",
+  "expirationDate": "تاريخ الانتهاء"
+    },
+    "taskCancellationPenalize": {
+    "penalizeType": "نوع العقوة",
+    "penalizeName": "اسم العقوة",
+    "value": "قيمة العقوة",
+    "policy": "سياسة الإلغاء",
+    "cancellerRole": "دور الشخص الغائر",
+    "measurementType": "نوع القياس",
+    "measurementValue": "قيمة القياس",
+    "penaltyType": {
+        "lowPenalty": "عقوة منخفضة",
+        "highPenalty": "عقوة عالية"
+    },
+    "measurementButtons": {
+        "addNew": "إضافة قياس جديد",
+        "addOne": "إضافة قياس واحد فقط"
+    }
+    },
+    "cancelReason": { 
+    "title": "سبب الإلغاء" 
+    },
+    "dashboard": {
+    "cards": {
+    "lastMonth": "الشهر الماضي",
+    "title": {
+      "requests": "إجمالي الطلبات",
+      "requestStates": "إجمالي الطلبات",
+      "servants": "إجمالي الخدم",
+      "successTasks": "إجمالي المهام الناجحة",
+      "completedTaskStates": "إجمالي المهام الناجحة",
+      "users": "إجمالي المستخدمين",
+      "canceledTasks": "إجمالي المهام الملغاة",
+      "canceledTaskStates": "إجمالي المهام الملغاة"
+    }
+  },
+  "chart": {
+    "city": "حسب المدينة",
+    "country": "حسب البلد",
+    "Daily": "يومياً",
+    "Monthly": "شهرياً",
+    "pieChartDesc": "معلومات المستخدمين النشطين في الشهر الماضي",
+    "platform": "حسب النظام",
+    "topPassengersTasks": "أعلى الركاب حسب المهام"
+  },
+  "table": {
+    "header": "قائمة {field}",
+    "lastServants": "آخر الخدم",
+    "lastServantsDesc": "في هذا الجدول يمكنك الحصول على آخر الخدم، لعرض جميع الخدم انقر على المزيد",
+    "seeMore": "عرض المزيد"
+  }
+    },
+   "reports": {
+  "reportProblemsTitle": "تقرير مشاكل المهمة",
+  "reportActionTitle": "تقرير إجراء المهمة",
+  "reportAction": {
+    "panelUserName": "اسم مستخدم اللوحة",
+    "panelUserPhoneNumber": "رقم هاتف مستخدم اللوحة",
+    "title": "نوع الإجراء",
+    "list": "قائمة تقرير الإجراء"
+  },
+  "taskReport": {
+    "title": "تقارير المهمة",
+    "reporterName": "اسم الشخص المبلغ",
+    "reporterPhoneNumber": "رقم هاتف الشخص المبلغ",
+    "problem": "مشكلة",
+    "comment": "تعليق",
+    "taskId": "معرف المهمة",
+    "taskRandomId": "معرف عشوائي للمهمة",
+    "clientName": "اسم العميل",
+    "clientPhoneNumber": "رقم هاتف العميل",
+    "servantId": "معرف الخادم",
+    "servantName": "اسم الخادم",
+    "servantNumber": "رقم هاتف الخادم",
+    "role": "الدور",
+    "addAction": "إضافة إجراء",
+    "reportClosed": "تم إغلاق هذا التقرير"
+  },
+  "isClosed": {
+    "true": "مغلق",
+    "false": "قيد الانتظار"
+  },
+  "isCloser": {
+    "title": "نوع الإجراء",
+    "true": "مغلق",
+    "false": "قيد الانتظار"
+  }
+    },
+    "discountCode": {
+  "active": "نشط",
+  "addStepsTitle": "خطوات",
+  "detail": {
+    "tabHeader": {
+      "detail": "تفاصيل رمز الخصم",
+      "users": "المستخدمون"
+    }
+  },
+  "usage": {
+    "userName": "اسم المستخدم",
+    "userPhoneNumber": "رقم الهاتف للمستخدم",
+    "usedCount": "عدد الاستخدامات",
+    "totalAmount": "المبلغ الإجمالي",
+    "discountName": "اسم الخصم",
+    "type": "النوع",
+    "amount": "المبلغ",
+    "searchBy": {
+      "Id": "معرف رمز الخصم",
+      "Code": "رمز الخصم"
+    },
+    "totalDiscountAmount": "المبلغ الإجمالي للخصم",
+    "discountType": "نوع الخصم",
+    "activeOnly": {
+      "placeholder": "حالة النشاط",
+      "true": "فقط الرموز النشطة",
+      "false": "كل الرموز"
+    },
+    "discountAmountLessThan": "الحد الأدنى للخصم",
+    "discountAmountGreaterThan": "الحد الأقصى للخصم"
+  },
+  "fields": {
+    "active": {
+      "false": "غير نشط",
+      "isActive": "حالة نشطة",
+      "true": "نشط"
+    },
+    "code": "رمز",
+    "hidden": "مخفي",
+    "isHidden": {
+      "false": "عام",
+      "isHidden": "نوع الخصم",
+      "true": "مخفي"
+    },
+    "disabled": {
+      "false": "تمكين",
+      "disabled": "حالة رمز الخصم",
+      "true": "تعطيل"
+    },
+    "status": "الحالة",
+    "steps": {
+      "max": "الحد الأقصى",
+      "repeat": "تكرار",
+      "step": "خطوة",
+      "value": "القيمة"
+    },
+    "type": {
+      "Percent": "نسبة",
+      "Value": "قيمة",
+      "placeHolder": "اختر نوع الرمز",
+      "type": "نوع الرمز"
+    },
+    "usageLimit": "حد الاستخدام",
+    "value": "القيمة"
+  },
+  "inActive": "غير نشط",
+  "statusConfirmationMessage": "هل أنت متأكد من أنك تريد تغيير الحالة؟",
+  "title": "رمز الخصم",
+  "users": {
+    "amount": "المبلغ الإجمالي",
+    "count": "العدد",
+    "mobile": "رقم الهاتف",
+    "name": "الاسم"
+  }
+    },
+    "hourlyReport": {
+      "fields": {
+      "Canceled tasks": "المهام الملغاة",
+      "Hour": "الساعة",
+      "No accept Requests": "لا توجد طلبات مقبولة",
+      "No servant requests": "لا توجد طلبات خادم",
+      "Online servants": "خدم الأونلاين",
+      "Requests": "الطلبات",
+      "Success tasks": "المهام الناجحة",
+      "Online hours": "ساعات الاتصال عبر الإنترنت",
+      "Total Requesters": "إجمالي الطالبين",
+      "Canceled requests": "الطلبات الملغاة",
+      "Total Requests": "إجمالي الطلبات",
+      "Timed Out Requests": "الطلبات المنتهية بالوقت",
+      "Single Destination Requests": "طلبات بوجهة واحدة",
+      "Multi Destination Requests": "طلبات بوجهات متعددة",
+      "With Destination Requests": "طلبات مع وجهة",
+      "Without Destination Requests": "طلبات بدون وجهة",
+      "Number Of Passengers": "عدد الركاب",
+      "Number Of Requesters": "عدد الطالبين"
+    },
+    "servantTitle": "تقارير الخدم الساعية",
+    "title": "تقارير المهام الساعية"
+    },
+    "monitoring": {
+  "accordionTitle": "عدد الخدم مع الإقليم",
+  "removeAskForHelp": "إزالة المساعدة",
+  "destinationLocationName": "اسم الوجهة",
+  "discountName": "اسم الخصم",
+  "discountedPrice": "سعر الخصم",
+  "paymentType": "نوع الدفع",
+  "rawPrice": "السعر الأصلي",
+  "sourceLocationName": "اسم المصدر",
+  "taskType": "نوع المهمة",
+  "tripStatus": "حالة الرحلة",
+  "taskDetail": {
+    "driver": "سائق",
+    "task": "مهمة",
+    "passenger": "راكب",
+    "manageTask": "إدارة المهمة"
+  }
+    },
+    "onlineHistory": {
+     "fields": {
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "onlineHours": "ساعات الاتصال عبر الإنترنت",
+    "servantId": "معرف الخادم",
+    "totalTimeSec": "الوقت الإجمالي بالثواني",
+    "calculateInTaskDuration": {
+      "placeholder": "حساب مدة المهمة",
+      "true": "تضمين مدة المهمة",
+      "false": "استبعاد مدة المهمة"
+    },
+    "inTaskDurationInHours": "مدة المهمة بالساعات",
+    "totalDurationInHours": "المدة الإجمالية بالساعات"
+  },
+  "title": "تاريخ الخادم عبر الإنترنت"
+    },  
+    "servantReport": {
+    "fields": {
+      "servantName": "اسم الخادم",
+      "numberOfTasks": "عدد المهام",
+      "totalRawPriceOfTasks": "إجمالي السعر الخام للمهام",
+      "totalCommissionOfTasks": "إجمالي العمولة للمهام",
+      "servantRating": "تقييم الخادم"
+    },
+    "title": "تقرير الخادم"
+    },
+    "passenger": {
+  "displayName": "اسم الراكب",
+  "email": "عنوان البريد الإلكتروني",
+  "gender": "الجنس",
+  "id": "معرف الراكب",
+  "language": "اللغة",
+  "name": "المدينة",
+  "passengerAddress": "عنوان الراكب",
+  "passengerId": "معرف الراكب",
+  "passengerMobile": "رقم هاتف الراكب",
+  "passengerName": "اسم الراكب",
+  "phoneNumber": "الهاتف المحمول للراكب",
+  "mobile": "الهاتف المحمول للراكب",
+  "profile": "الملف الشخصي"
+    },
+    "ranking": {
+    "rating": "تصنيف",
+    "successTasks": "مهام ناجحة",
+    "title": "تصنيف الخدم"
+    },
+    "requests": {
+  "discount": "خصم",
+  "discountCode": "كود الخصم",
+  "kubakPrice": "سعر كوباك",
+  "onlineServants": "خدمة عبر الإنترنت",
+  "passiveServants": "خدمة غير نشطة",
+  "rawPrice": "السعر الأصلي",
+  "requestsDetail": "تفاصيل الطلب",
+  "reserveDate": "تاريخ الحجز",
+  "reserveTime": "وقت الحجز",
+  "status": "الحالة",
+  "type": "نوع الرحلة",
+  "userPrice": "سعر المستخدم",
+  "name": "اسم المستخدم",
+  "displayName": "اسم الراكب",
+  "paymentType": "نوع الدفع",
+  "gotoDetailPage": "الانتقال إلى صفحة تفاصيل الراكب",
+  "phoneNumber": "رقم هاتف المستخدم",
+  "lastRequestAt": "آخر طلب في",
+  "acceptedRequestsCount": "عدد الطلبات المقبولة",
+  "cancelledRequestsCount": "عدد الطلبات الملغاة",
+  "timedOutRequestsCount": "عدد الطلبات المنتهية بالمهلة",
+  "allRequestsCount": "إجمالي عدد الطلبات",
+  "statusEnum": "الحالة",
+  "sourceLocationName": "اسم المصدر",
+  "createdAt": "تم الإنشاء في",
+  "WithDestination": "مع وجهة",
+  "WithOutDestination": "بدون وجهة",
+  "WithoutDestination": "بدون وجهة",
+  "SingleDestination": "وجهة واحدة",
+  "MultiDestination": "وجهات متعددة",
+  "destinationTypeTitle": "نوع الوجهة",
+  "totalRequests": "إجمالي الطلبات",
+  "totalUsers": "إجمالي المستخدمين",
+  "createRequest": {
+    "estimatedPrice": "السعر التقديري",
+    "discountedPrice": "سعر الخصم",
+    "discountedValue": "قيمة الخصم",
+    "loan": "قرض",
+    "errorEstimateCreation": "حدد المستخدم والخدمة لإضافة مصدر الطلب والوجهة"
+  }
+    },
+    "servant": {
+  "blocked": {
+    "title": "حالة الحظر للخادم",
+    "true": "محظور",
+    "false": "نشط"
+  },
+  "avatar": "الصورة الشخصية",
+  "createServant": {
+    "steps": {
+      "checkUser": {
+        "desc": "التحقق من وجود المستخدم",
+        "title": "وجود المستخدم"
+      },
+      "createServant": {
+        "certificates": "الشهادات",
+        "documents": "الوثائق الشخصية",
+        "title": "إنشاء خادم"
+      },
+      "createVehicle": {
+        "title": "إنشاء مركبة"
+      }
+    }
+  },
+  "detail": {
+    "address": "العنوان",
+    "bankId": "معرّف البنك",
+    "certificateId": "معرّف الشهادة",
+    "firstName": "الاسم الأول",
+    "lastName": "الاسم الأخير",
+    "mobile": "رقم الهاتف",
+    "nationalId": "الهوية الوطنية",
+    "servantCardDetail": {
+      "certificate": "الشهادة",
+      "certificateBack": "الجهة الخلفية للشهادة",
+      "nationalCard": "البطاقة الوطنية",
+      "nationalCardBack": "الجهة الخلفية للبطاقة الوطنية",
+      "title": "تفاصيل بطاقات الخادم"
+    },
+    "servantDetail": "تفاصيل الخادم",
+    "servantOnlinePeriod": "فترة الانترنت للخادم",
+    "servantPerformance": "أداء الخادم",
+    "status": "الحالة",
+    "tasks": "المهام"
+  },
+  "distance": "المسافة",
+  "firstName": "الاسم الأول للخادم",
+  "fullName": "اسم الخادم",
+  "id": "معرّف الخادم",
+  "lastName": "الاسم الأخير للخادم",
+  "mobile": "رقم هاتف الخادم",
+  "onlinePeriod": {
+    "onlineTime": "إجمالي وقت الانترنت",
+    "total": "الإجمالي",
+    "totalTimeSec": "إجمالي الوقت بالثواني"
+  },
+  "performance": {
+    "acceptedRequests": "الطلبات المقبولة",
+    "deliveredRequests": "الطلبات المسلمة",
+    "distanceOnTasks": "المسافة في المهام",
+    "durationOnTasks": "المدة في المهام",
+    "onlineDurations": "مدة الانترنت",
+    "rejectedRequests": "الطلبات المرفوضة",
+    "rejectedTasks": "المهام المرفوضة",
+    "successTasks": "المهام الناجحة"
+  },
+  "title": "الخادم",
+  "devices": {
+    "title": "أجهزة الخادم",
+    "deviceName": "اسم الجهاز",
+    "type": "النوع",
+    "primary": "أساسي",
+    "makePrimary": "اجعله أساسي"
+  }
+    },
+    "serviceType": {
+     "description": "Description",
+    "icon": "Icon",
+    "name": "service type",
+    "title": "Title"
+    },
+    "services": {
+   "city": "المدينة",
+   "icon": "أيقونة",
+   "name": "الاسم",
+   "detail": "تفاصيل الخدمة",
+   "commission": {
+      "defaultValue": "القيمة الافتراضية",
+      "dayOfWeeks": "يوم الأسبوع",
+      "value": "قيمة العمولة",
+      "commissionPeriod": "فترة العمولة",
+      "title": "العمولة"
+   },
+   "nightParameters": {
+      "periodEnd": "نهاية الليل الأساسية",
+      "periodStart": "بداية الليل الأساسية"
+   },
+   "priceParameter": {
+      "baseDistance": "المسافة الأساسية",
+      "baseNight": "الليل الأساسي",
+      "basePrice": "السعر الأساسي",
+      "baseStop": "التوقف الأساسي",
+      "baseStopTime": "زمن التوقف الأساسي",
+      "baseTime": "الزمن الأساسي",
+      "maxTip": "البقشيش الأقصى",
+      "minPrice": "السعر الأدنى",
+      "minTip": "البقشيش الأدنى",
+      "tip": "البقشيش",
+      "title": "معلمات السعر",
+      "tipPrice": "سعر البقشيش",
+      "perMeter": "لكل متر",
+      "perSecond": "لكل ثانية",
+      "withDestination": "مع الوجهة",
+      "withoutDestination": "بدون وجهة",
+      "pricePerEachStop": "السعر لكل توقف",
+      "priceRateDuringStopTime": "معدل السعر أثناء وقت التوقف",
+      "NotifyServant": {
+         "title": "تفضيلات إشعار الخادم",
+         "firstDuration": "المدة الأولى",
+         "gapDuration": "فترة الفجوة",
+         "gapDistance": "مسافة الفجوة",
+         "maxDistance": "أقصى مسافة",
+         "requestTtl": "مهلة الطلب",
+         "maxNewRequestAlertAllowedDistance": "أقصى مسافة مسموح بها للتنبيه بالطلب الجديد",
+         "minNewRequestAlertAllowedDistance": "أدنى مسافة مسموح بها للتنبيه بالطلب الجديد",
+         "defaultNewRequestAlertDistance": "المسافة الافتراضية للتنبيه بالطلب الجديد"
+      }
+   },
+   "discount": {
+      "value": "القيمة",
+      "title": "عرض الخصم",
+      "validUntil": "صالح حتى",
+      "startFrom": "يبدأ من",
+      "usageLimit": "حد الاستخدام",
+      "maxDiscountAmount": "أقصى مبلغ للخصم",
+      "timePeriod": {
+         "title": "الفترة الزمنية",
+         "startTime": "وقت البدء",
+         "endTime": "وقت الانتهاء"
+      }
+   },
+   "setting": {
+      "title": "الإعدادات",
+      "ableToReviewTaskDurationInDays": "مدة مراجعة المهام بالأيام",
+      "dynamicInTaskServantRouteUpdateRetrievalInSecond": "تحديث مسار الخادم الديناميكي في المهمة بالثواني",
+      "liveTaskStateUpdateRetrievalInSecond": "تحديث حالة المهمة بالثواني",
+      "servantGettingCloseToClientNotifyRangeInMeter": "مدى إشعار الخادم عند الاقتراب من العميل بالأمتار",
+      "userRequestLimit": "حد الطلب للمستخدم",
+      "userRequestLimitTimeToLiveInSecond": "حد الطلب للمستخدم بالثواني",
+      "maxDistanceToArrive": "أقصى مسافة للوصول",
+      "getNearbyServantRange": "الحصول على الخدمات القريبة/المدى",
+      "removeCompletedTaskAndRequestDelayInMinute": "إزالة المهام المكتملة على الخريطة بالدقائق",
+      "removeCanceledTaskAndRequestDelayInMinute": "إزالة المهام الملغاة على الخريطة بالدقائق",
+      "distanceToUpdateServantDynamicRouteInMeter": "تحديث مسار الخادم بالأمتار",
+      "appVersion": "إصدار التطبيق",
+      "deviceName": "اسم الجهاز",
+      "platform": "المنصة",
+      "createdAt": "تم الإنشاء في",
+      "listOfDevices": "قائمة الأجهزة"
+   },
+   "area": {
+      "title": "أسعار منطقة الخدمة",
+      "areaListHeader": "قائمة مناطق الخدمة",
+      "withDestinationPrice": "السعر مع الوجهة",
+      "withoutDestinationPrice": "السعر بدون وجهة",
+      "priceError": "يجب عليك ملء على الأقل سعر واحد"
+   },
+   "serviceType": "نوع الخدمة",
+   "title": "الخدمة",
+   "type": "النوع",
+   "discount_type": {
+      "placeholder": "نوع الخصم",
+      "VALUE": "قيمة",
+      "LIMITATION": "قيد",
+      "Value": "قيمة",
+      "Limitation": "قيد",
+      "Percent": "نسبة"
+   }
+    },
+    "tasks": {
+    "totalRawPrice": "السعر الإجمالي الخام",
+    "fields": {
+      "taskRatingName": "اسم تقييم المهمة",
+      "taskRatingAspectTitle": "جانب تقييم المهمة",
+      "taskRatingAspectName": "الاسم",
+      "taskRatingAspectDescription": "الوصف",
+      "taskRatingAspectWeight": "الوزن",
+      "randomId": "معرف مهمة عشوائية",
+      "address": "العنوان",
+      "cancelReason": "سبب الإلغاء",
+      "canceledBy": "تم الإلغاء بواسطة",
+      "distance": "المسافة",
+      "duration": "المدة",
+      "id": "المعرف",
+      "paymentType": "نوع الدفع",
+      "price": "السعر",
+      "requestId": "معرف الطلب",
+      "status": "الحالة",
+      "tip": "البقشيش",
+      "userPrice": "سعر المستخدم",
+      "rawPrice": "السعر الخام",
+      "discountAmount": "مقدار الخصم",
+      "originName": "اسم المصدر",
+      "destinationName": "اسم الوجهة",
+      "requestType": "نوع الطلب",
+      "member": {
+        "address": "عنوان العضو"
+      },
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "detail": "التفاصيل",
+      "servantId": "معرف الخادم",
+      "clientUserId": "معرف المستخدم العميل",
+      "numberOfTask": "عدد المهام",
+      "totalTaskRawPrice": "السعر الإجمالي الخام للمهمة"
+    },
+    "manageTask": {
+      "drawRoute": "إذا تم توقيف المهمة، ارسم المسار"
+    },
+    "destinationRoute": {
+      "log": {
+        "title": "سجل مسار الوجهات"
+      }
+    },
+    "stopLog": {
+      "title": "سجل توقف المهمة",
+      "numberOfSTops": "عدد التوقفات",
+      "totalTime": "الوقت الإجمالي للتوقف"
+    },
+    "routeDetail": {
+      "taskRouteType": {
+        "PanelProvidedRoute": "مسار المصدر من اللوحة",
+        "EstimatedRoute": "مسار مقدر",
+        "ServantTrackedRoute": "مسار تتبعه الخادم",
+        "ServantLocalStoredRoute": "مسار محفوظ محليًا من قبل الخادم",
+        "RouteToClient": "مسار إلى العميل"
+      },
+      "routeType": {
+        "optimizedRoute": "مسار محسن",
+        "rawRoute": "مسار خام",
+        "optimizedPoint": "نقطة محسنة",
+        "rawPoint": "نقطة خامة"
+      },
+      "acceptedRoute": "المسار المقبول",
+      "title": "تفاصيل المسار"
+    },
+    "statuses": {
+      "Accept": "قبول",
+      "Arrive": "وصول",
+      "CanceledAfterArrive": "تم الإلغاء بعد الوصول",
+      "CanceledAfterReserve": "تم الإلغاء بعد الحجز",
+      "RequestCanceled": "تم إلغاء الطلب",
+      "Continue": "متابعة",
+      "End": "انتهاء",
+      "EndDestination": "نهاية الوجهة",
+      "Negatives": "إلغاء",
+      "Reserve": "حجز",
+      "Start": "بدء",
+      "Stop": "توقف",
+      "Waiting": "انتظار",
+      "Timeout": "انتهاء الوقت",
+      "CanceledAfterStart": "تم الإلغاء بعد البدء"
+    },
+    "taskDetail": "تفاصيل المهمة",
+    "title": "المهمة",
+    "manage_task": "إدارة المهمة",
+    "invoice": {
+      "title": "فاتورة المهمة",
+      "paidWithBalance": "تم الدفع باستخدام الرصيد",
+      "paidWithCash": "تم الدفع نقدًا",
+      "commission": "العمولة",
+      "stopCompensation": "تعويض التوقف",
+      "loan": "القرض",
+      "rawTaskPrice": "السعر الخام للمهمة",
+      "tip": "البقشيش",
+      "total": "السعر الإجمالي",
+      "final": "السعر النهائي",
+      "discountAmount": "مقدار الخصم"
+    }
+    },
+    "users": {
+ "block": "حظر",
+  "block_list_message": "هذا المستخدم محظور بالفعل من هذه الخدمة",
+  "unBlockAt": "إلغاء الحظر في",
+  "blockList": "الحصول على قائمة الحظر",
+  "addRole": "تغيير قائمة الأدوار",
+  "changeUserStatus": {
+    "disable": "تعطيل",
+    "disableTooltip": "تعطيل المستخدم",
+    "enable": "تمكين",
+    "enableTooltip": "تمكين المستخدم"
+  },
+  "logout": "تسجيل الخروج",
+  "chooseRole": "اختيار الدور",
+  "confirmation": {
+    "disable": "هل أنت متأكد من تعطيل هذا المستخدم؟",
+    "enable": "هل أنت متأكد من تمكين هذا المستخدم؟"
+  },
+  "email": "عنوان البريد الإلكتروني",
+  "mobile": "رقم الهاتف",
+  "name": "الاسم"
+    },
+    "vehicle": {
+  "carCard": "بطاقة السيارة",
+  "carCardBack": "الجزء الخلفي لبطاقة السيارة",
+  "cardDetail": "بطاقات المركبات",
+  "code": "الرمز",
+  "color": "لون السيارة",
+  "insurance": "التأمين",
+  "insuranceExpire": "انتهاء التأمين",
+  "insuranceNo": "رقم التأمين",
+  "model": "الموديل",
+  "plaqueDetail": {
+    "city": "المدينة",
+    "code": "رقم السيارة",
+    "color": "اللون",
+    "country": "البلد",
+    "title": "تفاصيل اللوحة"
+  },
+  "techDiagnosis": "تشخيص التقنية",
+  "tip": "نصيحة",
+  "title": "العنوان",
+  "vehicle": "المركبة",
+  "vehicleDetail": "تفاصيل المركبة",
+  "vin": "رقم التعريف الخاص بالمركبة"
+    }
+  },
+  "validationMessages": {
+    "startDateMoreThanNow": "يجب أن يكون تاريخ البدء حاليًا أو في وقت لاحق.",
+    "required": "{field} مطلوب",
+    "language": "اللغة الإنجليزية مطلوبة",
+    "language_description": "الوصف يجب أن يكون على الأقل 3 أحرف",
+    "draw_error": "يجب عليك إنهاء أو إلغاء رسمك لإنهاء المهمة",
+    "image_language_required": "لم يتم اختيار صورة للغة {language}، صورة مطلوبة",
+    "location": "موقع وسط المدينة مطلوب",
+    "edit_draw_error": "يجب عليك إنهاء أو إلغاء التحرير لإنهاء المهمة",
+    "one_shape_allow": "يمكنك رسم شكل واحد فقط",
+    "discount_steps_required": "الخطوات التخفيضية مطلوبة",
+    "empty_policy": "السياسة فارغة، يجب عليك تحديد ما لا يقل عن سياسة واحدة",
+    "end_date_must_greater_than_start_date": "يجب أن يكون تاريخ الانتهاء أكبر من تاريخ البدء",
+    "title_is_required": "لم يتم ملء العنوان للغة {language}، العنوان مطلوب",
+    "valid_email": "أضف بريدًا إلكترونيًا صالحًا",
+    "password_length": "يجب أن تحتوي كلمة المرور على ما لا يقل عن 6 أحرف",
+    "one_minute_allow": "يجب أن يكون الرقم بين 1 - 60"
+  },
+  "wallet": {
+   "amount": "المبلغ",
+    "transactions": "المعاملات",
+    "wallet": "المحفظة",
+    "transactionDate": "تاريخ المعاملة",
+    "sourceUser": "المستخدم المصدر",
+    "destinationUser": "المستخدم الوجهة",
+    "balance": "الرصيد",
+    "tooltip": "إرسال الرصيد إلى {userName}",
+    "tooltipUpdate": "تحديث الرصيد إلى {userName}",
+    "walletType": "نوع المحفظة",
+    "minBalance": "الحد الأدنى للرصيد",
+    "maxBalance": "الحد الأقصى للرصيد",
+    "maxTransaction": "الحد الأقصى للمعاملة",
+    "minTransaction": "الحد الأدنى للمعاملة",
+    "updateWallet": "تحديث المحفظة",
+    "sendToAdmin": "إرسال الرصيد إلى المشرف",
+    "transactionContainsUserId": "معاملات المستخدم",
+    "walletTransactionType": "نوع معاملة المحفظة",
+    "currency": "العملة"
+  }
+}

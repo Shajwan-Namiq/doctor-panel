@@ -1,0 +1,21 @@
+include:
+  - project: "kubak/ci-cd"
+    file: "build.yml"
+  - project: "kubak/ci-cd"
+    file: "deploy.yml"
+
+variables:
+  APP_NAME: kubak_transportation_panel
+  KUBERNETES_MEMORY_LIMIT: "2000Mi"
+
+
+
+stages:
+  - build
+  - deploy
+
+docker-build:
+  extends: .docker-build
+
+update_manifest:
+  extends: .update_manifest

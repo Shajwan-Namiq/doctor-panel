@@ -1,0 +1,1461 @@
+{
+    "error": {
+        "unKnown_error": "Unknown Error Occurred",
+        "title": "Error",
+        "otp_incorrect": "the OTP you've entered is incorrect",
+        "otp_expired": "the OTP Code is expired!",
+        "too_many_requests": "Too many requests, please try again later",
+        "invalid_phoneNumber": "Invalid phone number"
+    },
+    "auth": {
+        "area": {
+            "code": "Code",
+            "countries": "countries",
+            "country": "country",
+            "countryCode": "Country code",
+            "countryName": "Country name",
+            "region": "Region",
+            "roles": "Roles",
+            "regionInfo": {
+                "centerPointTitle": "add center point",
+                "location": "center",
+                "name": "region name",
+                "regionLanguages": "regions name depend on languages"
+            },
+            "regions": "regions",
+            "senderRegions": "Sender regions",
+            "receiverRegions": "Receiver regions",
+            "title": "Title",
+            "touserBlockListpRegions": {
+                "slemani": "Sulaymaniyah",
+                "erbil": "Erbil",
+                "Slemani": "Sulaymaniyah",
+                "Erbil": "Erbil",
+                "Hawler": "Hawler"
+            }
+        },
+        "language": {
+            "languageTitle": "language",
+            "languages": "languages",
+            "locale": "locale",
+            "title": "Title",
+            "En": "English",
+            "Ckb": "Kurdish",
+            "Ar": "Arabic"
+        },
+        "otp": {
+            "codeExpirationTimeInMinutes": "Code expiration time / minute",
+            "codeInvalidationTimeInMinutes": "Code invalidation time / minute",
+            "maxNumberOfAttempts": "Max number of attempts",
+            "maxNumberOfAttemptsDurationInMinutes": "Max number of attempts / minute",
+            "codeMessage": {
+                "title": "add code message for each language",
+                "placeholder": "add message for {language} , the message must contain {0}"
+            },
+            "server": {
+                "provider": "Provider",
+                "isEnabled": {
+                    "true": "Enable",
+                    "false": "Disable",
+                    "title": "Active status"
+                },
+                "successMessagesCount": "Total success messages",
+                "failedMessagesCount": "Total failed messages"
+            },
+            "requests": {
+                "code": "Code",
+                "codeMessage": "Code Message",
+                "status": "Status",
+                "validUntil": "Valid Until",
+                "invalidUntil": "Invalid Until",
+                "isSuccessful": {
+                    "title": "Is SuccessFull",
+                    "true": "SuccessFull",
+                    "false": "Not SuccessFull"
+                }
+            }
+        },
+        "user": {
+            "userDetail": "User Detail",
+            "userTask": "User Task",
+            "requestListUser": "Request List User",
+            "userDevices": "User Devices",
+            "userBlockList": "User Block List",
+            "rawPrice": "Raw Price",
+            "userPrice": "User Price",
+            "sourceLocationName": "Source Location Name",
+            "type": "Type",
+            "statusEnum": "Status",
+            "createdAt": "Created At",
+            "requestsListUser": "Request List Users",
+            "blockUser": "Block User"
+        }
+    },
+    "authPage": {
+        "login": {
+            "email": "email address",
+            "emailInputPlaceholder": "Email",
+            "forgotPassword": "Forgot password?",
+            "forgotPasswordHeader": "Enter your email address",
+            "loginBy": "Login with {field}",
+            "pageTitle": "Login",
+            "passwordInputPlaceholder": "Password",
+            "phone": "phone number",
+            "submitButton": "Submit"
+        }
+    },
+    "buttons": {
+        "detectLocation": "Detect location",
+        "add": "Add",
+        "cancel": "Cancel",
+        "edit": "Edit",
+        "filter": "filter",
+        "search": "Search",
+        "submit": "Submit",
+        "add_field": "Add {field}",
+        "end_task": "End The Task",
+        "block": "Block {field}",
+        "unblock": "Unblock",
+        "send_request": "Send Request",
+        "clear": "Clear",
+        "send_balance": "Send Balance",
+        "addNewLanguage": "Add New Language",
+        "export": "Export",
+        "print": "Print",
+        "resend": "Resend",
+        "update": "Update",
+        "update_balance": "Update Balance",
+        "send": "Send",
+        "disabled": "Disabled",
+        "enable": "Enable"
+    },
+    "city": {
+        "card": "Card",
+        "cardData": {
+            "expireAt": "Expire Date",
+            "preview": "Preview",
+            "public": {
+                "false": "Private",
+                "placeholder": "Card status",
+                "true": "Public"
+            },
+            "receivers": {
+                "false": "For all users",
+                "placeholder": "Receiver",
+                "true": "Only servants"
+            },
+            "title": "Card title",
+            "type": {
+                "Banner": "Banner",
+                "Discount": "Discount",
+                "Modules": "Modules",
+                "SwipeAble": "SwipeAble",
+                "placeholder": "Link type"
+            },
+            "uiVersion": "Version",
+            "url": "Link"
+        },
+        "cards": "Cards",
+        "image": "Image",
+        "name": "Name",
+        "setting": {
+            "storeLink": "Store Link",
+            "currentAppVersion": "Current version",
+            "minimumVersion": "Minimum version ",
+            "platform": "Platform",
+            "translationVersion": "Translation version"
+        },
+        "status": "Status",
+        "type": "Type",
+        "lesson": {
+            "name": "Lesson",
+            "title": "Lesson title",
+            "description": "Lesson description",
+            "video_url": "Video URL"
+        },
+        "app_routes": {
+            "title": "App route ",
+            "name": "Name",
+            "path": "Path",
+            "parameters": "Parameters",
+            "parameter_name": " name",
+            "parameter_value": " value",
+            "parameter": "Parameter",
+            "add_new_parameter": "Add new parameter"
+        },
+        "customMessage": {
+            "title": "Custom Message",
+            "isEnabled": {
+                "title": "Enable status",
+                "true": "Enable",
+                "false": "Disable"
+            },
+            "isBlocker": {
+                "title": "Message Type",
+                "true": "Blocker",
+                "false": "Not blocker"
+            },
+            "disabled": {
+                "title": "Disable user",
+                "true": "For disabled users only",
+                "false": "For enabled users only"
+            },
+            "showType": "Show type",
+            "spot": "Spot",
+            "buttons": {
+                "title": "Buttons",
+                "type": "Button type",
+                "url": "URL",
+                "translations": "Button Text",
+                "add": "Add more button",
+                "color": "Button color"
+            }
+        }
+    },
+    "dropdowns": {
+        "discountCode": {
+            "isActive": {
+                "false": " all codes",
+                "placeholder": " active status",
+                "true": " active codes only"
+            }
+        },
+        "discountOffers": {
+            "isActive": {
+                "false": " all offers",
+                "placeholder": "active status",
+                "true": " active offers"
+            }
+        },
+        "gender": {
+            "Female": "Female",
+            "Male": "Male",
+            "placeholder": "Gender"
+        },
+        "userType": {
+            "placeholder": "User Type",
+            "App": "App",
+            "Panel": "Panel"
+        },
+        "languages": {
+            "2": "kurdish",
+            "3": "arabic",
+            "4": "english",
+            "placeholder": "language"
+        },
+        "requestStatuses": {
+            "Accepted": "Accepted",
+            "Cancel": "Cancel",
+            "CanceledAtWaiting": "Canceled after waiting",
+            "Completed": "Completed",
+            "Placeholder": "Request statuses",
+            "Timeout": "Timeout",
+            "Waiting": "Waiting",
+            "RequestCanceled": "Request Canceled",
+            "CanceledAfterStart": "Canceled after start",
+            "CanceledAfterArrive": "Canceled after arrive",
+            "CanceledAfterReserve": "Canceled after reserve"
+        },
+        "searchField": {
+            "Id": "Id",
+            "PlateNumber": "Plate Number",
+            "Title": "Title",
+            "Vin": " Vin",
+            "code": "Code",
+            "codeTitle": "code title",
+            "id": "Id",
+            "name": "Name",
+            "NationalId": "National Id",
+            "PhoneNumber": "Phone Number",
+            "NameField": "name",
+            "placeholder": "search by ",
+            "ServantName": "Servant Name",
+            "ServantPhoneNumbers": "Servant Phone Number",
+            "ServantId": "Servant Id"
+        },
+        "servantStatuses": {
+            "Block": "Block",
+            "DisconnectInTrip": "Disconnect in trip",
+            "InRide": "In ride",
+            "InTrip": "In trip",
+            "Offline": "Offline",
+            "Online": "Online",
+            "Passive": "Passive",
+            "placeholder": "Servant status"
+        },
+        "tasks": {
+            "taskStatus": {
+                "Accept": "Accept",
+                "Arrive": "Arrive",
+                "CanceledAfterArrive": "Canceled after arrive",
+                "CanceledAfterReserve": "Canceled after reserve",
+                "CanceledAfterStart": "Canceled after start",
+                "Continue": "Continue",
+                "End": "End ",
+                "EndDestination": "End Destination",
+                "Reserve": "Reserve",
+                "Start": "Start",
+                "Stop": "Stop",
+                "negatives": "Canceled",
+                "placeholder": "Task Status",
+                "MinTask": "Min task",
+                "MaxTask": "Max task"
+            },
+            "belowStatus": {
+                "placeholder": "Below Status"
+            }
+        },
+        "selected_field": "{field} selected"
+    },
+    "fields": {
+        "minTaskCount": "minTaskCount",
+        "translation": "Translation",
+        "email": "email",
+        "expireAt": "expire date",
+        "gender": "Genders",
+        "groups": "Groups",
+        "group": "Group",
+        "languages": "Languages",
+        "language": "Language",
+        "password": "password",
+        "phoneNumber": "phone number",
+        "plateNumber": "Plate Number",
+        "regions": "Region",
+        "search": "search",
+        "startAt": "Start date",
+        "toDate": "End date",
+        "supportNumber": "Support number",
+        "title": "Title",
+        "vin": "Vin",
+        "vehicle": "Vehicle",
+        "service_type": "Service type",
+        "image": "Image",
+        "service": "Service",
+        "night_period": "Night period",
+        "active": {
+            "false": "Inactive",
+            "isActive": "Active status",
+            "true": "Active"
+        },
+        "discount": "Discount",
+        "commission": "Commission",
+        "setting": "Setting",
+        "card": "Card",
+        "servant": "Servant",
+        "profile": "Profile",
+        "notification": "Notification",
+        "user": "User",
+        "block": "Block",
+        "searchFields": {
+            "NameField": "Name",
+            "PhoneNumber": "Phone",
+            "Email": "Email",
+            "Id": "Id",
+            "NationalId": "National Id",
+            "IdField": "Id"
+        },
+        "region": "Region",
+        "role": "Role",
+        "discountCode": "Discount Code",
+        "origin": "Origin",
+        "createdAt": "Create At"
+    },
+    "gender": {
+        "female": "Female",
+        "male": "Male"
+    },
+    "notification": {
+        "createAt": "Create At",
+        "description": "Description",
+        "expirationDate": "Expiration Date",
+        "link": "Link",
+        "title": "Title",
+        "types": "Notification types",
+        "subTitle": "Subtitle",
+        "buttonTitle": "Button Title",
+        "addMessage": "Add Message",
+        "dialogTitle": "Upload Image"
+    },
+    "reusables": {
+        "searchBy": "Search by {field}",
+        "searchForUser": "Search for user",
+        "confirmation": {
+            "header": "confirmation",
+            "no": "No",
+            "yes": "Yes"
+        },
+        "createPageDesc": "in this page you can create {page}",
+        "createPageHeader": "create {page}",
+        "detailPageDesc": "in this page you can get detail of the {page} and edit it",
+        "detailPageHeader": "{page} Detail",
+        "dialog": {
+            "add": "Add new {field}",
+            "addInputs": {
+                "storeLink": "Store Link",
+                "city": "city",
+                "code": "code",
+                "country": "country",
+                "currency": "currency",
+                "currentVersion": "Current version",
+                "languageId": "language",
+                "locale": "locale",
+                "minimumVersionToSoftUpdate": "Minimum version to update",
+                "name": "name",
+                "number": "Phone number",
+                "platform": "Platform",
+                "regionId": "Region",
+                "title": "title",
+                "translationVersion": "Translation version"
+            },
+            "edit": "Edit {field}",
+            "fields": {
+                "gender": "gender",
+                "language": "language",
+                "policy": "policy",
+                "region": "region",
+                "role": "role",
+                "supportNumber": "support number",
+                "user": "user",
+                "vehicle": "vehicle",
+                "image": "image"
+            }
+        },
+        "emptyRecordDesc": "you can change your filter to get more data or add data for the fields",
+        "emptyRecordHeader": "No records found",
+        "listPageDesc": "in this page show {page} list with difference filter ",
+        "listPageHeader": "{page} list"
+    },
+    "roles": {
+        "raterRole": "Rater role",
+        "ratedRole": "Rated role",
+        "addPolicyHeader": "add policy to the role",
+        "addRoleHeader": "add new role",
+        "confirmDeleteRole": "are you sure you want to delete this role?",
+        "name": "Role name",
+        "policyName": "policy name",
+        "policyPlaceHolder": "policy",
+        "role": "Role",
+        "roleHeader": "Roles list",
+        "subTableHeader": "list policy of {role}",
+        "tableFooter": "in total there are {total} role",
+        "tooltips": {
+            "addPolicy": "add policy",
+            "addRole": "add role",
+            "cancel": "cancel",
+            "deletePolicy": "Delete Policy",
+            "deleteRole": "delete role",
+            "editRole": "edit role"
+        }
+    },
+    "baseRoles":{
+     "raterBaseRole": "Rater Base role",
+        "ratedBaseRole": "Rated Base role",
+        "addPolicyHeader": "add policy to the base role",
+        "updateBaseRoleHeader": "Update policy to this base role",
+        "confirmDeleteRole": "are you sure you want to delete this base role?",
+        "name": "Base Roles name",
+        "policyName": "Base policy name",
+        "policyPlaceHolder": "policy",
+        "baseRole": "Role",
+        "baseRoleHeader": "Base Roles list",
+        "subTableHeader": "list policy of {role}",
+        "tableFooter": "in total there are {total} base role",
+        "tooltips": {
+            "addPolicy": "add policy",
+            "addRole": "add base role",
+            "cancel": "cancel",
+            "deletePolicy": "Delete Policy",
+            "deleteBaseRole": "delete base role",
+            "editBaseRole": "edit base role"
+        }
+    },
+    "routes": {
+        "CityCardDetail": "Card detail",
+        "CityCards": "Cards",
+        "CityCreateCard": "Create card",
+        "CityCustomMessages": "Messages",
+        "CityListCards": "Cards list",
+        "User": "User",
+        "accounts": "Accounts",
+        "adminTransactionList": "Admin Transactions",
+        "balanceCardList": "Balance Cards",
+        "basicInformation": "Database",
+        "cancelReason": "Cancel Reason",
+        "canceledTasks": "Canceled Tasks",
+        "cardTypeList": "Card Types",
+        "cards": "Cards",
+        "cityListNotification": "Notifications list",
+        "cityListSetting": "Setting list",
+        "cityNotification": "Notifications",
+        "citySendNotification": "Send notification",
+        "country": "Country",
+        "createActiveService": "Create Active Service",
+        "createServant": "Create Servant",
+        "createVehicle": "Create Vehicle",
+        "createVehicleServant": "Create Vehicle",
+        "detailServant": "Servant Detail",
+        "detailService": "Service Detail",
+        "detailTask": "Task Detail",
+        "group": "Group",
+        "home": "Home",
+        "hourlyReport": "Hourly Report",
+        "listServant": "Servants List",
+        "listService": "Services List",
+        "listServiceBaseType": "Service type",
+        "listTasks": "Tasks List",
+        "listVehicle": "Vehicle List",
+        "notFound": "NotFound",
+        "onlineCards": "Online Cards",
+        "passenger": "Passenger",
+        "passengerDetail": "Passenger Detail",
+        "passengerProfile": "Passenger Profile",
+        "passengerTasks": "Passenger Tasks",
+        "providerList": "Providers",
+        "regions": "Regions",
+        "report": "Reports",
+        "requestsDetail": "Request Detail",
+        "requestsList": "Requests List ",
+        "roles": "Roles",
+        "baseRoles": "Base Roles",
+        "servant": "Servant",
+        "servantHourlyReport": "Servant Hourly Report",
+        "servantOnlineHistory": "Servant Online History",
+        "servantReport": "Servant Report",
+        "servantRanking": " Servants Ranking",
+        "services": "Services",
+        "support": "Support",
+        "supportList": "Support wallet",
+        "supportNumber": "Support Number",
+        "task": "Task",
+        "transactionList": "Transactions",
+        "transportation": "Transportation",
+        "transportationCreateDiscountCode": "Create Discount Code",
+        "transportationDetailDiscountCode": "Discount Code Detail",
+        "transportationUsageDiscountCode": "Discount Code Usages",
+        "transportationHome": "Home",
+        "transportationListDiscountCode": "Discount Code List",
+        "transportationListDiscountOffers": "Discount Offers List",
+        "transportationCreateDiscountOffers": "Discount Offers Create",
+        "transportationMonitoring": "Monitoring",
+        "transportationRequestList": "Requests List",
+        "user": "User",
+        "userDetail": "User Detail",
+        "userExist": "User",
+        "userList": "Users List",
+        "userProfile": "Profile",
+        "vehicle": "Vehicle",
+        "vehicleDetail": "Vehicle Detail",
+        "wallet": "Wallet",
+        "walletList": "Wallets",
+        "translation": "Translations",
+        "transportationTranslation": "Transportation",
+        "walletTranslation": "Wallet",
+        "blockList": "Block list",
+        "block": "Block",
+        "transportationMapMatching": "Map matching",
+        "transportationCreateRequest": "Create Request",
+        "lesson": "Lesson",
+        "taskRatingAspect": "Task Rating Aspect",
+        "userCreate": "Create User",
+        "reportProblemsList": "Report Problems",
+        "reportActionList": "Report Actions",
+        "taskReportList": "Task Reports",
+        "taskCancelationPenalize": "Cancelation Penalize",
+        "taskCancelationPolicy": "Cancelation Policy",
+        "chartDailyReports": "Daily Reports",
+        "appRoutesList": "App Routes",
+        "settings": "Settings",
+        "cityListOtpConfiguration": "OTP Configuration",
+        "CityCreateCustomMessages": "Create Custom Message",
+        "heatMap": "Heat Map",
+        "requestReport": "Request Report",
+        "serviceAppConfiguration": "Service App Configuration",
+        "PassengerTasksReport": "Passenger Tasks Report",
+        "OtpRequests": "OTP Requests",
+        "deviceList": "Device List"
+    },
+    "languages": {
+        "Ar": "Arabic",
+        "En": "English",
+        "Ckb": "Kurdish",
+        "placeholder": "add translation for {language} language"
+    },
+    "sidebarFooter": {
+        "actions": {
+            "logout": "Logout",
+            "profile": "Profile ",
+            "setting": "Setting",
+            "resetPassword": "Reset Password"
+        },
+        "changePassword": {
+            "title": "Change Password",
+            "oldPassword": "Old Password",
+            "newPassword": "New Password",
+            "successMessage": "Password changed successfully"
+        },
+        "emptyName": "User name",
+        "emptyRole": "User role"
+    },
+    "statuses": {
+        "requestStatuses": {
+            "Accepted": "Accepted",
+            "Completed": "Completed",
+            "RequestCanceled": "Cancel",
+            "Timeout": "Timeout",
+            "Waiting": "Waiting",
+            "Accept": "Accept",
+            "Arrive": "Arrive",
+            "CanceledAfterArrive": "Canceled after arrive",
+            "CanceledAfterReserve": "Canceled after reserve",
+            "CanceledAfterStart": "Canceled after start",
+            "Continue": "Continue",
+            "End": "End ",
+            "EndDestination": "End Destination",
+            "Reserve": "Reserve",
+            "Start": "Start",
+            "Stop": "Stop",
+            "negatives": "Canceled",
+            "placeholder": "Task Status"
+        },
+        "taskStatus": {
+            "Accepted": "Accepted",
+            "Completed": "Completed",
+            "RequestCanceled": "Cancel",
+            "Timeout": "Timeout",
+            "Waiting": "Waiting",
+            "Accept": "Accept",
+            "Arrive": "Arrive",
+            "CanceledAfterArrive": "Canceled after arrive",
+            "CanceledAfterReserve": "Canceled after reserve",
+            "CanceledAfterStart": "Canceled after start",
+            "Continue": "Continue",
+            "End": "End ",
+            "EndDestination": "End Destination",
+            "Reserve": "Reserve",
+            "Start": "Start",
+            "Stop": "Stop",
+            "negatives": "Canceled",
+            "placeholder": "Task Status"
+        },
+        "servant": {
+            "Block": "Block",
+            "InTrip": "In trip",
+            "Offline": "Offline",
+            "Online": "Online",
+            "Passive": "Passive",
+            "DisconnectInTrip": "Disconnect",
+            "Placeholder": "servant status"
+        },
+        "canceledTaskStatus": {
+            "CanceledAfterReserve": "Canceled after reserve"
+        }
+    },
+    "table": {
+        "deleteConfirmationMessage": "Are you sure to delete {field} ?",
+        "header": "{field} list",
+        "paginator": "Showing {first} to {last} of {totalRecords} entries",
+        "tableFooter": "in total there are {total} {field}"
+    },
+    "tooltips": {
+        "add": "add {field}",
+        "cancel": "cancel",
+        "delete": "delete {field}",
+        "edit": "edit {field}",
+        "block": "block {field}",
+        "fields": {
+            "gender": "gender",
+            "languages": "language",
+            "regions": "regions",
+            "supportnumber": "support number",
+            "user": "user",
+            "vehicle": "vehicle"
+        },
+        "info": "info {field}"
+    },
+    "toasts": {
+        "error_header": "error",
+        "update_err_desc": "{field} is required",
+        "added_success_header": "added successfully",
+        "updated_success_header": "updated successfully",
+        "added_success_desc": "{field} added successfully",
+        "updated_success_desc": "{field} updated successfully",
+        "block_header": "blocked successfully",
+        "block_desc": "{field} blocked successfully",
+        "task_update_success": "task updated successfully",
+        "delete_success_header": "deleted successfully",
+        "delete_success_message": "Image",
+        "delete_success_desc": "{field} deleted successfully",
+        "request_create_header": "Request created successfully",
+        "request_create_desc": "Request created successfully , Waiting for the driver to accept the request"
+    },
+    "transportation": {
+        "discountOffers": {
+            "fields": {
+                "listOfDiscountOffers": "List Of Discount Offers",
+                "continueBeyondFinalStep": {
+                    "true": "Continue Beyond FinalStep",
+                    "false": "Not Continue Beyond FinalStep",
+                    "undefined": "Select"
+                },
+                "type": {
+                    "True": "true",
+                    "Value": "value",
+                    "False": "false",
+                    "placeHolder": "select type",
+                    "type": "Final step type",
+                    "minTaskCount": "min task count",
+                    "taskCompletionTimeFrame": "task completion time frame",
+                    "maxRedemptions": "max redemptions",
+                    "requirementType": "Requirement type",
+                    "AnyTime": "Any time",
+                    "SameDay": "Same day",
+                    "SameWeek": "Same week",
+                    "SameMonth": "Same month"
+                },
+                "code": "Id",
+                "title": "Add Requirement",
+                "minTaskCount": "Min task",
+                "maxRedemptions": "Max redemptions",
+                "startDate": "Start Date",
+                "validUntil": "End Date",
+                "types": "Type",
+                "value": "Value",
+                "maxDiscountAmount": "max Discount"
+            },
+            "locationLng": "Longitude",
+            "locationLat": "Latitude"
+        },
+        "list": {
+            "ableToReviewTaskDurationInDays": "Review TaskDuration In Days",
+            "dynamicInTaskServantRouteUpdateRetrievalInSecond": "Update Dynamic In Task Servant Route",
+            "liveTaskStateUpdateRetrievalInSecond": "Update Live Task State",
+            "servantGettingCloseToClientNotifyRangeInMeter": "Servant Getting Close To Client",
+            "userRequestLimit": "User Request Limit",
+            "userRequestLimitTimeToLiveInSecond": "Request Limit Time To Live In Second",
+            "maxDistanceToArrive": "Max distance to arrive",
+            "distanceToUpdateServantDynamicRouteInMeter": "Update Servant Dynamic Route In Meter",
+            "removeCanceledTaskAndRequestDelayInMinute": "Remove Canceled Task And Request Delay In Minute",
+            "removeCompletedTaskAndRequestDelayInMinute": "Remove Completed Task And Request Delay In Minute"
+        },
+        "heatMap": {
+            "title": "Heat Map Configuration",
+            "fromValue": "from value / h",
+            "lengthInHour": "hour length/h ",
+            "type": "heat map type"
+        },
+        "serviceAppConfiguration": {
+            "title": "Service App Configuration",
+            "servantLocationUpdateInterval": "Servant Location Update Interval"
+        },
+        "common": {
+            "randomId" : "RandomId",
+            "date": "Date", 
+            "endAt": "End at",
+            "endDate": "End Date",
+            "endTime": "End Time",
+            "excludeEndHour": "Exclude End Hour",
+            "excludeStartHour": "Exclude Start Hour",
+            "includeStartHour": "Include Start Hour",
+            "includeEndHour": "Include End Hour",
+            "minHour": "Min Hour",
+            "startAt": "start at",
+            "startDate": "Start date",
+            "startTime": " Start time",
+            "total": "Total",
+            "iqd": "IQD",
+            "description": "Description",
+            "title": "Title",
+            "name": "Name",
+            "createServant": "Creating a Servant Date",
+            "workdayEndsServant": "The servant's workday ends",
+            "appVersionFrom": "Version From",
+            "appVersionTo": "Version To",
+            "deviceName": "Device Name",
+            "platform": "Platform",
+            "displayName": "Display Name",
+            "phoneNumber": "Phone Number",
+            "blockedFromDate": "Blocked From Date",
+            "blockedToDate": "Blocked To Date ",
+            "unblockedAtFromDate": "Unblocked From Date",
+            "unblockedAtToDate": "Unblocked To Date",
+            "blockedBy": "Blocked By",
+            "listOfBlockUsers": "List Of Block Users",
+            "activeBlocks": "Block Options",
+            "blockedUsers": "Blocked Users",
+            "blockedByUser": "Blocked By User",
+            "blockedAt": "Blocked At",
+            "unblockedAt": "Unblocked At",
+            "sendDate": "Send Date",
+            "expirationDate": "Expiration Date",
+            "scheduledTo": "Scheduled To",
+            "status": "Status"
+        },
+        "taskCancellationPenalize": {
+            "penalizeType": "Penalize Type",
+            "penalizeName": "Penalize Name",
+            "value": "Penalize Value",
+            "policy": "Cancellation policy",
+            "cancellerRole": "Canceller Role",
+            "measurementType": "Measurement Type",
+            "measurementValue": "Measurement Value",
+            "penaltyType": {
+                "lowPenalty": "Low Penalty",
+                "highPenalty": "High Penalty"
+            },
+            "measurementButtons": {
+                "addNew": "Add New Measurement",
+                "addOne": "Add only first measurement"
+            }
+        },
+        "cancelReason": {
+            "title": "Cancel Reason"
+        },
+        "dashboard": {
+            "cards": {
+                "lastMonth": "Last Month",
+                "title": {
+                    "requests": "Total Requests",
+                    "requestStates": "Total Requests",
+                    "servants": "Total Servants",
+                    "successTasks": "Total Success Tasks",
+                    "completedTaskStates": "Total Success Tasks",
+                    "users": "Total Users",
+                    "canceledTasks": "Total Canceled Tasks",
+                    "canceledTaskStates": "Total Canceled Tasks"
+                }
+            },
+            "chart": {
+                "city": "According to city",
+                "country": "According to country",
+                "Daily": "Daily",
+                "Monthly": "Monthly",
+                "pieChartDesc": "Active user information last month",
+                "platform": "According to platform",
+                "topPassengersTasks": "Top passengers depend on tasks"
+            },
+            "table": {
+                "header": "{field} list",
+                "lastServants": "Last Servants",
+                "lastServantsDesc": "In this table you can get latest servants , to get all servant click see more",
+                "seeMore": "see more"
+            }
+        },
+        "reports": {
+            "reportProblemsTitle": "Task report problems",
+            "reportActionTitle": "Task report action",
+            "reportAction": {
+                "panelUserName": "Panel User Name",
+                "panelUserPhoneNumber": "Panel User Phone Number",
+                "title": "Action Type",
+                "list": "Report Action List"
+            },
+            "taskReport": {
+                "title": "Task Reports",
+                "reporterName": "Reporter Name",
+                "reporterPhoneNumber": "Reporter Phone Number",
+                "problem": "problem",
+                "comment": "Comment",
+                "taskId": "Task Id",
+                "taskRandomId": "Task Random Id",
+                "clientName": "Client Name",
+                "clientPhoneNumber": "Client Phone Number",
+                "servantId": "Servant id",
+                "servantName": "Servant Name",
+                "servantNumber": "Servant Phone Number",
+                "role": "Role",
+                "addAction": "Add Action",
+                "reportClosed": "This report is closed"
+            },
+            "isClosed": {
+                "true": "Closed",
+                "false": "Pending"
+            },
+            "isCloser": {
+                "title": "Action Type",
+                "true": "closer",
+                "false": "pending"
+            }
+        },
+        "discountCode": {
+            "active": "active ",
+            "addStepsTitle": "steps",
+            "detail": {
+                "tabHeader": {
+                    "detail": "discount code detail",
+                    "users": "users"
+                }
+            },
+            "usage": {
+                "userName": "User Name",
+                "userPhoneNumber": "User Phone Number",
+                "usedCount": "Used Count",
+                "totalAmount": "Total Amount",
+                "discountName": "Discount name",
+                "type": "Type",
+                "amount": "Amount",
+                "searchBy": {
+                    "Id": "Discount Code Id",
+                    "Code": "Discount Code"
+                },
+                "totalDiscountAmount": "Total Discount Amount",
+                "discountType": "Discount Type",
+                "activeOnly": {
+                    "placeholder": " active status",
+                    "true": " active codes only",
+                    "false": " all codes"
+                },
+                "discountAmountLessThan": "Minimum Discount Amount",
+                "discountAmountGreaterThan": "Maximum Discount Amount"
+            },
+            "fields": {
+                "active": {
+                    "false": "inActive",
+                    "isActive": "Active status",
+                    "true": "active"
+                },
+                "code": "Code",
+                "hidden": "hidden",
+                "isHidden": {
+                    "false": "public",
+                    "isHidden": "Discount type",
+                    "true": "hidden"
+                },
+                "disabled": {
+                    "false": "enable",
+                    "disabled": "discount code status",
+                    "true": "disable"
+                },
+                "status": "status",
+                "steps": {
+                    "max": "max",
+                    "repeat": "repeat",
+                    "step": "Step",
+                    "value": "value"
+                },
+                "type": {
+                    "Percent": "percent",
+                    "Value": "value",
+                    "Limitation": "Limitation",
+                    "placeHolder": "select code type",
+                    "type": "Code type",
+                    "AnyTime": "Any Time",
+                    "Daily": "Daily",
+                    "Weekly": "Weekly",
+                    "Monthly": "Monthly"
+                },
+                "usageLimit": "usage limit",
+                "value": "Value"
+            },
+            "inActive": "inActive ",
+            "statusConfirmationMessage": "Are you sure you want to change status?",
+            "title": "discount code",
+            "users": {
+                "amount": " total amount ",
+                "count": " count",
+                "mobile": "phone number",
+                "name": "name"
+            }
+        },
+        "hourlyReport": {
+            "fields": {
+                "canceledTasks": "Canceled tasks",
+                "hour": "Hour",
+                "noAcceptRequests": "No accept Requests",
+                "noServantRequests": "No servant requests",
+                "onlineServants": "Online servants",
+                "requests": "Requests",
+                "successTasks": "Success tasks",
+                "onlineHours": "Online hours",
+                "totalRequesters": "Total Requesters",
+                "canceledRequests": "Canceled requests",
+                "totalRequests": "Total Requests",
+                "timedOutRequests": "Timed Out Requests",
+                "singleDestinationRequests": "Single Destination Requests",
+                "multiDestinationRequests": "Multi Destination Requests",
+                "withDestinationRequests": "With Destination Requests",
+                "withoutDestinationRequests": "Without Destination Requests",
+                "numberOfPassengers": "Number Of Passengers",
+                "numberOfRequesters": "Number Of Requesters"
+            },
+            "servantTitle": "Servant hourly reports",
+            "title": "Tasks hourly reports"
+        },
+        "monitoring": {
+            "accordionTitle": "No. of servants by regions",
+            "removeAskForHelp": "Remove Help",
+            "destinationLocationName": "Destination name",
+            "discountName": "Discount name",
+            "discountedPrice": "Discount price",
+            "paymentType": "Payment type",
+            "rawPrice": "Raw price",
+            "sourceLocationName": "Source name",
+            "taskType": "Task type",
+            "tripStatus": "Trip status",
+            "taskDetail": {
+                "driver": "Driver",
+                "task": "Task",
+                "passenger": "Passenger",
+                "manageTask": "Manage Task"
+            }
+        },
+        "onlineHistory": {
+            "fields": {
+                "firstName": "First name",
+                "lastName": "Last Name",
+                "onlineHours": "Online hours",
+                "servantId": "Servant id",
+                "totalTimeSec": "Total time second",
+                "calculateInTaskDuration": {
+                    "placeholder": "calculate in task duration",
+                    "true": "Include Task Duration",
+                    "false": "Exclude Task Duration"
+                },
+                "inTaskDurationInHours": "In Task Duration Hours",
+                "totalDurationInHours": "Total Duration Hours"
+            },
+            "title": "Servant online history"
+        },
+        "servantReport": {
+            "fields": {
+                "servantName": "Servant Name",
+                "numberOfTasks": "Number of tasks",
+                "totalRawPriceOfTasks": "Total raw price Of tasks",
+                "totalCommissionOfTasks": "Total commission of tasks",
+                "servantRating": "Servant rating"
+            },
+            "title": "Servant report"
+        },
+        "passenger": {
+            "displayName": "Passenger name",
+            "email": " Email address",
+            "gender": "Gender",
+            "id": "Passenger id",
+            "language": "Language",
+            "name": "City",
+            "passengerAddress": "Passenger address",
+            "passengerId": "Passenger Id",
+            "passengerMobile": "Passenger phone number",
+            "passengerName": "Passenger name",
+            "phoneNumber": "Passenger mobile",
+            "mobile": "Passenger mobile",
+            "profile": "profile "
+        },
+        "ranking": {
+            "rating": "Rating",
+            "successTasks": "Success tasks",
+            "title": "Servants Ranking"
+        },
+        "requests": {
+            "discount": "Discount",
+            "discountCode": "Discount code",
+            "kubakPrice": "Kubak price",
+            "onlineServants": "Online servants",
+            "passiveServants": "Passive servants",
+            "rawPrice": "Raw price",
+            "requestsDetail": "Request detail",
+            "reserveDate": "Reserve date",
+            "reserveTime": "Reserve time",
+            "status": "Status",
+            "type": "trip type",
+            "userPrice": "User price",
+            "name": "User name",
+            "displayName": "Passenger name",
+            "paymentType": "Payment Type",
+            "gotoDetailPage": "Go to passenger detail page",
+            "phoneNumber": "User phone number",
+            "lastRequestAt": "Last Request At",
+            "acceptedRequestsCount": "Accepted Requests Count",
+            "cancelledRequestsCount": "Cancelled Requests Count",
+            "timedOutRequestsCount": "Timed Out Requests Count",
+            "allRequestsCount": "All Requests Count",
+            "statusEnum": "Status",
+            "sourceLocationName": "Source name",
+            "createdAt": "Create At",
+            "WithDestination": "With destination",
+            "WithOutDestination": "Without destination",
+            "WithoutDestination": "Without destination",
+            "SingleDestination": "Single destination",
+            "MultiDestination": "Multi destination",
+            "destinationTypeTitle": "Destination Type",
+            "totalRequests": "Total Requests",
+            "totalUsers": "Total Users",
+            "createRequest": {
+                "estimatedPrice": "Estimated price",
+                "discountedPrice": "Discount price",
+                "discountedValue": "Discount value",
+                "loan": "Loan",
+                "errorEstimateCreation": "Select user & service to add request origin and destination"
+            }
+        },
+        "servant": {
+            "blocked": {
+                "title": "servant block status",
+                "true": "Blocked",
+                "false": "Active"
+            },
+            "avatar": "Avatar",
+            "createServant": {
+                "steps": {
+                    "checkUser": {
+                        "desc": "Check user exist",
+                        "title": "user exist"
+                    },
+                    "createServant": {
+                        "certificates": "Certificates",
+                        "documents": "Personal documents",
+                        "title": "Create servant"
+                    },
+                    "createVehicle": {
+                        "title": "Create vehicle"
+                    }
+                }
+            },
+            "detail": {
+                "address": "Address",
+                "bankId": "Bank id",
+                "certificateId": "Certificate id",
+                "firstName": "First name",
+                "lastName": "Last name",
+                "mobile": "Phone number",
+                "nationalId": "National Id",
+                "servantCardDetail": {
+                    "certificate": "Certificate",
+                    "certificateBack": "Certificate back",
+                    "nationalCard": "National card",
+                    "nationalCardBack": "National card back",
+                    "title": "Servant cards detail"
+                },
+                "servantDetail": "Servant detail",
+                "servantOnlinePeriod": "Online Period",
+                "servantPerformance": "Servant performance",
+                "status": "Status",
+                "tasks": "Tasks"
+            },
+            "distance": "Distance",
+            "firstName": "Servant first name",
+            "fullName": "Servant Name",
+            "id": "Servant Id",
+            "lastName": "Servant last name",
+            "mobile": "Servant phone number",
+            "onlinePeriod": {
+                "onlineTime": "Total online time",
+                "total": "Total",
+                "totalTimeSec": "Total time second"
+            },
+            "performance": {
+            "requestAlerts": "Request Alerts",
+            "rejectedRequest": "Rejected Request",
+            "ignoredRequest": "Ignored Request",
+            "acceptedRequest": "Accepted Request",
+            "outOfRangeRequest": "Out of Range Request",
+             "successTask": "Success Task",
+              "canceledTask": "Canceled Task",
+              "onlineDuration": "Online Duration",
+              "durationOnTask": "Duration on task",
+              "distanceOnTask": "Distance on task",
+              "tasksAmount": "Task Amount",
+              "tasksCommission": "Task Commission",
+              "dateTime": "Date", 
+             "serviceId": "Services"
+            },
+            "title": "Servant",
+            "devices": {
+                "title": "Servant Devices",
+                "deviceName": "Device Name",
+                "type": "Type",
+                "primary": "Primary",
+                "makePrimary": "Make it primary"
+            }
+        },
+        "serviceType": {
+            "description": "Description",
+            "icon": "Icon",
+            "name": "service type",
+            "title": "Title"
+        },
+        "services": {
+            "city": "city",
+            "icon": "icon",
+            "name": "name",
+            "detail": "Service Detail",
+            "commission": {
+                "defaultValue": "Default Value",
+                "dayOfWeeks": "Day Of Week",
+                "value": "Commission value",
+                "commissionPeriod": "Commission Period",
+                "title": "Commission"
+            },
+            "nightParameters": {
+                "periodEnd": "Base night end",
+                "periodStart": "Base night start"
+            },
+            "priceParameter": {
+                "baseDistance": "Base distance",
+                "baseNight": "Base night",
+                "basePrice": "Base price",
+                "baseStop": "Base stop",
+                "baseStopTime": "Base stop time",
+                "baseTime": "Base time",
+                "maxTip": "Max tip",
+                "minPrice": "Min price",
+                "minTip": "Min tip",
+                "tip": "Tip",
+                "title": "Price parameter",
+                "tipPrice": "Tip price",
+                "perMeter": "Per meter",
+                "perSecond": "Per second",
+                "withDestination": "With destination",
+                "withoutDestination": "Without destination",
+                "pricePerEachStop": "Price per each stop",
+                "priceRateDuringStopTime": "Price rate during stop time",
+                "NotifyServant": {
+                    "title": "Notify Servant Preference",
+                    "firstDuration": "First Duration",
+                    "gapDuration": "Gap Duration",
+                    "gapDistance": "Gap Distance",
+                    "maxDistance": "Max Distance",
+                    "requestTtl": "Request Timeout",
+                    "maxNewRequestAlertAllowedDistance": "Max New Request Alert Distance",
+                    "minNewRequestAlertAllowedDistance": " Min New Request Alert Distance",
+                    "defaultNewRequestAlertDistance": "  Default New Request Alert Distance"
+                }
+            },
+            "discount": {
+                "value": "value",
+                "title": "Discount Offer",
+                "validUntil": "Valid Until",
+                "startFrom": "Start From",
+                "usageLimit": "usage limit",
+                "maxDiscountAmount": "Max Discount Amount",
+                "timePeriod": {
+                    "title": "Time Period",
+                    "startTime": "Start Time",
+                    "endTime": "End Time"
+                }
+            },
+            "setting": {
+                "title": "Setting",
+                "ableToReviewTaskDurationInDays": "Review tasks /in days",
+                "dynamicInTaskServantRouteUpdateRetrievalInSecond": "Dynamic route update /second",
+                "liveTaskStateUpdateRetrievalInSecond": "Task status update /second",
+                "servantGettingCloseToClientNotifyRangeInMeter": "Servant near client /meter",
+                "userRequestLimit": "Request limit",
+                "userRequestLimitTimeToLiveInSecond": "Request limit /second",
+                "maxDistanceToArrive": "Max Distance To Arrive",
+                "getNearbyServantRange": "Get servants/range",
+                "removeCompletedTaskAndRequestDelayInMinute": "Remove complete Task on map /minute",
+                "removeCanceledTaskAndRequestDelayInMinute": " Remove cancel Task on map /minute",
+                "distanceToUpdateServantDynamicRouteInMeter": "update servant route / meter",
+                "appVersion": "App version",
+                "deviceName": "Device name",
+                "platform": "Platform",
+                "createdAt": "Created at",
+                "listOfDevices": "List of devices"
+            },
+            "area": {
+                "title": "Service Area Price",
+                "areaListHeader": "Service Area List",
+                "withDestinationPrice": "price with destination",
+                "withoutDestinationPrice": "price without destination",
+                "priceError": "you should fill at least one price"
+            },
+            "serviceType": "service type",
+            "title": "service",
+            "type": "type",
+            "discount_type": {
+                "placeholder": "Discount type",
+                "VALUE": "Value",
+                "LIMITATION": "Limitation",
+                "Value": "Value",
+                "Limitation": "Limitation",
+                "Percent": "percent"
+            }
+        },
+        "tasks": {
+            "totalRawPrice": "Total Raw Price",
+            "fields": {
+                "taskRatingName": "Task Rating Name",
+                "taskRatingAspectTitle": "Task Rating Aspect",
+                "taskRatingAspectName": "Name",
+                "taskRatingAspectDescription": "Description",
+                "taskRatingAspectWeight": "Weight",
+                "randomId": "Random Task Id",
+                "address": "Address",
+                "cancelReason": "Cancel Reason",
+                "canceledBy": "Canceled By",
+                "distance": "Distance",
+                "duration": "Duration",
+                "id": "Id",
+                "paymentType": "Payment Type",
+                "price": "Price",
+                "requestId": "Request Id",
+                "status": "Status",
+                "tip": "Tip",
+                "userPrice": "User price",
+                "rawPrice": "Raw price",
+                "discountAmount": "Discount Amount",
+                "originName": "Origin Name",
+                "destinationName": "Destination Name",
+                "requestType": "Request Type",
+                "member": {
+                    "address": "Member address"
+                },
+                "startDate": "Start date",
+                "endDate": "End Date",
+                "detail": "Detail",
+                "servantId": "Servant id",
+                "clientUserId": "Client User Id",
+                "numberOfTask": "Number of tasks",
+                "totalTaskRawPrice": "Total row price"
+            },
+            "manageTask": {
+                "drawRoute": "if the task interrupted, draw the route"
+            },
+            "destinationRoute": {
+                "log": {
+                    "title": "Destinations Route Log"
+                }
+            },
+            "stopLog": {
+                "title": "Task Stop Log",
+                "numberOfSTops": "Number Of Stops",
+                "totalTime": "Total Stop Time"
+            },
+            "routeDetail": {
+                "taskRouteType": {
+                    "PanelProvidedRoute": "Panel Provided Route",
+                    "EstimatedRoute": "Estimated Route",
+                    "ServantTrackedRoute": "Servant Tracked Route",
+                    "ServantLocalStoredRoute": "Servant Local Stored Route",
+                    "RouteToClient": "Route To Client"
+                },
+                "routeType": {
+                    "optimizedRoute": "Optimized Route",
+                    "rawRoute": "Raw Route",
+                    "optimizedPoint": "Optimized Point",
+                    "rawPoint": "Raw Point"
+                },
+                "acceptedRoute": "Accepted Route",
+                "title": "Route Detail"
+            },
+            "statuses": {
+                "Accept": "Accept",
+                "Arrive": "Arrive",
+                "CanceledAfterArrive": "Canceled ",
+                "CanceledAfterReserve": "Canceled ",
+                "RequestCanceled": "Request Canceled",
+                "Continue": "Continue",
+                "End": "End",
+                "EndDestination": "End Destination",
+                "Negatives": "Cancel",
+                "Reserve": "Reserve",
+                "Start": "Start",
+                "Stop": "Stop",
+                "Waiting": "Waiting",
+                "Timeout": "Time Out",
+                "CanceledAfterStart": "Canceled after start"
+            },
+            "taskDetail": "Task Detail",
+            "title": "Task",
+            "manage_task": "Manage Task",
+            "invoice": {
+                "title": "Task Invoice",
+                "paidWithBalance": "Paid With Balance",
+                "paidWithCash": "Paid With Cash",
+                "commission": "Commission",
+                "stopCompensation": "Stop Compensation",
+                "loan": "Loan",
+                "rawTaskPrice": "Raw Task Price",
+                "tip": "Tip",
+                "total": "Total price",
+                "final": "Final price",
+                "discountAmount": "Discount Amount"
+            }
+        },
+        "users": {
+            "block": "Block",
+            "block_list_message": " this user already block from these service",
+            "unBlockAt": "Unblock at",
+            "blockList": "Get block list detail",
+            "addRole": "Change role list",
+            "changeUserStatus": {
+                "disable": " disable",
+                "disableTooltip": " disable user",
+                "enable": " enable",
+                "enableTooltip": "enable user "
+            },
+            "logout": "Logout",
+            "chooseRole": "Choose role",
+            "confirmation": {
+                "disable": "Are you sure to disable this user?",
+                "enable": "Are you sure to enable this user?"
+            },
+            "email": "Email address",
+            "mobile": "Phone number",
+            "name": "Name"
+        },
+        "vehicle": {
+            "carCard": "Car card",
+            "carCardBack": "Car card back",
+            "cardDetail": "Vehicle cards",
+            "code": "Code",
+            "color": "Car color",
+            "insurance": "Insurance",
+            "insuranceExpire": "Insurance expire",
+            "insuranceNo": "Insurance no",
+            "model": "Model",
+            "plaqueDetail": {
+                "city": "City",
+                "code": "Car Number",
+                "color": "Color",
+                "country": "Country",
+                "title": "Plaque detail"
+            },
+            "techDiagnosis": "Tech diagnosis",
+            "tip": "Tip",
+            "title": "Title",
+            "vehicle": "Vehicle",
+            "vehicleDetail": "Vehicle Detail",
+            "vin": "Vin"
+        }
+    },
+    "validationMessages": {
+        "startDateMoreThanNow": "Start date must be current or later.",
+        "required": "{field} is require",
+        "language": "english language is required",
+        "language_description": "description must at least 3 character",
+        "draw_error": "you have to finish or cancel your drawing to end the task",
+        "image_language_required": "image for {language} doesn't selected , image is required",
+        "location": "City center location is required",
+        "edit_draw_error": "you have to finish or cancel your editing to end the task",
+        "one_shape_allow": "you can draw only one shape",
+        "discount_steps_required": "discount steps is required",
+        "empty_policy": "policy is empty, you have to select at least one policy",
+        "end_date_must_greater_than_start_date": "End date must greater than start date",
+        "title_is_required": "title for {language} doesn't filled,title is required",
+        "valid_email": "Add valid email",
+        "password_length": "Password must be at least 6 characters",
+        "one_minute_allow": "number should between 1 - 60"
+    },
+    "wallet": {
+        "amount": "Amount",
+        "transactions": "Transactions",
+        "wallet": "Wallet",
+        "transactionDate": "Transaction Date",
+        "sourceUser": "Source User",
+        "destinationUser": "Destination User",
+        "balance": "Balance",
+        "tooltip": "Send balance to {userName}",
+        "tooltipUpdate": "Update balance to {userName}",
+        "walletType": "Wallet Type",
+        "minBalance": "Min Balance",
+        "maxBalance": "Max Balance",
+        "maxTransaction": "Max Transaction",
+        "minTransaction": "Min Transaction",
+        "updateWallet": "Update wallet",
+        "sendToAdmin": "Send balance to admin",
+        "transactionContainsUserId": "User Transactions",
+        "walletTransactionType": "Wallet Transaction Type",
+        "currency": "currency"
+    }
+}

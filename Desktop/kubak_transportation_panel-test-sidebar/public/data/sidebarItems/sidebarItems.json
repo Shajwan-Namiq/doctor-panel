@@ -1,0 +1,365 @@
+{
+    "data": [{
+            "icon": "pie-chart",
+            "to": {
+                "name": "home"
+            }
+        },
+
+        {
+            "label": "support",
+            "icon": "laptop",
+            "can": [
+                "ReadTask",
+                "ReadDiscountCode",
+                "ReadRequest",
+                "Monitoring",
+                "WriteDiscountCode",
+                "WriteRequest"
+            ],
+            "items": [{
+                    "to": {
+                        "name": "transportationMonitoring"
+                    },
+                    "can": ["Monitoring"]
+                },
+                {
+                    "to": {
+                        "name": "listTasks"
+                    },
+                    "can": ["ReadTask"],
+                    "items": [{
+                            "to": {
+                                "name": "listTasks"
+                            },
+                            "can": ["ReadTask"]
+                        },
+                        {
+                            "label": "transportation.canceledTasks",
+                            "to": {
+                                "name": "canceledTasks"
+                            },
+                            "can": ["ReadTask"]
+                        }
+                    ]
+                },
+                {
+                    "to": {
+                        "name": "transportationListDiscountCode"
+                    },
+                    "can": ["ReadDiscountCode"],
+                    "items": [{
+                            "to": {
+                                "name": "transportationListDiscountCode"
+                            },
+                            "can": ["ReadDiscountCode"]
+                        },
+                        {
+                            "to": {
+                                "name": "transportationCreateDiscountCode"
+                            },
+                            "can": ["WriteDiscountCode"]
+                        },
+                        {
+                            "to": {
+                                "name": "transportationUsageDiscountCode"
+                            },
+                            "can": ["ReadDiscountCode"]
+                        }
+                    ]
+                },
+                {
+                    "to": {
+                        "name": "transportationListDiscountOffers"
+                    },
+                    "can": ["ReadDiscountOffer"],
+                    "items": [{
+                            "to": {
+                                "name": "transportationListDiscountOffers"
+                            },
+                            "can": ["ReadDiscountOffer"]
+                        },
+                        {
+                            "to": {
+                                "name": "transportationCreateDiscountOffers"
+                            },
+                            "can": ["WriteDiscountOffer"]
+                        }
+                    ]
+                },
+                {
+                    "to": {
+                        "name": "requestsList"
+                    }
+                },
+                {
+                    "to": {
+                        "name": "transportationMapMatching"
+                    },
+                    "can": ["ReadRequest"]
+                },
+                {
+                    "to": {
+                        "name": "transportationCreateRequest"
+                    },
+                    "can": ["WriteRequest"]
+                }
+            ]
+        },
+        {
+            "label": "report",
+            "icon": "bar-chart",
+            "can": ["ReadTask", "ReadServant", "ReadRequest", "ReadMember"],
+            "items": [{
+                    "to": {
+                        "name": "chartDailyReports"
+                    },
+                    "can": ["ReadTask"]
+                },
+                {
+                    "to": {
+                        "name": "requestReport"
+                    },
+                    "can": ["ReadRequest"]
+                },
+                {
+                    "to": {
+                        "name": "canceledTasks"
+                    },
+                    "can": ["ReadTask"]
+                },
+                {
+                    "to": {
+                        "name": "servantOnlineHistory"
+                    },
+                    "can": ["ReadServant"]
+                },
+                {
+                    "to": {
+                        "name": "servantRanking"
+                    },
+                    "can": ["ReadServant"]
+                },
+                {
+                    "to": {
+                        "name": "servantHourlyReport"
+                    },
+                    "can": ["ReadServant"]
+                },
+                {
+                    "to": {
+                        "name": "PassengerTasksReport"
+                    },
+                    "can": ["ReadMember"]
+                }
+            ]
+        },
+        {
+            "label": "translation",
+            "icon": "language",
+            "items": [{
+                "to": {
+                    "name": "transportationTranslation"
+                },
+                "can": ["ReadTranslation"]
+            }]
+        },
+        {
+            "label": "basicInformation",
+            "icon": "albums",
+            "can": [
+                "ReadRole",
+                "ReadService",
+                "ReadServiceAreaPrice",
+                "ReadTaskReport",
+                "ReadTaskReportDefinedProblem",
+                "ReadTaskRatingAspect",
+                "ReadTaskCancellationPenalize",
+                "ReadTaskCancellationPolicy",
+                "ReadTaskReportAction",
+                "ReadCancelReason"
+            ],
+            "items": [{
+                    "to": {
+                        "name": "roles"
+                    },
+                    "can": ["ReadRole"]
+                },
+                {
+                    "to": {
+                        "name": "baseRoles"
+                    },
+                    "can": ["ReadBaseRole"]
+                },
+                {
+                    "to": {
+                        "name": "cancelReason"
+                    },
+                    "can": ["ReadCancelReason"]
+                },
+                {
+                    "to": {
+                        "name": "listService"
+                    },
+                    "can": ["ReadService", "ReadServiceAreaPrice"]
+                },
+                {
+                    "to": {
+                        "name": "reportProblemsList"
+                    },
+                    "can": [
+                        "ReadTaskReport",
+                        "ReadTaskReportDefinedProblem",
+                        "ReadTaskReportAction"
+                    ],
+                    "items": [{
+                            "to": {
+                                "name": "taskReportList"
+                            },
+                            "can": ["ReadTaskReport"]
+                        },
+                        {
+                            "to": {
+                                "name": "reportProblemsList"
+                            },
+                            "can": ["ReadTaskReportDefinedProblem"]
+                        },
+                        {
+                            "to": {
+                                "name": "reportActionList"
+                            },
+                            "can": ["ReadTaskReportAction"]
+                        }
+                    ]
+                },
+                {
+                    "to": {
+                        "name": "taskCancelationPenalize"
+                    },
+                    "can": ["ReadTaskCancellationPenalize", "ReadTaskCancellationPolicy"],
+                    "items": [{
+                            "to": {
+                                "name": "taskCancelationPenalize"
+                            },
+                            "can": ["ReadTaskCancellationPenalize"]
+                        },
+                        {
+                            "to": {
+                                "name": "taskCancelationPolicy"
+                            },
+                            "can": ["ReadTaskCancellationPolicy"]
+                        }
+                    ]
+                },
+                {
+                    "to": {
+                        "name": "taskRatingAspect"
+                    },
+                    "can": ["ReadTaskRatingAspect"]
+                }
+            ]
+        },
+        {
+            "label": "accounts",
+            "icon": "people",
+            "can": [
+                "ReadUser",
+                "ReadServant",
+                "WriteServant",
+                "ReadVehicle",
+                "WriteVehicle",
+                "ReadMember"
+            ],
+            "items": [{
+                    "to": {
+                        "name": "user"
+                    },
+                    "can": ["ReadUser"],
+                    "items": [{
+                        "to": {
+                            "name": "userList"
+                        },
+                        "can": ["ReadUser"]
+                    }]
+                },
+                {
+                    "to": {
+                        "name": "listServant"
+                    },
+                    "can": ["ReadServant"],
+                    "items": [{
+                            "to": {
+                                "name": "listServant"
+                            },
+                            "can": ["ReadServant"]
+                        },
+                        {
+                            "to": {
+                                "name": "createServant"
+                            },
+                            "can": ["WriteServant"]
+                        }
+                    ]
+                },
+                {
+                    "can": ["ReadVehicle"],
+                    "to": {
+                        "name": "listVehicle"
+                    },
+                    "items": [{
+                            "to": {
+                                "name": "listVehicle"
+                            },
+                            "can": ["ReadVehicle"]
+                        },
+                        {
+                            "to": {
+                                "name": "createVehicle"
+                            },
+                            "can": ["WriteVehicle"]
+                        }
+                    ]
+                },
+                {
+                    "to": {
+                        "name": "passengerDetail"
+                    },
+                    "can": ["ReadMember"]
+                }
+            ]
+        },
+        {
+            "icon": "settings",
+            "label": "settings",
+            "can": ["ReadHeatMapConfiguration", "ReadServiceAppConfiguration"],
+            "items": [{
+                    "to": {
+                        "name": "heatMap"
+                    },
+                    "can": ["ReadHeatMapConfiguration"]
+                },
+                {
+                    "to": {
+                        "name": "serviceAppConfiguration"
+                    },
+                    "can": ["ReadServiceAppConfiguration"]
+                },
+                {
+                    "to": {
+                        "name": "deviceList"
+                    }
+                }
+            ]
+        },
+        {
+            "label": "block",
+            "icon": "ban",
+            "items": [{
+                "to": {
+                    "name": "blockList"
+                },
+                "can": ["ReadUser"]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+:root {
+  --canceled-at-waiting: #d91010;
+  --canceled-after-reserve: #d91010;
+  --canceled-after-arrive: #d91010;
+  --time-out: #f7e070;
+  --waiting: #343434;
+  --accept: #00bf2d;
+  --reserve: #00bf2d;
+  --arrive: #0053a8;
+  --start: #00bf2d;
+  --stop: #ffaa01;
+  --continue: #00bf2d;
+  --end: #00bf2d;
+  --completed: #ed7f22;
+}
+.requestAvatar {
+  margin: 12px;
+  height: 50px !important;
+  width: 50px !important;
+  &.Waiting {
+    border: solid 2px var(--waiting);
+    height: 50px;
+    width: 50px;
+    &.newRequest {
+      color: white;
+      animation: at-ripple-pink 1s linear infinite;
+    }
+  }
+  &.Accept {
+    border: solid 3px var(--accept);
+  }
+  &.End {
+    border: solid 3px var(--completed);
+  }
+  &.Timeout {
+    border: solid 3px var(--time-out);
+  }
+  &.RequestCanceled {
+    border: solid 3px var(--canceled-at-waiting);
+  }
+  &.CanceledAfterReserve {
+    border: solid 3px var(--canceled-after-reserve);
+  }
+  &.CanceledAfterArrive {
+    border: solid 3px var(--canceled-after-arrive);
+  }
+  &.CanceledAfterStart {
+    border: solid 3px var(--canceled-after-arrive);
+  }
+  &.Reserve {
+    border: solid 3px var(--reserve);
+  }
+  &.Arrive {
+    border: solid 3px var(--arrive);
+  }
+  &.Start {
+    border: solid 3px var(--start);
+  }
+  &.Stop {
+    border: solid 3px var(--stop);
+  }
+  &.Continue {
+    border: solid 3px var(--continue);
+  }
+}
+@keyframes at-ripple-pink {
+  0% {
+    box-shadow: 0 3px 7px rgba(28, 33, 40, 0.3), 0 0 0 0 rgba(28, 33, 40, 0.3),
+      0 0 0 5px rgba(28, 33, 40, 0.3), 0 0 0 7px rgba(28, 33, 40, 0.3);
+  }
+  100% {
+    box-shadow: 0 3px 7px rgba(28, 33, 40, 0.3), 0 0 0 5px rgba(28, 33, 40, 0.3),
+      0 0 0 7px rgba(28, 33, 40, 0.3), 0 0 0 20px rgba(28, 33, 40, 0);
+  }
+}
